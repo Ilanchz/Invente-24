@@ -1,4 +1,4 @@
-# Invente
+# Invente '24
 
 Welcome to **Invente**, a sleek and modern website built with React and Tailwind CSS.
 
@@ -39,9 +39,13 @@ Tailwind CSS is configured via the tailwind.config.js file. Customize the theme,
 🌿 Branch Rules
 Always create a branch while working on a local copy.
 Branch Naming Conventions:
-feature/: For new features or enhancements.
-update/: For updates to existing features.
-bugfix/: For fixing bugs or issues.
+
+ - feature/: For new features or enhancements.
+
+ - update/: For updates to existing features.
+ 
+ - bugfix/: For fixing bugs or issues.
+   
 Creating and Checking Out a Branch
 To create a new branch and switch to it, use the following command:
 ```
