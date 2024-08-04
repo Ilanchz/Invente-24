@@ -37,6 +37,9 @@ Tailwind CSS
 Tailwind CSS is configured via the tailwind.config.js file. Customize the theme, colors, and more by editing this file.
 
 Branch Rules:
-
     - Create a branch (always) while working on a local copy
-    - Branch naming conventions feature/ or update/ or bugfix/
+Branch naming conventions:
+    -  feature/ or update/ or bugfix/
+
+Deployment at:
+   - https://invente-24.vercel.app/
