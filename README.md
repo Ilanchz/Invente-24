@@ -16,7 +16,7 @@ To get started, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone
+   git clone https://github.com/Ilanchz/Invente-24.git
    cd invente
 
 📂 Project Structure
@@ -39,3 +39,4 @@ Tailwind CSS is configured via the tailwind.config.js file. Customize the theme,
 Branch Rules:
 
     - Create a branch (always) while working on a local copy
+    - Branch naming conventions feature/ or update/ or bugfix/
