@@ -86,7 +86,7 @@ we look forward to seeing you here soon!!`}
       </section>
 
       <section className='flex items-center flex-col' id="events">
-        <div className='font-dosis text-4xl text-white p-10'>Welcome to the events page</div>
+        <div className='font-dosis text-2xl sm:text-4xl text-white p-10'>Welcome to the events page</div>
         <img src="Earth-spin.gif" className='w-64 h-64 rounded-full mt-6'></img>
         <TimelineSection/>
       </section>

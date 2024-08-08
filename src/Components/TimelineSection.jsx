@@ -47,14 +47,14 @@ const TimelineItem = ({ name, image, path, isLast, onClick }) => {
   return (
     <div
       ref={ref}
-      className={`hover:scale-110 relative flex gap-14 items-center w-full max-w-4xl px-6 transition-transform duration-500 ease-in-out transform ${
+      className={`hover:scale-110 relative flex md:gap-14 gap-1 items-center w-full max-w-4xl px-6 transition-transform duration-500 ease-in-out transform ${
         inView ? 'translate-x-0 opacity-100' : 'translate-x-[-50px] opacity-0'
       } ${!isLast ? 'pb-6' : ''}`} // Add padding-bottom for spacing between items
       onClick={() => onClick(path)} // Navigate to department on click
     >
       <div
         style={{ backgroundImage: `url(${image})` }}
-        className="w-40 h-40 bg-cover bg-center rounded-full border-2 border-gray-200 flex-shrink-0 hover:scale-120 transition-transform duration-300"
+        className="w-28 h-28 sm:w-40 sm:h-40 bg-cover bg-center rounded-full border-2 border-gray-200 flex-shrink-0 hover:scale-120 transition-transform duration-300"
       />
       <div className="absolute w-1 bg-gray-300 h-6/12 left-1/2 transform -translate-x-1/2 -top-1/2" />
       <div className="relative ml-6 p-6 bg-white shadow-lg rounded-lg border border-gray-200 flex-1 hover:shadow-xl transition-shadow duration-300 cursor-pointer">
