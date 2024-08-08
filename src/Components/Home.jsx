@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import Footer from './Footer';
+import TimelineSection from './TimelineSection';
+import MovingGalleries from './MovingGalleries';
+import CountdownTimer from './CountdownTimer';
 
 function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,10 +36,10 @@ function Home() {
           </div>
 
           <div id="home-content" className="flex flex-col items-center md:items-start px-4 md:px-16 mt-6 md:mt-12 text-white font-bold">
-            <img src="/Invente-Logo.png" alt="Invente Logo" className="mt-10 mb-10 lg:mt-28 lg:mb-0 lg:absolute inset-x-0 mx-auto max-w-xs md:max-w-sm" />
+            <img src="/Invente-Logo.png" alt="Invente Logo" className="mt-10 mb-10 lg:mt-28 lg:mb-0 lg:absolute inset-x-0 mx-auto max-w-xs md:max-w-sm hover:animate-pulse" />
             
-            <span className="font-dosis font-extralight text-3xl md:text-4xl block text-center md:text-left">OUR THEME THIS YEAR</span>
-            <span className="font-dosis font-extralight text-3xl md:text-4xl block mt-2 text-center md:text-left">UN - SDG Goals</span>
+            <span className="font-dosis font-extralight text-xl md:text-2xl block text-center md:text-left">OUR THEME THIS YEAR</span>
+            <span className="font-libre font-bold text-4xl md:text-6xl block mt-2 text-center md:text-left text-green-200">UN - SDG Goals</span>
             <span className="font-dosis font-bold text-2xl md:text-4xl block mt-6 text-center md:text-left">About Invente</span>
             <pre className="font-dosis font-normal text-base md:text-lg whitespace-pre-line mt-4 text-center md:text-left">
               {`Looking for fun? You've come to the right place!
@@ -78,19 +81,23 @@ we look forward to seeing you here soon!!`}
         )}
       </div>
 
-      {/* New Sections Below */}
-      <section className="w-full py-12 bg-gray-800 text-white text-center">
-        <h2 className="text-4xl font-bold mb-6">Contact Us</h2>
-        <p className="text-lg mb-6">Have questions or need more information? Reach out to us through the contact details below.</p>
-        <div className="flex flex-col items-center">
-          <p className="text-lg mb-2">Email: contact@invente.com</p>
-          <p className="text-lg mb-2">Phone: (123) 456-7890</p>
-          <p className="text-lg mb-6">Address: 123 Invente St, Tech City, TC 45678</p>
-          <button className="text-black font-libre font-extralight bg-white rounded-xl p-4 md:p-5 shadow-lg hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
-            Get in Touch
-          </button>
-        </div>
+      <section>
+        <CountdownTimer />
       </section>
+
+      <section className='flex items-center flex-col' id="events">
+        <div className='font-dosis text-4xl text-white p-10'>Welcome to the events page</div>
+        <img src="Earth-spin.gif" className='w-64 h-64 rounded-full mt-6'></img>
+        <TimelineSection/>
+      </section>
+
+      <section>
+        <MovingGalleries/>
+      </section>
+
+      
+
+      {/* New Sections Below */}
       <section>
         <Footer />
       </section>

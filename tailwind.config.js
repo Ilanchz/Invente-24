@@ -1,4 +1,4 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -29,12 +29,22 @@ module.exports = {
         'extra-large': '1.5rem', // Custom border radius
       },
       animation: {
-        'marquee': 'marquee 30s linear infinite',
+        'scroll-left': 'scrollLeft 30s linear infinite',
+        'scroll-right': 'scrollRight 30s linear infinite',
+        'flip': 'flip 0.6s ease-in-out', // Custom flip animation
       },
       keyframes: {
-        marquee: {
+        scrollLeft: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)' },
+        },
+        scrollRight: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(100%)' },
+        },
+        flip: {
+          '0%': { transform: 'rotateX(0deg)', opacity: 1 },
+          '100%': { transform: 'rotateX(180deg)', opacity: 0 },
         },
       },
     },
