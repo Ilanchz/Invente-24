@@ -14,24 +14,24 @@ module.exports = {
       colors: {
         'custom-green': '#5c7c57',
         'custom-brown': '#c3956a',
-        'custom-blue': '#1e3a8a', // Additional custom color
-        'custom-gray': '#d1d5db', // Additional custom color
+        'custom-blue': '#1e3a8a',
+        'custom-gray': '#d1d5db',
       },
       spacing: {
         'underline-offset': '4px',
-        'extra-small': '2px', // Additional spacing size
+        'extra-small': '2px',
       },
       boxShadow: {
-        'custom-light': '0 4px 6px rgba(0, 0, 0, 0.1)', // Custom shadow
-        'custom-dark': '0 10px 15px rgba(0, 0, 0, 0.3)', // Custom shadow
+        'custom-light': '0 4px 6px rgba(0, 0, 0, 0.1)',
+        'custom-dark': '0 10px 15px rgba(0, 0, 0, 0.3)',
       },
       borderRadius: {
-        'extra-large': '1.5rem', // Custom border radius
+        'extra-large': '1.5rem',
       },
       animation: {
         'scroll-left': 'scrollLeft 30s linear infinite',
         'scroll-right': 'scrollRight 30s linear infinite',
-        'flip': 'flip 0.6s ease-in-out', // Custom flip animation
+        'flip': 'flip 0.6s ease-in-out',
       },
       keyframes: {
         scrollLeft: {
@@ -46,6 +46,9 @@ module.exports = {
           '0%': { transform: 'rotateX(0deg)', opacity: 1 },
           '100%': { transform: 'rotateX(180deg)', opacity: 0 },
         },
+      },
+      backgroundImage: {
+        'starry-sky': 'url(https://images.unsplash.com/photo-1628498188873-579210ce622e?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
       },
     },
   },

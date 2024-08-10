@@ -22,8 +22,8 @@ const MovingGalleries = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center p-5 bg-black space-y-16">
-      <img src="SDG/SDG-Title.webp" alt="title" className='w-64 rounded-full'/>
+    <div className="mt-10 flex flex-col items-center justify-center p-5 bg-black space-y-16 bg-opacity-0">
+      
       {/* Top Gallery */}
       <div className="w-full overflow-hidden relative">
         <div className="flex animate-scroll-left space-x-4">

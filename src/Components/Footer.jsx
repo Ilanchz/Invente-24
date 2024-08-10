@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="w-screen relative bg-gradient-to-r from-[#1D1F2A] to-[#1D1F2AE5] text-white">
       {/* Desktop Footer */}
-      <div className="hidden lg:block py-10 px-6 lg:px-20 text-left w-full">
+      <div className="hidden lg:block py-10 px-6 lg:px-10 text-left w-full">
       <div className="flex flex-col lg:flex-row justify-center lg:justify-between gap-5 mb-8">
             {/* Logo Section */}
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-center font-medium mb-6 lg:mb-0">
@@ -70,19 +70,20 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8">
+        <div className="flex lg:flex-row items-center lg:items-start gap-4">
           <div className="bg-coral flex items-center text-[#FFFFFF2B] w-full justify-center lg:justify-start p-4">
             <div className="w-full text-center lg:text-left">
               <div className="box-border h-0 border-[1px] border-[#FFFFFF2B] mb-2" />
               <div>©2024 SSN College of Engineering & Shiv Nadar University, Chennai.</div>
             </div>
           </div>
-          <div className="flex flex-wrap gap-4">
-            <a href="https://www.snuchennai.edu.in/">
-              <img src="/snu-logo.svg" alt="SNU Logo" height={50} width={170} />
-            </a>
+          <div className="flex flex-wrap flex-col items-center gap-2">
+            
             <a href="http://www.ssn.edu.in/">
-              <img src="/ssn-logo.svg" alt="SSN Logo" height={45} width={110} />
+              <img src="/ssn-logo.svg" alt="SSN Logo" height={45} width={90} />
+            </a>
+            <a href="https://www.snuchennai.edu.in/">
+              <img src="/snu-logo.svg" alt="SNU Logo" height={50} width={120} />
             </a>
           </div>
         </div>
@@ -157,11 +158,11 @@ export default function Footer() {
             <div>©2024 SSN College of Engineering & Shiv Nadar University, Chennai.</div>
           </div>
           <div className="flex flex-wrap gap-4 mt-4">
-            <a href="https://www.snuchennai.edu.in/">
-              <img src="/snu-logo.svg" alt="SNU Logo" height={50} width={170} />
-            </a>
             <a href="http://www.ssn.edu.in/">
               <img src="/ssn-logo.svg" alt="SSN Logo" height={45} width={110} />
+            </a>
+            <a href="https://www.snuchennai.edu.in/">
+              <img src="/snu-logo.svg" alt="SNU Logo" height={50} width={170} />
             </a>
           </div>
         </div>

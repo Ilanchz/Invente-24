@@ -8,9 +8,9 @@ function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className='w-screen flex flex-col items-center p-3 bg-black overflow-x-hidden'>
+    <div className='w-screen flex flex-col items-center p-3 overflow-x-hidden bg-cover bg-center bg-starry-sky'>
       <div className="relative w-screen h-screen flex flex-col items-center justify-center overflow-hidden rounded-xl">
-        <div className="w-full h-full bg-gradient-to-r from-custom-green to-custom-brown flex flex-col">
+        <div className="w-full min-h-screen bg-gradient-to-r from-custom-green to-custom-brown flex flex-col" id="home">
           <div id="nav-bar" className="w-full h-16 md:h-24 flex items-center justify-between px-4 md:px-8 border-b-2 border-white">
             <img src="/snu-logo.svg" alt="SNU" className="h-12 md:h-16" />
             
@@ -85,10 +85,11 @@ we look forward to seeing you here soon!!`}
         <CountdownTimer />
       </section>
 
-      <section className='flex items-center flex-col' id="events">
+      <section className='flex items-center flex-col m-3' id="events">
         <div className='font-dosis text-2xl sm:text-4xl text-white p-10'>Welcome to the events page</div>
         <img src="Earth-spin.gif" className='w-64 h-64 rounded-full mt-6'></img>
         <TimelineSection/>
+        <img src="SDG/SDG-Title.webp" alt="title" className='w-64 rounded-full'/>
       </section>
 
       <section>
