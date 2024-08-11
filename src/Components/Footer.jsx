@@ -9,7 +9,7 @@ export default function Footer() {
             {/* Logo Section */}
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-center font-medium mb-6 lg:mb-0">
                 <img
-                src="/Invente-Logo.png"
+                src="/invente24_white.png"
                 alt="Invente Logo"
                 width={252}
                 height={90}
@@ -94,7 +94,7 @@ export default function Footer() {
         <div className="flex flex-col gap-8 mb-8 items-center">
           {/* Logo Section */}
           <img
-            src="/Invente-Logo.png"
+            src="/invente24_white.png"
             alt="Invente Logo"
             width={252}
             height={90}
