@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Footer from './Footer';
 import TimelineSection from './TimelineSection';
 import MovingGalleries from './MovingGalleries';
@@ -26,7 +27,7 @@ function Home() {
             <nav className="hidden md:flex items-center space-x-6 md:space-x-12 py-2 font-dosis text-sm md:text-md">
               <a href="#home" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300">Home</a>
               <a href="#events" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300">Events</a>
-              <a href="#hackathon" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300">Hackathon</a>
+              <Link to="/hackathon" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300">Hackathon</Link>
               <a href="#schedule" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300">Schedule</a>
               <a href="#sponsors" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300">Sponsors</a>
               <a href="#hospitality" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300">Hospitality</a>
