@@ -32,6 +32,7 @@ module.exports = {
         'scroll-left': 'scrollLeft 30s linear infinite',
         'scroll-right': 'scrollRight 30s linear infinite',
         'flip': 'flip 0.6s ease-in-out',
+        'growShrink': 'growShrink 2s ease-in-out infinite',
       },
       keyframes: {
         scrollLeft: {
@@ -46,10 +47,19 @@ module.exports = {
           '0%': { transform: 'rotateX(0deg)', opacity: 1 },
           '100%': { transform: 'rotateX(180deg)', opacity: 0 },
         },
+        growShrink: {
+          '0%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.2)' },
+          '100%': { transform: 'scale(1)' },
+        },
       },
       backgroundImage: {
         'starry-sky': 'url(https://images.unsplash.com/photo-1628498188873-579210ce622e?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+        'deep-charcoal-gradient': 'linear-gradient(to right, #010B19, #03214a)'
       },
+      height: {
+        'large':'750px'
+      }
     },
   },
   plugins: [],
