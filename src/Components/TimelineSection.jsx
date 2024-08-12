@@ -8,6 +8,7 @@ const departments = [
   { name: 'Information Technology', image: '/images/it.jpg', path: '/department/it' },
   { name: 'Electronics and Communication Engineering', image: '/images/ece.jpg', path: '/department/ece' },
   { name: 'Electrical and Electronics Engineering', image: '/images/eee.jpg', path: '/department/eee' },
+  { name: 'Mechanical Engineering', image: '/images/me.jpg', path: '/department/me' },
   { name: 'Chemical Engineering', image: '/images/ce.jpg', path: '/department/ce' },
   { name: 'Biomedical Engineering', image: '/images/bme.jpg', path: '/department/bme' },
   { name: 'Civil Engineering', image: '/images/cv.jpg', path: '/department/cv' },
