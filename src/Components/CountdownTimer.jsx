@@ -15,15 +15,16 @@ const CountdownTimer = () => {
   }, [showConfetti, confettiBurst]);
 
   return (
+    <div>
+    {confettiBurst && (
+      <Confetti
+        width={window.innerWidth}
+        height={window.innerHeight}
+        numberOfPieces={1000} // Adjust the number of pieces for the confetti burst
+        recycle={false} // Prevent repeating confetti
+      />
+    )}
     <div className="relative flex flex-col items-center justify-center mt-12 p-4 sm:p-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg shadow-lg w-full max-w-lg mx-auto">
-      {confettiBurst && (
-        <Confetti
-          width={window.innerWidth}
-          height={window.innerHeight}
-          numberOfPieces={200} // Adjust the number of pieces for the confetti burst
-          recycle={false} // Prevent repeating confetti
-        />
-      )}
       <Countdown
         date={targetDate}
         onComplete={() => {
@@ -53,6 +54,7 @@ const CountdownTimer = () => {
           );
         }}
       />
+    </div>
     </div>
   );
 };
