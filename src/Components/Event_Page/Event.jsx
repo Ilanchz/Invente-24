@@ -1,87 +1,35 @@
-// Event.js
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import eventsData from "./events"; // Adjust the import path as needed
-import ParticlesComponent from "./particles";
 import EventsSwiper from "./EventsSwiper";
+import Navelement from "../Navelement";
 
-const Event = ({ dept }) => {
-  // Access events for the specified dep
+const Event = () => {
+  const { deptname, eventname } = useParams(); // Get the URL parameters
   const [menuOpen, setMenuOpen] = useState(false);
-  const departmentData = eventsData[dept] || {};
+  const [eventDetails, setEventDetails] = useState({});
+  
+  useEffect(() => {
+    // Access events data for the specified department
+    const departmentData = eventsData[deptname] || [];
+    
+    // Find the specific event in the department data
+    const foundEvent = departmentData.find(event => event.id === eventname) || {};
+    setEventDetails(foundEvent);
+  }, [deptname, eventname]); // Re-run when deptname or eventname changes
 
-  // Extract all categories and events for the department
-  const categories = Object.keys(departmentData);
+  // Pass the entire department's events data to EventsSwiper
+  const departmentEvents = eventsData[deptname] || [];
 
   return (
+    <div className="flex flex-col w-screen h-screen bg-starry-sky overflow-hidden">
+      <Navelement menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
-<div
-      className="flex flex-col w-screen h-screen bg-starry-sky overflow-hidden"
-    >
-      
-      <div
-        id="nav-bar"
-        className="w-full h-16 md:h-24 flex  items-center justify-between px-4 md:px-8 border-b-2 border-white"
-      >
-        <img src="/snu-logo.svg" alt="SNU" className="h-12 md:h-16" />
-
-        {/* Menu Button for Small Screens */}
-        <button
-          className="md:hidden text-white text-3xl"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          {menuOpen ? "✖" : "☰"}
-        </button>
-
-        {/* Navigation Links for Larger Screens */}
-        <nav className="hidden md:flex items-center space-x-6 md:space-x-12 py-2 font-dosis text-sm md:text-md">
-          <a
-            href="/#home"
-            className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300"
-          >
-            Home
-          </a>
-          <a
-            href="/#events"
-            className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300"
-          >
-            Events
-          </a>
-          <a
-            href="/#hackathon"
-            className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300"
-          >
-            Hackathon
-          </a>
-          <a
-            href="/#schedule"
-            className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300"
-          >
-            Schedule
-          </a>
-          <a
-            href="/#sponsors"
-            className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300"
-          >
-            Sponsors
-          </a>
-          <a
-            href="/#hospitality"
-            className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-yellow-300"
-          >
-            Hospitality
-          </a>
-        </nav>
-
-        <img src="/ssn-logo.svg" alt="SSN" className="h-12 md:h-16" />
-      </div>
       <div className="relative w-screen max-w-5xl h-[500px]">
-        <h1
-          class="w-screen text-4xl font-semibold text-center text-white py-10"
-        >
-          EVENT NAME
+        <h1 className="w-screen text-4xl font-semibold text-center text-white py-10">
+          {eventDetails.title || "EVENT NAME"} {/* Display event title */}
         </h1>
-        <EventsSwiper className="absolute top-[50%]" />
-      
+        <EventsSwiper data={departmentEvents} className="absolute top-[50%]"/>
       </div>
     </div>
   );

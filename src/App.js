@@ -14,11 +14,8 @@ function App() {
         <Route path="/events" element={<Event />} />
         <Route path="/hackathon" element={<Hackathon />} />
         <Route path="/workshop" element={<Workshop />} />
-        <Route path="/department/cse" element={<EventChoice dept={"cse"} />} />
-        <Route
-          path="/department/cse/event1"
-          element={<Event dept={"event1"} />}
-        />
+        <Route path="/department/:deptname" element={<EventChoice />} />
+        <Route path="/department/:deptname/:eventname" element={<Event />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>

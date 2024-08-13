@@ -59,7 +59,7 @@ we look forward to seeing you here soon!!`}
       </section>
 
       <section className='flex items-center flex-col m-3' id="events">
-        <div className='font-dosis text-2xl sm:text-4xl text-white p-10'>Welcome to the events page</div>
+        <div className='font-dosis text-2xl md:text-4xl text-white p-10 font-bold'>EXPLORE THE EXCITING EVENTS...!</div>
         <img src="Earth-spin.gif" className='w-64 h-64 rounded-full mt-6'></img>
         <TimelineSection/>
         {/* <img src="SDG/SDG-Title.webp" alt="title" className='w-64 rounded-full'/> */}

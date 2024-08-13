@@ -1,21 +1,25 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
-import HackathonCard from '../HackathonCard';
+import { useParams, useNavigate } from 'react-router-dom';
+import EventCard from './EventCard';
 import Footer from '../Footer';
 import eventsData from './events';
 import Navelement from '../Navelement';
 
-function EventChoice({ dept }) {
+function EventChoice() {
+  // Use useParams to get the department name from the URL
+  const { deptname } = useParams();
   const [events, setEvents] = useState([]);
   const [menuOpen, setMenuOpen] = useState(false);
-  const navigate = useNavigate(); // Import useNavigate for navigation
+  const navigate = useNavigate();
 
   useEffect(() => {
-    setEvents(eventsData[`${dept}`]);
-  }, [dept]);
+    // Set events based on the department name from the URL
+    setEvents(eventsData[deptname] || []);
+  }, [deptname]);
 
-  const handleEventClick = (event) => {
-    const url = `/department/${dept}/${event.id}`;
+  const handleEventClick = (eventId) => {
+    // Navigate to the event details page
+    const url = `/department/${deptname}/${eventId}`;
     navigate(url);
   };
 
@@ -32,16 +36,16 @@ function EventChoice({ dept }) {
     >
       <Navelement menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
 
-      <h2 className="text-3xl text-center font-raleway text-blue-500 font-extrabold mb-8 mt-8">{dept}</h2>
+      <h2 className="text-3xl text-center font-raleway text-blue-500 font-extrabold mb-8 mt-8">{deptname}</h2>
       
       <div className="w-full flex flex-wrap justify-center gap-6 p-6">
         {events.map((event) => (
           <div 
             className="w-full sm:w-1/3 p-4 cursor-pointer" 
-            key={event.title} 
-            onClick={() => handleEventClick(event)} // Handle click
+            key={event.id} 
+            onClick={() => handleEventClick(event.id)} // Handle click
           >
-            <HackathonCard 
+            <EventCard
               title={event.title}
               description={event.description}
               date={event.date}
