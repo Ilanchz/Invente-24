@@ -10,7 +10,14 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/events" element={<Event />} />
+        <Route path="/department/cse" element={<Event dept={"cse"}/>} />
+        <Route path="/department/it" element={<Event dept={"it"}/>} />
+        <Route path="/department/ece" element={<Event dept={"ece"}/>} />
+        <Route path="/department/eee" element={<Event dept={"eee"}/>} />
+        <Route path="/department/mech" element={<Event dept={"mech"}/>} />
+        <Route path="/department/chem" element={<Event dept={"chem"}/>} />
+        <Route path="/department/bme" element={<Event dept={"bme"}/>} />
+        <Route path="/department/civil" element={<Event dept={"civil"}/>} />
         <Route path="/hackathon" element={<Hackathon/>} />
         <Route path="/workshop" element={<Workshop/>} />
         <Route path="*" element={<Error />} />
