@@ -4,6 +4,7 @@ import Event from './Components/Event_Page/Event';
 import Error from './Components/Error';
 import Hackathon from './Components/Hackthon_Page/Hackathon';
 import Workshop from './Components/Workshop_Page/Workshop';
+import Hospitality from './Components/Hospitality_page/Hospitality';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/department/civil" element={<Event dept={"civil"}/>} />
         <Route path="/hackathon" element={<Hackathon/>} />
         <Route path="/workshop" element={<Workshop/>} />
+        <Route path="/hospitality" element={<Hospitality/>} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
