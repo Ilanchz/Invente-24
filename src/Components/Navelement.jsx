@@ -13,7 +13,7 @@ function Navelement({menuOpen,setMenuOpen}){
             {/* Navigation Links for Larger Screens */}
             <nav className="hidden md:flex items-center space-x-6 md:space-x-12 py-2 font-dosis text-sm md:text-md">
               <a href="/#home" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Home</a>
-              <a href="#events" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Events</a>
+              <a href="/#events" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Events</a>
               <a href="/hackathon" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Hackathons</a>
               <a href="/workshop" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Workshops</a>
               <a href="#schedule" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Schedule</a>
@@ -32,7 +32,7 @@ function Navelement({menuOpen,setMenuOpen}){
             </button>
             <nav className="flex flex-col items-center space-y-6 font-dosis text-lg font-bold w-1/2 text-center">
               <a href="/#home" className="transition-transform w-full bg-white p-2 rounded-md text-black duration-300 hover:scale-110">Home</a>
-              <a href="#events" className="transition-transform w-full bg-white p-2 rounded-md duration-300 hover:scale-110">Events</a>
+              <a href="/#events" className="transition-transform w-full bg-white p-2 rounded-md duration-300 hover:scale-110">Events</a>
               <a href="/hackathon" className="transition-transform w-full bg-white p-2 rounded-md duration-300 hover:scale-110">Hackathon</a>
               <a href="/workshop" className="transition-transform w-full bg-white p-2 rounded-md duration-300 hover:scale-110">Workshop</a>
               <a href="#schedule" className="transition-transform w-full bg-white p-2 rounded-md duration-300 hover:scale-110">Schedule</a>
