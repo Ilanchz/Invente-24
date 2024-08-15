@@ -8,6 +8,7 @@ import Navelement from '../Navelement';
 function Hackathon() {
   const [hackathons, setHackathons] = useState([]);
   const [selectedHackathon, setSelectedHackathon] = useState(null);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     setHackathons(hackathon_data);
@@ -32,7 +33,10 @@ function Hackathon() {
         backgroundRepeat: 'no-repeat'
       }}
     >
-      <Navelement />
+      <Navelement 
+        menuOpen={menuOpen} 
+        setMenuOpen={setMenuOpen} 
+      />
 
       <h2 className="text-3xl text-center font-raleway text-blue-500 font-extrabold mb-8 mt-8">UPCOMING HACKATHONS</h2>
       

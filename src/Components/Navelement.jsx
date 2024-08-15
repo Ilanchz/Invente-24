@@ -12,7 +12,7 @@ function Navelement({menuOpen,setMenuOpen}){
             
             {/* Navigation Links for Larger Screens */}
             <nav className="hidden md:flex items-center space-x-6 md:space-x-12 py-2 font-dosis text-sm md:text-md">
-              <a href="/#home" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Home</a>
+              <a href="/" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Home</a>
               <a href="/#events" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Events</a>
               <a href="/hackathon" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Hackathons</a>
               <a href="/workshop" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Workshops</a>
