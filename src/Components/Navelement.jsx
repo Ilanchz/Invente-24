@@ -18,7 +18,7 @@ function Navelement({menuOpen,setMenuOpen}){
               <a href="/workshop" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Workshops</a>
               <a href="#schedule" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Schedule</a>
               <a href="#sponsors" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Sponsors</a>
-              <a href="#hospitality" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Hospitality</a>
+              <a href="hospitality" className="text-white text-base md:text-lg font-bold transition-transform duration-300 hover:scale-110 hover:text-orange-500">Hospitality</a>
             </nav>
 
             <img src="/ssn-logo.svg" alt="SSN" className="w-48 h-12 md:h-16" />
@@ -37,7 +37,7 @@ function Navelement({menuOpen,setMenuOpen}){
               <a href="/workshop" className="transition-transform w-full bg-white p-2 rounded-md duration-300 hover:scale-110">Workshop</a>
               <a href="#schedule" className="transition-transform w-full bg-white p-2 rounded-md duration-300 hover:scale-110">Schedule</a>
               <a href="#sponsors" className="transition-transform w-full bg-white p-2 rounded-md duration-300 hover:scale-110">Sponsors</a>
-              <a href="#hospitality" className="transition-transform w-full bg-white p-2 rounded-md duration-300 hover:scale-110">Hospitality</a>
+              <a href="/hospitality" className="transition-transform w-full bg-white p-2 rounded-md duration-300 hover:scale-110">Hospitality</a>
             </nav>
           </div>
         )}
