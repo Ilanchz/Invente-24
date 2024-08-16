@@ -74,6 +74,56 @@ const events_data = {
               },
             ],
           },
+          ,
+        {
+            event_name: "Techincal Event 4",
+            event_desc:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            winner: "1000",
+            runner: "5000",
+            location: "SSN",
+            participants: "3",
+            date: "Oct 7",
+            rounds: [
+              {
+                id: "round_1",
+                round_name: "Round 1",
+                round_desc:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              },
+              {
+                id: "round_2",
+                round_name: "Round 2",
+                round_desc:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              },
+            ],
+          },
+          ,
+        {
+            event_name: "Techincal Event 5",
+            event_desc:
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+            winner: "1000",
+            runner: "5000",
+            location: "SSN",
+            participants: "3",
+            date: "Oct 7",
+            rounds: [
+              {
+                id: "round_1",
+                round_name: "Round 1",
+                round_desc:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              },
+              {
+                id: "round_2",
+                round_name: "Round 2",
+                round_desc:
+                  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+              },
+            ],
+          },
       ],
       non_technical: [
         {
@@ -439,7 +489,7 @@ const events_data = {
       ],
     },
   },
-  mech: {
+  me: {
     events: {
       technical: [
         {
@@ -543,7 +593,7 @@ const events_data = {
       ],
     },
   },
-  chem: {
+  ce: {
     events: {
       technical: [
         {
@@ -647,7 +697,7 @@ const events_data = {
       ],
     },
   },
-  civil: {
+  cv: {
     events: {
       technical: [
         {

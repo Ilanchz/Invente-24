@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import HackathonCard from '../HackathonCard';
+import HackathonCard from './HackathonCard';
 import Footer from '../Footer';
-import Modal from '../HackathonModal';
+import Modal from './HackathonModal';
 import hackathon_data from '../../data/hackathon_data';
 import Navelement from '../Navelement';
 

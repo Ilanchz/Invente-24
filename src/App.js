@@ -15,10 +15,10 @@ function App() {
         <Route path="/department/it" element={<Event dept={"it"}/>} />
         <Route path="/department/ece" element={<Event dept={"ece"}/>} />
         <Route path="/department/eee" element={<Event dept={"eee"}/>} />
-        <Route path="/department/mech" element={<Event dept={"mech"}/>} />
-        <Route path="/department/chem" element={<Event dept={"chem"}/>} />
+        <Route path="/department/me" element={<Event dept={"me"}/>} />
+        <Route path="/department/ce" element={<Event dept={"ce"}/>} />
         <Route path="/department/bme" element={<Event dept={"bme"}/>} />
-        <Route path="/department/civil" element={<Event dept={"civil"}/>} />
+        <Route path="/department/cv" element={<Event dept={"cv"}/>} />
         <Route path="/hackathon" element={<Hackathon/>} />
         <Route path="/workshop" element={<Workshop/>} />
         <Route path="/hospitality" element={<Hospitality/>} />

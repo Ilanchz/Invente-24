@@ -105,8 +105,8 @@ export default function Footer() {
               <p className="font-extralight text-sm uppercase mb-2.5">Participate</p>
               <ul className="flex flex-col font-medium text-base gap-1.5">
                 <li><a href="/#timeline">Events</a></li>
-                <li><a href="/hackathons">Hackathons</a></li>
-                <li><a href="/workshops">Workshops</a></li>
+                <li><a href="/hackathon">Hackathons</a></li>
+                <li><a href="/workshop">Workshops</a></li>
               </ul>
             </div>
             <div>
