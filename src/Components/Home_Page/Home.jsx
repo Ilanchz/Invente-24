@@ -74,18 +74,7 @@ we look forward to seeing you here soon!!`}
       {/* New Sections Below */}
       <section>
         <Footer />
-      </section>
-
-      <section className="w-screen py-4 bg-gray-900 text-white text-center font-dosis font-medium">
-        <p className="text-lg">
-          Website: Built by <a href="#" className="text-gray-50 hover:underline">Name 1</a>, 
-          <a href="#" className="text-gray-50 hover:underline"> Name 2</a>, 
-          <a href="#" className="text-gray-50 hover:underline"> Name 3</a>, 
-          <a href="#" className="text-gray-50 hover:underline"> Name 4</a>.&#160;
-          Designed by <a href="#" className="text-gray-50 hover:underline"> Name 5</a> and&#160;
-          <a href="#" className="text-gray-50 hover:underline">Name 6</a>.
-        </p>
-      </section>
+      </section>      
     </div>
   );
 }
