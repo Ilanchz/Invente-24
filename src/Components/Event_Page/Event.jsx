@@ -113,7 +113,7 @@ function Event({ dept }) {
                 </DropdownMenu>
               </Dropdown>
               {selectedEvent && (
-                <Card className="w-[75vw] mt-4">
+                <Card className="w-[90vw] m-4">
                   <CardBody
                     className="flex flex-col items-center"
                     style={{
