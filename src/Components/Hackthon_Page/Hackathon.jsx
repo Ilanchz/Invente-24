@@ -4,6 +4,7 @@ import Footer from '../Footer';
 import Modal from './HackathonModal';
 import hackathon_data from '../../data/hackathon_data';
 import Navelement from '../Navelement';
+import Workshop from '../Workshop_Page/Workshop';
 
 function Hackathon() {
   const [hackathons, setHackathons] = useState([]);
@@ -38,7 +39,11 @@ function Hackathon() {
         setMenuOpen={setMenuOpen} 
       />
 
-      <h2 className="text-3xl text-center font-raleway text-blue-500 font-extrabold mb-8 mt-8">UPCOMING HACKATHONS</h2>
+      
+
+      <Workshop/>
+
+      
       
       <div className="w-full flex flex-wrap justify-center gap-6 p-6">
         {hackathons.map((hackathon) => (
@@ -58,6 +63,7 @@ function Hackathon() {
         onClose={closeModal} 
         hackathon={selectedHackathon} 
       />
+
       
       <section className="mt-auto">
         <Footer />

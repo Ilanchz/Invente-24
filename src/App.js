@@ -7,6 +7,7 @@ import Workshop from './Components/Workshop_Page/Workshop';
 import Hospitality from './Components/Hospitality_page/Hospitality';
 import Schedule from './Components/Schedule';
 import Sponsors from './Components/Sponsors';
+import Gallery from './Components/Gallery/Gallery';
 
 function App() {
   return (
@@ -21,11 +22,11 @@ function App() {
         <Route path="/department/ce" element={<Event dept={"ce"}/>} />
         <Route path="/department/bme" element={<Event dept={"bme"}/>} />
         <Route path="/department/cv" element={<Event dept={"cv"}/>} />
-        <Route path="/hackathon" element={<Hackathon/>} />
-        <Route path="/workshop" element={<Workshop/>} />
+        <Route path="//hackathonAndworkshop" element={<Hackathon/>} />
         <Route path="/hospitality" element={<Hospitality/>} />
         <Route path="/schedule" element={<Schedule/>} />
         <Route path="/sponsors" element={<Sponsors/>}/>
+        <Route path="/gallery" element={<Gallery/>}/>
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>

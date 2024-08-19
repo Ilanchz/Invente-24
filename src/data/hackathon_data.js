@@ -11,46 +11,6 @@ const hackathon_data = [
     date: "2024-09-15",
     image: hackathon_image
   },
-  {
-    id: 2,
-    title: "Hackathon 2",
-    prizeWinner: 4000,
-    prizeRunner: 1500,
-    location: 'Engineering Block',
-    description: "Build innovative solutions to real-world problems with a focus on sustainability and technology.",
-    date: "2024-10-05",
-    image: hackathon_image
-  },
-  {
-    id: 3,
-    title: "Hackathon 3",
-    prizeWinner: 6000,
-    prizeRunner: 2500,
-    location: 'Main Auditorium',
-    description: "Compete with the best minds and showcase your skills in this intense 48-hour challenge!",
-    date: "2024-11-12",
-    image: hackathon_image
-  },
-  {
-    id: 4,
-    title: "Hackathon 4",
-    prizeWinner: 5500,
-    prizeRunner: 2200,
-    location: 'Innovation Center',
-    description: "An opportunity to showcase innovative ideas and solutions across various domains.",
-    date: "2024-11-12",
-    image: hackathon_image
-  },
-  {
-    id: 5,
-    title: "Hackathon 5",
-    prizeWinner: 7000,
-    prizeRunner: 3000,
-    location: 'Tech Hub',
-    description: "Push the boundaries of technology and innovation in this exciting hackathon event.",
-    date: "2024-11-12",
-    image: hackathon_image
-  }
 ];
 
 export default hackathon_data;

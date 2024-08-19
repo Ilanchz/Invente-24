@@ -1,4 +1,4 @@
-const {nextui} = require("@nextui-org/react");
+const { nextui } = require("@nextui-org/react");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -61,7 +61,7 @@ module.exports = {
         'deep-charcoal-gradient': 'linear-gradient(to right, #010B19, #03214a)'
       },
       height: {
-        'large':'750px'
+        'large': '750px'
       }
     },
   },

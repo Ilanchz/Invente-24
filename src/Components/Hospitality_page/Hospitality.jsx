@@ -218,14 +218,14 @@ export default function Hospitality() {
     >
       <Navelement menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
-      <div className="max-w-5xl min-h-screen w-full flex-1 mx-auto text-white p-8 m-8 rounded-md bg-black/50 shadow-xl">
-        <div className="font-bold text-5xl pb-8">Hospitality</div>
+      <div className="max-w-5xl min-h-screen w-full flex-1 mx-auto text-white p-8 m-8 bg-black shadow-xl rounded-lg">
+        <div className="font-bold text-3xl pb-8 font-libre text-center">Hospitality</div>
         <div className="pt-4 grid grid-cols-2 lg:grid-cols-4 gap-4 w-full justify-between">
           {Object.keys(HOSPITALITY).map((section, index) => (
             <button
               onClick={() => setCurrentSection(section)}
               key={index}
-              className={`border-2 p-4 rounded-sm font-bold ${
+              className={`border-2 p-4 rounded-sm font-bold font-raleway ${
                 section === currentSection
                   ? "bg-white text-black"
                   : "hover:bg-white/40"

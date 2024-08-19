@@ -15,18 +15,19 @@ import events_data from "../../data/events_data";
 import Rounds from "./Rounds";
 import EventDesc from "./EventDesc";
 import { FaChevronDown } from "react-icons/fa";
+import Footer from "../Footer";
 
 function Event({ dept }) {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [isVertical, setIsVertical] = React.useState(true);
-  const [isTechnical, setIsTechnical] = React.useState(true);
-  const [selectedEvent, setSelectedEvent] = React.useState(null);
+  const [isVertical, setIsVertical] = useState(true);
+  const [isTechnical, setIsTechnical] = useState(true);
+  const [selectedEvent, setSelectedEvent] = useState(null);
 
   const height = `calc(100vh - 350px)`;
 
   // Determine the type of event to display
   const eventType = isTechnical ? "technical" : "non_technical";
-  const events = events_data[dept]["events"][eventType] || [];
+  const events = events_data[dept]?.events?.[eventType] || [];
 
   // Handle dropdown change
   const handleEventChange = (eventIndex) => {
@@ -67,7 +68,7 @@ function Event({ dept }) {
 
   return (
     <NextUIProvider>
-      <div className="w-screen h-screen flex flex-col items-center px-3 overflow-x-hidden bg-cover bg-center bg-starry-sky">
+      <div className="w-screen h-screen flex flex-col items-center px-3 overflow-x-hidden bg-cover bg-center bg-starry-sky pb-10">
         <Navelement menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <div className="px-[130px] flex flex-col space-y-8 mt-4">
           {/* Switch Section */}
@@ -113,46 +114,61 @@ function Event({ dept }) {
                 </DropdownMenu>
               </Dropdown>
               {selectedEvent && (
-                <Card className="w-[90vw] m-4">
+                <Card className="md:w-[70vw] w-[90vw] m-4">
                   <CardBody
-                    className="flex flex-col items-center"
+                    className="flex flex-col items-center p-6"
                     style={{
                       background:
                         "linear-gradient(to right, rgba(0, 51, 102, 0.9) 20%, rgba(85, 0, 119, 0.9) 80%)",
                       backdropFilter: "blur(200px)", // Optional: Adds a blur effect for better transparency look
                     }}
                   >
-                    <h2 className="text-3xl font-semibold mb-4 mt-4 text-white">
+                    <h2 className="text-3xl text-white font-raleway font-extrabold mb-4">
                       {selectedEvent.event_name}
                     </h2>
+
+                    <div className="text-white italic font-raleway p-5 text-xl">HOSTED BY THE DEPARTMENT OF {dept.toUpperCase()}</div>
                     
-                    <ScrollShadow
-                      hideScrollBar
-                      size={60}
-                      className="w-[100%] flex flex-col space-y-4 px-8 text-white"
-                      style={{ height }}
+                    <div
+                      className="w-full flex flex-col gap-10 text-white"
                     >
                       <EventDesc
-                      winner={selectedEvent["winner"]}
-                      runner={selectedEvent["runner"]}
-                      date={selectedEvent["date"]}
-                      location={selectedEvent["location"]}
-                      participants={selectedEvent["participants"]}
-                    />
-                      <p className="text-center mt-8 px-4 text-[17px]">
+                        winner={selectedEvent["winner_prize"]}
+                        runner={selectedEvent["runner_up_prize"]}
+                        date={selectedEvent["date"]}
+                        location={selectedEvent["location"]}
+                        participants={selectedEvent["participants"]}
+                        dept={dept}
+                      />
+                      <p className="text-center text-xl font-dosis mb-4">
                         {selectedEvent.event_desc}
                       </p>
-                      <div className="flex flex-col w-full h-full">
-                      {selectedEvent.rounds.map((round, roundIndex) => (
-                        <Rounds
-                          key={roundIndex}
-                          round_name={round.round_name}
-                          round_desc={round.round_desc}
-                        />
-                      ))}
+                      <div className="flex flex-col w-full h-full justify-center items-center gap-4">
+                        {selectedEvent.rounds.map((round, roundIndex) => (
+                          <Rounds
+                            key={roundIndex}
+                            round_name={round.round_name}
+                            round_desc={round.round_desc}
+                          />
+                        ))}
+                        <p className="text-md p-5 text-center font-raleway">{selectedEvent.tagline}</p>
+                        {selectedEvent.event_heads && (
+                          <div className="w-full flex flex-col items-center gap-4">
+                            <h3 className="text-2xl text-white font-bold mb-2 font-dosis">Event Heads</h3>
+                            <div className="flex gap-2 flex-col md:flex-row">
+                            {selectedEvent.event_heads.map((head, headIndex) => (
+                              <div
+                                key={headIndex}
+                                className="text-white p-4 shadow-lg bg-black rounded-lg w-64 text-center"
+                              >
+                                <p className="text-md font-semibold">{head}</p>
+                              </div>
+                            ))}
+                            </div>
+                          </div>
+                        )}
                       </div>
-                      
-                    </ScrollShadow>
+                    </div>
                   </CardBody>
                 </Card>
               )}
@@ -160,6 +176,8 @@ function Event({ dept }) {
           </div>
         </div>
       </div>
+
+      <Footer/>
     </NextUIProvider>
   );
 }

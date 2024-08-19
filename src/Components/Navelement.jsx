@@ -18,7 +18,7 @@ function Navelement({ menuOpen, setMenuOpen }) {
   };
 
   return (
-    <div id="nav-bar" className="w-full h-16 md:h-24 flex items-center justify-between px-4 md:px-8">
+    <div id="nav-bar" className="w-full h-16 md:h-24 flex items-center justify-between px-4 md:px-8 m-5">
       <img src="/snu-logo.svg" alt="SNU" className="w-48 h-12 md:h-16" />
       
       {/* Menu Button for Small Screens */}
@@ -31,7 +31,7 @@ function Navelement({ menuOpen, setMenuOpen }) {
       
       {/* Navigation Links for Larger Screens */}
       <nav className="hidden md:flex items-center space-x-6 md:space-x-12 py-2 font-dosis text-sm md:text-md">
-        {['/', '/#events', '/hackathon', '/workshop', '/schedule', '/sponsors', '/hospitality'].map((link) => (
+        {['/', '/#events', '/hackathonAndworkshop', '/schedule', '/sponsors', '/hospitality', '/gallery'].map((link) => (
           <Link
             key={link}
             to={link}
@@ -40,17 +40,18 @@ function Navelement({ menuOpen, setMenuOpen }) {
           >
             {link === '/' ? 'Home' :
              link === '/#events' ? 'Events' :
-             link === '/hackathon' ? 'Hackathons' :
-             link === '/workshop' ? 'Workshops' :
+             link === '/hackathonAndworkshop' ? 'Hackathons & Workshop' :
              link === '/schedule' ? 'Schedule' :
              link === '/sponsors' ? 'Sponsors' :
-             'Hospitality'}
+             link === '/hospitality' ? 'Hospitality' :
+             'Gallery'}
           </Link>
         ))}
       </nav>
 
       <img src="/ssn-logo.svg" alt="SSN" className="w-48 h-12 md:h-16" />
 
+      {/* Mobile Menu */}
       {menuOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-80 z-20 flex flex-col items-center justify-center">
           <button
@@ -60,7 +61,7 @@ function Navelement({ menuOpen, setMenuOpen }) {
             ✖
           </button>
           <nav className="flex flex-col items-center space-y-6 font-dosis text-lg font-bold w-1/2 text-center">
-            {['/', '/#events', '/hackathon', '/workshop', '/schedule', '/sponsors', '/hospitality'].map((link) => (
+            {['/', '/#events', '/hackathonAndworkshop', '/schedule', '/sponsors', '/hospitality', '/gallery'].map((link) => (
               <Link
                 key={link}
                 to={link}
@@ -69,11 +70,11 @@ function Navelement({ menuOpen, setMenuOpen }) {
               >
                 {link === '/' ? 'Home' :
                  link === '/#events' ? 'Events' :
-                 link === '/hackathon' ? 'Hackathons' :
-                 link === '/workshop' ? 'Workshops' :
+                 link === '/hackathonAndworkshop' ? 'Hackathons & Workshop' :
                  link === '/schedule' ? 'Schedule' :
                  link === '/sponsors' ? 'Sponsors' :
-                 'Hospitality'}
+                 link === '/hospitality' ? 'Hospitality' :
+                 'Gallery'}
               </Link>
             ))}
           </nav>
