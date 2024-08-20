@@ -519,7 +519,7 @@ const events_data = {
       ]
     }
   },
-  "ecom": {
+  "com": {
     "events": {
       "technical": [
         {
