@@ -434,6 +434,174 @@ const events_data = {
         }
       ]
     }
+  },
+  "eee": {
+    "events": {
+      "technical": [
+        {
+          "event_name": "Event1",
+          "event_desc": "",
+          "event_heads": [],
+          "domain": "",
+          "rounds": [
+            {
+              "id": "round_1",
+              "round_name": "Round 1",
+              "round_desc": ""
+            },
+            {
+              "id": "round_2",
+              "round_name": "Round 2",
+              "round_desc": ""
+            }
+          ],
+          "tagline": ""
+        },
+        {
+          "event_name": "Event2",
+          "event_desc": "",
+          "event_heads": [],
+          "domain": "",
+          "rounds": [
+            {
+              "id": "round_1",
+              "round_name": "Round 1",
+              "round_desc": ""
+            },
+            {
+              "id": "round_2",
+              "round_name": "Round 2",
+              "round_desc": ""
+            }
+          ],
+          "tagline": ""
+        }
+      ],
+      "non_technical": [
+        {
+          "event_name": "Event1",
+          "event_desc": "",
+          "event_heads": [],
+          "domain": "",
+          "rounds": [
+            {
+              "id": "round_1",
+              "round_name": "Round 1",
+              "round_desc": ""
+            },
+            {
+              "id": "round_2",
+              "round_name": "Round 2",
+              "round_desc": ""
+            }
+          ],
+          "tagline": ""
+        },
+        {
+          "event_name": "Event2",
+          "event_desc": "",
+          "event_heads": [],
+          "domain": "",
+          "rounds": [
+            {
+              "id": "round_1",
+              "round_name": "Round 1",
+              "round_desc": ""
+            },
+            {
+              "id": "round_2",
+              "round_name": "Round 2",
+              "round_desc": ""
+            }
+          ],
+          "tagline": ""
+        }
+      ]
+    }
+  },
+  "ecom": {
+    "events": {
+      "technical": [
+        {
+          "event_name": "Event1",
+          "event_desc": "",
+          "event_heads": [],
+          "domain": "",
+          "rounds": [
+            {
+              "id": "round_1",
+              "round_name": "Round 1",
+              "round_desc": ""
+            },
+            {
+              "id": "round_2",
+              "round_name": "Round 2",
+              "round_desc": ""
+            }
+          ],
+          "tagline": ""
+        },
+        {
+          "event_name": "Event2",
+          "event_desc": "",
+          "event_heads": [],
+          "domain": "",
+          "rounds": [
+            {
+              "id": "round_1",
+              "round_name": "Round 1",
+              "round_desc": ""
+            },
+            {
+              "id": "round_2",
+              "round_name": "Round 2",
+              "round_desc": ""
+            }
+          ],
+          "tagline": ""
+        }
+      ],
+      "non_technical": [
+        {
+          "event_name": "Event1",
+          "event_desc": "",
+          "event_heads": [],
+          "domain": "",
+          "rounds": [
+            {
+              "id": "round_1",
+              "round_name": "Round 1",
+              "round_desc": ""
+            },
+            {
+              "id": "round_2",
+              "round_name": "Round 2",
+              "round_desc": ""
+            }
+          ],
+          "tagline": ""
+        },
+        {
+          "event_name": "Event2",
+          "event_desc": "",
+          "event_heads": [],
+          "domain": "",
+          "rounds": [
+            {
+              "id": "round_1",
+              "round_name": "Round 1",
+              "round_desc": ""
+            },
+            {
+              "id": "round_2",
+              "round_name": "Round 2",
+              "round_desc": ""
+            }
+          ],
+          "tagline": ""
+        }
+      ]
+    }
   }
 }
 

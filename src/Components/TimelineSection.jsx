@@ -12,6 +12,7 @@ const departments = [
   { name: 'Chemical Engineering', image: '/images/ce.jpg', path: '/department/ce' },
   { name: 'Biomedical Engineering', image: '/images/bme.jpg', path: '/department/bme' },
   { name: 'Civil Engineering', image: '/images/cv.jpg', path: '/department/cv' },
+  { name: 'Ecommerce & Economics', image: '/images/ecom.jpg', path: '/department/ecom' },
 ];
 
 const TimelineSection = () => {

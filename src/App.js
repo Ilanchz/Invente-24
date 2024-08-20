@@ -22,6 +22,7 @@ function App() {
         <Route path="/department/ce" element={<Event dept={"ce"}/>} />
         <Route path="/department/bme" element={<Event dept={"bme"}/>} />
         <Route path="/department/cv" element={<Event dept={"cv"}/>} />
+        <Route path="/department/ecom" element={<Event dept={"ecom"}/>} /> 
         <Route path="//hackathonAndworkshop" element={<Hackathon/>} />
         <Route path="/hospitality" element={<Hospitality/>} />
         <Route path="/schedule" element={<Schedule/>} />
