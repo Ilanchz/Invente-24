@@ -31,7 +31,7 @@ function Navelement({ menuOpen, setMenuOpen }) {
       
       {/* Navigation Links for Larger Screens */}
       <nav className="hidden md:flex items-center space-x-6 md:space-x-12 py-2 font-dosis text-sm md:text-md">
-        {['/', '/#events', '/hackathonAndworkshop', '/schedule', '/sponsors', '/hospitality', '/gallery'].map((link) => (
+        {['/', '/#events', '/hackathonAndworkshop', '/schedule', '/sponsors', '/hospitality', '/gallery', '/about'].map((link) => (
           <Link
             key={link}
             to={link}
@@ -44,7 +44,8 @@ function Navelement({ menuOpen, setMenuOpen }) {
              link === '/schedule' ? 'Schedule' :
              link === '/sponsors' ? 'Sponsors' :
              link === '/hospitality' ? 'Hospitality' :
-             'Gallery'}
+             link  === '/gallery' ? 'Gallery' :
+             'About'}
           </Link>
         ))}
       </nav>
@@ -74,7 +75,8 @@ function Navelement({ menuOpen, setMenuOpen }) {
                  link === '/schedule' ? 'Schedule' :
                  link === '/sponsors' ? 'Sponsors' :
                  link === '/hospitality' ? 'Hospitality' :
-                 'Gallery'}
+                 link  === '/gallery' ? 'Gallery' :
+                'About'}
               </Link>
             ))}
           </nav>
