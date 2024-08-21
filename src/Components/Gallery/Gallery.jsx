@@ -4,10 +4,11 @@ import Navelement from '../Navelement';
 import Footer from '../Footer';
 
 const invent_gallery = [
-  { id: 1, src: 'https://images.squarespace-cdn.com/content/v1/55c37beae4b0336075603f86/1443039469134-E9SLQBQ2OW1Y69KPKFDO/image-asset.jpeg?format=2500w', alt: 'Image 1' },
-  { id: 2, src: 'https://www.madebywifi.com/wp-content/uploads/2018/01/internet-for-hackatons-1024x480.jpg', alt: 'Image 2' },
-  { id: 3, src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1uPOiymiz06sFd0b6uU1tHCnLUf8aKP27Hw&s', alt: 'Image 3' },
-  { id: 4, src: 'https://akm-img-a-in.tosshub.com/indiatoday/images/story/202304/itgd_dalle-1681805013-image-sixteen_nine-_3.jpg?VersionId=ZoCbwr3MD6f.9kDyfzRcI4.C3EgJVlWP&size=690:388', alt: 'Image 4' },
+  { id: 1, src: './images/gallery/image1.jpeg', alt: 'Image 1' },
+  { id: 2, src: './images/gallery/image2.jpeg', alt: 'Image 2' },
+  { id: 3, src: './images/gallery/image3.jpeg', alt: 'Image 3' },
+  { id: 4, src: './images/gallery/stage_image.jpeg', alt: 'Image 4' },
+  { id: 5, src: './images/gallery/audience.jpeg', alt: 'Image 5' },
   // Add more images as needed
 ];
 
