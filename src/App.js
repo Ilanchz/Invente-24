@@ -8,6 +8,7 @@ import Hospitality from './Components/Hospitality_page/Hospitality';
 import Schedule from './Components/Schedule';
 import Sponsors from './Components/Sponsors';
 import Gallery from './Components/Gallery/Gallery';
+import About from './Components/About_Page/about_page';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/schedule" element={<Schedule/>} />
         <Route path="/sponsors" element={<Sponsors/>}/>
         <Route path="/gallery" element={<Gallery/>}/>
+        <Route path="/about" element={<About/>}/>
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
