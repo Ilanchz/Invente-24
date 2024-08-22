@@ -4,10 +4,12 @@ import data_contact from '../../data/contact_about';
 
 const DepartmentGrid = () => {
     return (
-      <div className="grid grid-cols-4 gap-4 mb-4 ml-4 mr-4">
+      <div className="flex flex-wrap gap-4 justify-center items-center">
+        
         {data_contact.map((contact) => (
           <Contact 
             department={contact.department}
+            dept={contact.dept}
             name={contact.head_name}
             number={contact.ph_no}
             insta={contact.insta}
