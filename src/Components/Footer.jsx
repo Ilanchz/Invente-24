@@ -173,7 +173,7 @@ export default function Footer() {
           Website: Built by <a href="#" className="hover:underline text-orange-600">Ilanchezhiyan</a>, 
           <a href="#" className="hover:underline text-orange-600"> Lohit</a>, 
           <a href="#" className="hover:underline text-orange-600"> Shaun Allen</a>, 
-          <a href="#" className="hover:underline text-orange-600"> Ashwn</a>.&#160;
+          <a href="#" className="hover:underline text-orange-600"> Ashwin</a>.&#160;
           Designed by <a href="#" className="hover:underline text-green-300"> Samyuktha D</a> and&#160;
           <a href="#" className="hover:underline text-green-300">Jithu Morrison</a>.
         </p>
