@@ -110,7 +110,7 @@ function Event({ dept }) {
             </div>
           )}
 
-          {/* Dropdown Section */}
+          {/* Dropdown Section. */}
           {(dept !== "cse" || selectedCategory) && (
             <div className="flex flex-col px-10">
               <div className="flex flex-col space-y-4">
