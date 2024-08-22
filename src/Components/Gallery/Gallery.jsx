@@ -8,7 +8,6 @@ const invent_gallery = [
   { id: 2, src: './images/gallery/image1.jpeg', alt: 'Image 2' },
   { id: 3, src: './images/gallery/image2.jpeg', alt: 'Image 3' },
   { id: 4, src: './images/gallery/image3.jpeg', alt: 'Image 4' },
-  
   { id: 5, src: './images/gallery/audience.jpeg', alt: 'Image 5' },
   // Add more images as needed
 ];

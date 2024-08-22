@@ -69,24 +69,23 @@ function Event({ dept }) {
     <NextUIProvider>
       <div className="w-screen h-screen flex flex-col items-center px-3 overflow-x-hidden bg-cover bg-center bg-starry-sky pb-10">
         <Navelement menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <div className="px-[130px] flex flex-col space-y-8 mt-4 bg-slate-950 opacity-90">
+        <div className="px-[130px] h-screen flex flex-col space-y-8 mt-4 bg-slate-950 opacity-90 justify-center items-center rounded-xl">
           {/* Conditional Category Selection for CSE */}
           {dept === "cse" && !selectedCategory && (
-            <div className="m-5 p-5  flex justify-center items-center gap-2 md:flex-row flex-col text-white text-2xl rounded-xl">
+            <div className="m-5 p-5  flex justify-between items-center gap-2 md:flex-row flex-col text-white text-2xl rounded-xl">
               <div
-                className="hover:scale-110 transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg"
+                className="hover:scale-110 hover:bg-white hover:text-black transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg"
                 onClick={() => handleCategorySelection("SSN")}
               >
-                DEPARTMENT OF SSN
+                SSN CSE Department
               </div>
 
-              <p className="font-libre font-extrabold text-orange-600">OR</p>
 
               <div
-                className="hover:scale-110 transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg"
+                className="hover:scale-110 hover:bg-white hover:text-black transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg"
                 onClick={() => handleCategorySelection("SNUC")}
               >
-                DEPARTMENT OF SNUC
+                SNUC School of Computing
               </div>
             </div>
           )}
