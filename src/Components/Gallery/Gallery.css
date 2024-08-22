@@ -28,7 +28,7 @@
     flex-direction: row;
     height: 100%;
     scroll-behavior: smooth; /* Smooth scrolling */
-    overflow-x: auto; /* Enable horizontal scrolling */
+    overflow-x: hidden; /* Enable horizontal scrolling */
     overflow-y: hidden; /* Hide vertical scroll bar */
 }
 
