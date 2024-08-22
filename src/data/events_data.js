@@ -1,7 +1,8 @@
 const events_data = {
     "cse": {
-      "events": {
-        "technical": [
+    "events": {
+      "technical": {
+        "SSN": [
           {
             "event_name": "Codolympics",
             "event_desc": "This is a coding competition based purely on Data structures and Algorithms. Participants will contest against each other in teams of 2 in a competitive programming contest.",
@@ -114,28 +115,31 @@ const events_data = {
           },
           {
             "event_name": "ML Maze Runner",
-            "event_desc": "This is a competition designed to test your machine learning expertise through a series of interactive challenges. This event encourages participants to apply their knowledge of ML to solve real-world problems. The competition is divided into two rounds: a hands-on AI Scavenger Hunt followed by an Algorithmic Problem-Solving round.",
-            "event_heads": ["Harish Kumar MV", "Mohith A"],
-            "domain": "ML",
+            "event_desc": "This is a competition designed to test your machine learning expertise through a series of interactive challenges. This event encourages participants to apply their knowledge of ML to solve real-world problems. The competition is divided into two rounds, with increasing complexity.",
+            "event_heads": ["Ravi S", "Swathi B"],
+            "domain": "Machine Learning",
             "rounds": [
               {
                 "id": "round_1",
-                "round_name": "AI Scavenger Hunt (No Internet Access)",
-                "round_desc": "Solve machine learning tasks to reveal clues and advance to the next challenge. Description: Teams will work on a series of ML tasks using pre-provided datasets. Each task will involve developing a model or performing an analysis that outputs a clue, which will guide them to the next task and the location of the clue. Time Limit: 45 minutes. The tasks will vary in difficulty and will include data preprocessing, model training, and evaluation. The final clue will reveal the entry to the second round."
+                "round_name": "The Basic Puzzle",
+                "round_desc": "Teams are given a dataset and a set of problems related to data cleaning, feature engineering, and model selection. The goal is to build a machine learning model to solve the given problem and optimize it for performance."
               },
               {
                 "id": "round_2",
-                "round_name": "Algorithmic Problem-Solving (With Internet Access)",
-                "round_desc": "Develop and optimize ML algorithms to solve given problems. Description: The second round will involve using internet resources to research and implement solutions for complex ML problems. Participants will work on algorithmic challenges that test their knowledge of advanced ML concepts and their ability to code efficient solutions. Time Limit: 60 minutes. Teams will be judged based on the accuracy, efficiency, and innovation of their solutions."
+                "round_name": "Advanced Challenge",
+                "round_desc": "The advanced challenge involves complex datasets and tasks such as hyperparameter tuning, model ensemble methods, and solving real-time problems. Teams must demonstrate their advanced ML skills to tackle these challenges and present their solutions."
               }
             ],
-            "tagline": "Top performers from each round will be awarded based on their problem-solving skills and overall performance.",
+            "tagline": "Teams are evaluated based on their model's accuracy, efficiency, and creativity in handling the given challenges.",
             "winner_prize": "₹35,000",
-            "runner_up_prize": "₹17,500"
+            "runner_up_prize": "₹15,000"
           }
         ],
-        "non_technical": [
-          {
+        "SNUC": []
+      },
+      "non_technical": {
+        "SSN": [
+		{
             "event_name": "Pitch Perfect",
             "event_heads": ["Tejas", "Pranav"],
             "event_desc": "Join us for a challenge where creativity meets strategy, and quick thinking is your best asset. Get ready to turn flops into winners and deliver pitches that pack a punch—all while beating the clock!",
@@ -180,9 +184,11 @@ const events_data = {
             "winner_prize": "₹30,000",
             "runner_up_prize": "₹15,000"
           }
-        ]
+	],
+        "SNUC": []
       }
-    },
+    }
+  },
   "it": {
     "events": {
       "technical": [
@@ -331,90 +337,6 @@ const events_data = {
         },
         {
           "event_name": "Non tech Event2",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
-        }
-      ]
-    }
-  },
-  "eee": {
-    "events": {
-      "technical": [
-        {
-          "event_name": "Event1",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
-        },
-        {
-          "event_name": "Event2",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
-        }
-      ],
-      "non_technical": [
-        {
-          "event_name": "Event1",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
-        },
-        {
-          "event_name": "Event2",
           "event_desc": "",
           "event_heads": [],
           "domain": "",

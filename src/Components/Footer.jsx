@@ -168,14 +168,14 @@ export default function Footer() {
         </div>
       </div>
 
-      <section className="w-screen py-4 bg-gray-900 text-md text-wrap text-white text-center font-dosis font-extralight p-4">
+      <section className="w-screen py-4 bg-gray-900 text-sm md:text-lg text-wrap text-white text-center font-raleway p-4">
         <p className="">
-          Website: Built by <a href="#" className="text-gray-50 hover:underline">Name 1</a>, 
-          <a href="#" className="text-gray-50 hover:underline"> Name 2</a>, 
-          <a href="#" className="text-gray-50 hover:underline"> Name 3</a>, 
-          <a href="#" className="text-gray-50 hover:underline"> Name 4</a>.&#160;
-          Designed by <a href="#" className="text-gray-50 hover:underline"> Name 5</a> and&#160;
-          <a href="#" className="text-gray-50 hover:underline">Name 6</a>.
+          Website: Built by <a href="#" className="hover:underline text-orange-600">Ilanchezhiyan</a>, 
+          <a href="#" className="hover:underline text-orange-600"> Lohit</a>, 
+          <a href="#" className="hover:underline text-orange-600"> Shaun Allen</a>, 
+          <a href="#" className="hover:underline text-orange-600"> Ashwin</a>.&#160;
+          Designed by <a href="#" className="hover:underline text-green-300"> Samyuktha D</a> and&#160;
+          <a href="#" className="hover:underline text-green-300">Jithu Morrison</a>.
         </p>
       </section>
     </footer>
