@@ -95,7 +95,7 @@ function About() {
                 </div>
             </div>
 
-            <h2 className='font-dosis text-3xl text-blue-50 bg-black p-5 text-center mb-5'>Point of Contact Info</h2>
+            <h2 className='font-dosis text-3xl text-blue-50 bg-black p-5 text-center mb-5'>Department Presidents</h2>
 
             <DepartmentGrid />
 
