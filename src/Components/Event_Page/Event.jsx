@@ -77,7 +77,7 @@ function Event({ dept }) {
                 className="hover:scale-110 transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg"
                 onClick={() => handleCategorySelection("SSN")}
               >
-                DEPARTMENT OF SSN
+                SSN CSE Department
               </div>
 
               <p className="font-libre font-extrabold text-orange-600">OR</p>
@@ -86,7 +86,7 @@ function Event({ dept }) {
                 className="hover:scale-110 transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg"
                 onClick={() => handleCategorySelection("SNUC")}
               >
-                DEPARTMENT OF SNUC
+                SNUC School of Computing
               </div>
             </div>
           )}
