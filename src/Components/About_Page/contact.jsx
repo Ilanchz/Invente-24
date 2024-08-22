@@ -12,7 +12,7 @@ const Contact = ({department,dept, name, number, insta}) => {
       <div className="p-5">
       <div className='p-5 bg-transparent border-blue-500 border-1 rounded-lg w-fit text-blue-600 relative top-2 hover:bg-blue-400 hover:text-black'>{dept}</div>
         <center>
-            <h3 className="font-semibold text-violet-200 text-2xl font-raleway">Point of Contact</h3>
+            <h3 className="font-semibold text-violet-200 text-2xl font-raleway">Department President</h3>
             <ul className="mt-2 space-y-2">
                 <li className="text-gray-100 font-raleway font-bold text-2xl">{name}</li>
                 <li className="text-gray-100">{number}</li>
