@@ -62,7 +62,7 @@ function Navelement({ menuOpen, setMenuOpen }) {
             ✖
           </button>
           <nav className="flex flex-col items-center space-y-6 font-dosis text-lg font-bold w-1/2 text-center">
-            {['/', '/#events', '/hackathonAndworkshop', '/schedule', '/sponsors', '/hospitality', '/gallery','/about'].map((link) => (
+            {['/', '/about', '/#events', '/hackathonAndworkshop', '/schedule', '/sponsors', '/hospitality', '/gallery'].map((link) => (
               <Link
                 key={link}
                 to={link}
