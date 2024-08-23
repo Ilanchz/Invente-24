@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 function Navelement({ menuOpen, setMenuOpen }) {
   const location = useLocation();
+  const navigate = useNavigate(); // Hook for programmatic navigation
   const currentPath = location.pathname;
 
   // Determine if a link is active based on the current path
@@ -13,8 +14,25 @@ function Navelement({ menuOpen, setMenuOpen }) {
   );
 
   // Handler to close the menu on link click if menu is open
-  const handleLinkClick = () => {
-    setMenuOpen(false);
+  const handleLinkClick = (event, link) => {
+    if (link === '/#events') {
+      event.preventDefault(); // Prevent default anchor behavior for '#events'
+
+      // Use setTimeout to ensure that the DOM has been updated
+      setTimeout(() => {
+        const element = document.querySelector('#events');
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        } else {
+          console.error("Element with ID 'events' not found. Redirecting to homepage.");
+          navigate('/'); // Navigate to homepage if element is not found
+        }
+      }, 0);
+    } else {
+      navigate(link); // Navigate to the link if it's not '#events'
+    }
+
+    setMenuOpen(false); // Close the menu regardless of the link
   };
 
   return (
@@ -36,7 +54,7 @@ function Navelement({ menuOpen, setMenuOpen }) {
             key={link}
             to={link}
             className={`text-white text-base md:text-lg font-bold transition-transform duration-300 p-2 rounded-lg ${getLinkClass(link)}`}
-            onClick={handleLinkClick}
+            onClick={(event) => handleLinkClick(event, link)}
           >
             {link === '/' ? 'Home' :
              link === '/#events' ? 'Events' :
@@ -67,7 +85,7 @@ function Navelement({ menuOpen, setMenuOpen }) {
                 key={link}
                 to={link}
                 className={`transition-transform w-full p-2 rounded-md ${getLinkClass(link)} bg-white text-black duration-300 hover:scale-110`}
-                onClick={handleLinkClick}
+                onClick={(event) => handleLinkClick(event, link)}
               >
                 {link === '/' ? 'Home' :
                  link === '/#events' ? 'Events' :
@@ -76,7 +94,7 @@ function Navelement({ menuOpen, setMenuOpen }) {
                  link === '/sponsors' ? 'Sponsors' :
                  link === '/hospitality' ? 'Hospitality' :
                  link  === '/gallery' ? 'Gallery' :
-                'About'}
+                 'About'}
               </Link>
             ))}
           </nav>
