@@ -3,7 +3,7 @@
 .gallery-container {
     position: relative;
     width: 100%;
-    height: 100%; /* Full viewport height */
+    height: 100vh; /* Full viewport height */
     overflow: hidden; /* Hide overflow */
 }
 
@@ -42,17 +42,16 @@
 }
 
 .gallery-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Ensure the image covers the container */
+    width: 100%; /* Fill the width of the container */
+    height: 100%; /* Fill the height of the container */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
 }
 
 .scroll-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: black;
     border: none;
     padding: 1rem;
     font-size: 2rem;

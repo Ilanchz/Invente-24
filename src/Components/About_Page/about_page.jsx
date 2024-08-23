@@ -24,30 +24,30 @@ function About() {
 
             <div className="flex flex-col items-center justify-center flex-grow px-4 md:px-8 lg:px-16 py-8 space-y-8">
                 
-            <div className="bg-gray-900 p-6 md:p-10 rounded-lg shadow-lg">
-                <h1 className="hover:text-green-800 md:text-4xl text-2xl font-dosis font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-green-600 to-lime-400 mb-4 text-center">
-                    ABOUT SSN INSTITUTIONS
-                </h1>
-                <div className="flex flex-col md:flex-row items-center md:items-start">
-                    <img 
-                        src="/ssn_contact.jpg" 
-                        alt="SSN Institutions" 
-                        className="h-full w-2/6 rounded-lg shadow-md mb-4 md:mb-0 md:mr-6"
-                    />
-                    <p className="text-gray-100 leading-relaxed text-lg font-dosis">
-                        SSN College of Engineering, located in the vibrant city of Chennai, Tamil Nadu, is a premier institution established in 1996 by Padma Bhushan Dr. Shiv Nadar, a visionary leader and the founder of HCL Technologies. SSN has rapidly ascended to the top echelons of engineering education in India, with a NIRF ranking of 45 among private engineering colleges in India.
+                <div className="bg-gray-900 p-6 md:p-10 rounded-lg shadow-lg">
+                    <h1 className="hover:text-green-800 md:text-4xl text-2xl font-dosis font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-green-600 to-lime-400 mb-4 text-center">
+                        ABOUT SSN INSTITUTIONS
+                    </h1>
+                    <div className="flex flex-col md:flex-row items-center md:items-start">
+                        <img 
+                            src="/ssn_contact.jpg" 
+                            alt="SSN Institutions" 
+                            className="h-full w-2/6 rounded-lg shadow-md mb-4 md:mb-0 md:mr-6"
+                            loading="lazy"
+                        />
+                        <p className="text-gray-100 leading-relaxed text-lg font-dosis">
+                            SSN College of Engineering, located in the vibrant city of Chennai, Tamil Nadu, is a premier institution established in 1996 by Padma Bhushan Dr. Shiv Nadar, a visionary leader and the founder of HCL Technologies. SSN has rapidly ascended to the top echelons of engineering education in India, with a NIRF ranking of 45 among private engineering colleges in India.
 
-                        Boasting a 230-acre state-of-the-art campus with top-notch facilities, SSN offers diverse engineering programs and fosters innovation through robust research centers and global collaborations. The institution emphasizes high academic standards and cutting-edge research while promoting entrepreneurship through initiatives like incubation centers and hackathons.
+                            Boasting a 230-acre state-of-the-art campus with top-notch facilities, SSN offers diverse engineering programs and fosters innovation through robust research centers and global collaborations. The institution emphasizes high academic standards and cutting-edge research while promoting entrepreneurship through initiatives like incubation centers and hackathons.
 
-                        <br/><br/>SSN has a robust placement cell that maintains strong ties with leading companies and organizations. The placement cell organizes various training programs, workshops, and seminars to enhance students' employability skills. As a result, SSN graduates are highly sought after by top recruiters, including multinational corporations, leading Indian companies, and innovative startups.
+                            <br/><br/>SSN has a robust placement cell that maintains strong ties with leading companies and organizations. The placement cell organizes various training programs, workshops, and seminars to enhance students' employability skills. As a result, SSN graduates are highly sought after by top recruiters, including multinational corporations, leading Indian companies, and innovative startups.
 
-                        <br/><br/>The college also places a strong emphasis on holistic development, offering a wide range of extracurricular activities, sports, and cultural events. The SSN campus is home to numerous clubs and societies that cater to the diverse interests of students, fostering a vibrant and inclusive community.
+                            <br/><br/>The college also places a strong emphasis on holistic development, offering a wide range of extracurricular activities, sports, and cultural events. The SSN campus is home to numerous clubs and societies that cater to the diverse interests of students, fostering a vibrant and inclusive community.
 
-                        Overall, SSN College of Engineering stands as a beacon of excellence in engineering education, dedicated to nurturing future leaders and innovators who will drive progress and make significant contributions to society.
-                    </p>
+                            Overall, SSN College of Engineering stands as a beacon of excellence in engineering education, dedicated to nurturing future leaders and innovators who will drive progress and make significant contributions to society.
+                        </p>
+                    </div>
                 </div>
-            </div>
-
 
                 <div className="bg-gray-900 p-6 md:p-10 rounded-lg shadow-lg text-center">
                     <center>
@@ -67,12 +67,12 @@ function About() {
                             src="/snu_about.jpg" 
                             alt="SNU Chennai" 
                             className="h-full w-2/3 md:w-1/2 rounded-lg shadow-md mb-4 md:mb-0 md:ml-6"
+                            loading="lazy"
                         />
                     </div>
-                    
                 </div>
 
-                <div className=" bg-gray-900 p-6 md:p-10 rounded-lg shadow-lg text-center">
+                <div className="bg-gray-900 p-6 md:p-10 rounded-lg shadow-lg text-center">
                     <center>
                         <h1 className="hover:font-bold text-3xl font-raleway bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-teal-400 mb-4">INVENTE</h1>
                     </center>
@@ -81,11 +81,13 @@ function About() {
                             src="/invente_about.jpg" 
                             alt="INVENTE" 
                             className="md:w-1/2 w-full h-80 rounded-lg shadow-md mb-4"
+                            loading="lazy"
                         />
                         <img 
-                        src="/invente2_about.jpg" 
-                        alt="INVENTE" 
-                        className="md:w-1/2 w-full h-80 rounded-lg shadow-md mb-4"
+                            src="/invente2_about.jpg" 
+                            alt="INVENTE" 
+                            className="md:w-1/2 w-full h-80 rounded-lg shadow-md mb-4"
+                            loading="lazy"
                         />
                     </div>
                     
@@ -107,5 +109,3 @@ function About() {
 }
 
 export default About;
-
-    

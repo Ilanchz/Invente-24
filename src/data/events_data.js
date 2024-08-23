@@ -357,90 +357,260 @@ const events_data = {
       ]
     }
   },
-  "eee": {
-    "events": {
-      "technical": [
-        {
-          "event_name": "Event1",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
-        },
-        {
-          "event_name": "Event2",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
-        }
-      ],
-      "non_technical": [
-        {
-          "event_name": "Event1",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
-        },
-        {
-          "event_name": "Event2",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
-        }
-      ]
-    }
-  },
+
+  //EEE Data 
+    "eee": {
+      "events": {
+        "technical": [
+          {
+            "event_name": "Electrothon",
+            "event_desc": "Showcase your creativity and technical insights in this exhilarating hackathon where your ideas come to life. Share your project abstract on the mentioned domains prior to the event.",
+            "event_heads": [
+              "Sangamithirai S - 93607 66513",
+              "Manasa K - 94872 39003",
+              "Monishkumar R - 93632 46736"
+            ],
+            "domain": "AI/ML, IoT, Robotics, Digital Electronics, VLSI, Embedded Systems, Electric Vehicles, Power Electronics, Renewable Energy",
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Pitch Your Ideas",
+                "round_desc": "Present your project abstract with a compelling presentation that captures your vision."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Build and Demonstrate",
+                "round_desc": "Turn your vision into reality by showcasing a working prototype, simulation, or software output."
+              }
+            ],
+            "tagline": "Ready to innovate and shine?",
+            "team_size": "4 Members per Team"
+          },
+          {
+            "event_name": "Ideate",
+            "event_desc": "A distinguished paper presentation competition where students exhibit groundbreaking research and engineering ideas, embodying innovation and intellectual excellence.",
+            "event_heads": [
+              "Akshaya S - 98942 59127",
+              "N Arthika - 90254 94992",
+              "Eashwar K R - 75500 29864"
+            ],
+            "domain": "Research and Engineering",
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Abstract Submission",
+                "round_desc": "Submit a concise abstract summarizing your research. Abstracts are judged on originality, clarity, and technical accuracy."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Oral Presentation",
+                "round_desc": "Shortlisted participants deliver oral presentations with visual aids. Judges evaluate research depth, communication skills, and ability to address questions."
+              }
+            ],
+            "tagline": "Showcase your groundbreaking research and ideas!",
+            "team_size": "1 to 2 Members per Team"
+          },
+          {
+            "event_name": "El Casino",
+            "event_desc": "Gear up for a thrilling ride with high stakes and electrifying twists. Bet big, solve mind-bending challenges, and turn the tables in the ultimate showdown.",
+            "event_heads": [
+              "Saimidra S S - 88701 83077",
+              "Shruthieshreyaa R - 63790 02596"
+            ],
+            "domain": "Strategy and Puzzle",
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Prelims",
+                "round_desc": "Teams use virtual currency to play various casino games, aiming to increase their value or risk losing it."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Finals",
+                "round_desc": "Solve electrical puzzles requiring circuit design and implementation. Use currency from the prelims for hints and additional components."
+              }
+            ],
+            "tagline": "Bet big and solve the ultimate puzzles!",
+            "team_size": "2 to 3 Members per Team"
+          },
+          {
+            "event_name": "Trace and Race",
+            "event_desc": "An exhilarating competition combining mental agility with hands-on challenges. Race through questions and build structures to win!",
+            "event_heads": [
+              "Varshini S - 73581 96442",
+              "V Shrikar - 76049 33054"
+            ],
+            "domain": "Quiz and Engineering Challenges",
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Quiz and Climb",
+                "round_desc": "Answer multiple-choice questions to score points and earn immunity. Then, play a Snake and Ladders-style game to advance."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Build and Conquer",
+                "round_desc": "Compete in a Jenga-style game by earning blocks for answering questions. Build a stable tower to win a cash prize."
+              }
+            ],
+            "tagline": "Combine mental agility with hands-on challenges!",
+            "team_size": "3 Members per Team"
+          },
+          {
+            "event_name": "Drop the Mic",
+            "event_desc": "A dynamic debate competition where participants embody EEE terms and argue why their term is crucial. Battle of intellect and creativity awaits!",
+            "event_heads": [
+              "K Aswathy - 93425 71857",
+              "M Aravind Krishna - 87544 99660"
+            ],
+            "domain": "Debate and Role-Playing",
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Introduction",
+                "round_desc": "Present arguments for why your EEE term is crucial and deserves the lifejacket."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Final Appeal",
+                "round_desc": "Make a final case summarizing why your term is the most indispensable."
+              }
+            ],
+            "tagline": "Convince us why your EEE term deserves to be saved!",
+            "team_size": "2 Members per Team"
+          },
+          {
+            "event_name": "CircuitX",
+            "event_desc": "Test your circuit theory knowledge and troubleshooting skills in this high-stakes technical quiz and MATLAB debugging challenge.",
+            "event_heads": [
+              "Aathiswari M - 93617 75362",
+              "Vishnuppriyan B - 75502 63865"
+            ],
+            "domain": "Circuit Theory and MATLAB",
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Technical Quiz",
+                "round_desc": "Participate in a quiz assessing your circuit theory and electronics knowledge."
+              },
+              {
+                "id": "round_2",
+                "round_name": "MATLAB Error Detection and Component Identification",
+                "round_desc": "Identify and fix errors in MATLAB circuits and demonstrate proficiency in locating components."
+              }
+            ],
+            "tagline": "Master circuits and MATLAB to prove your expertise!",
+            "team_size": "1 to 2 Members per Team"
+          },
+          {
+            "event_name": "Locked In: The Escape Room Experience",
+            "event_desc": "Race the clock in 'The Green Escape' and crack clues to claim victory. Prove your wit and speed in this ultimate escape room challenge!",
+            "event_heads": [
+              "Deepti K - 75501 50659",
+              "Rajamithra K - 95000 53401"
+            ],
+            "domain": "Escape Room",
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Escape Room Challenge",
+                "round_desc": "Complete the escape room within 30 minutes. Use fewer hints and manage time effectively for a competitive edge."
+              }
+            ],
+            "tagline": "Escape to victory with quick wit and teamwork!",
+            "team_size": "2 to 4 Members per Team"
+          },
+          {
+            "event_name": "Ohm My!",
+            "event_desc": "An electrifying event featuring three rounds of challenges designed to generate buzz and showcase creativity.",
+            "event_heads": [
+              "Anusha P D - 95660 70235",
+              "Smithaa M - 98848 62808"
+            ],
+            "domain": "Games and Creativity",
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Chained Together",
+                "round_desc": "Compete in a video game to reach a specified height within a time limit."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Adzap",
+                "round_desc": "Prepare and enact a creative advertisement for an electronic product."
+              },
+              {
+                "id": "round_3",
+                "round_name": "Treasure Hunt",
+                "round_desc": "Solve puzzles to uncover the final treasure in a treasure hunt."
+              }
+            ],
+            "tagline": "Generate buzz and show off your creativity!",
+            "team_size": "4 Members per Team"
+          }
+        ],
+        "non_technical": [
+          {
+            "event_name": "Tentukotta",
+            "event_desc": "A perfect gathering for movie lovers to showcase film knowledge and enjoy cinema-themed challenges.",
+            "event_heads": [
+              "Ananda Priyadharshan V - 75581 94432",
+              "Lokkshanaa S - 99409 46694"
+            ],
+            "domain": "Cinema and Movies",
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Guess the Movie from Famous Dialogues",
+                "round_desc": "Identify movies from famous lines."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Identify the Song from the BGM",
+                "round_desc": "Recognize songs from background music tracks."
+              },
+              {
+                "id": "round_3",
+                "round_name": "Panchatanthiram",
+                "round_desc": "Guess the movie from five clues."
+              }
+            ],
+            "tagline": "Immerse yourself in the world of cinema!",
+            "team_size": "Individual Participation"
+          },
+          {
+            "event_name": "Transfer Fiesta",
+            "event_desc": "The ultimate football showdown featuring a quiz, player auction, and FIFA PC game knockout tournament.",
+            "event_heads": [
+              "Siddhartha G - 86678 74822",
+              "Selva Kalusalingam R - 63747 03068"
+            ],
+            "domain": "Football",
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Quiz",
+                "round_desc": "A fast-paced quiz featuring 45 questions on football records, transfers, clubs, managers, players, and stadiums."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Player Auction",
+                "round_desc": "Build your dream football team by bidding on players categorized by FIFA 24 ratings. Assemble a squad within a budget."
+              },
+              {
+                "id": "round_3",
+                "round_name": "Knockout Tournament",
+                "round_desc": "Compete in a FIFA PC game knockout tournament. Top teams from the auction receive a direct bye to the semifinals."
+              }
+            ],
+            "tagline": "Strategize and compete in the ultimate football showdown!",
+            "team_size": "2 to 4 Members per Team"
+          }
+        ]
+      }
+    },
+
+
   "com": {
     "events": {
       "technical": [
@@ -524,7 +694,267 @@ const events_data = {
         }
       ]
     }
-  }
+  },
+
+  //CHEMICAL DEPARTMENT
+    "ce": {
+      "events": {
+        "technical": [
+          {
+            "event_name": "ESCAPE ROOM",
+            "event_desc": "Step into the world of excitement with the Chemical Engineering Escape Room Challenge! Unleash your inner detective and embark on an adventure where thrilling escape room puzzles meet fascinating chemical engineering concepts as you solve mind-bending challenges. Let's see how sharp and quick-witted you remain when the pressure is on, and the air crackles with palpable tension. Immerse yourself in an experience that's both educational and electrifying.",
+            "mode": "Offline",
+            "team_size": "2-4 Members",
+            "event_heads": [
+              "Karthikeyan S - 93846 62552",
+              "Anisha S - 73581 75123"
+            ],
+            "rounds": [
+              {
+                "id": "preliminary_round",
+                "round_name": "Preliminary Round",
+                "round_desc": "Earn initial points to gain valuable clues for the main game. Solve 4 challenges to gather clues and identify the culprit behind the industrial disaster. The 5th challenge will provide crucial hints to determine the cause of the accident. Teams have 3 lives for the entire game. Losing lives results in losing points gained."
+              }
+            ],
+            "tagline": "The bonds you break are the clues you need to escape"
+          },
+          {
+            "event_name": "FALL GUYS",
+            "event_desc": "An exciting and dynamic team-based game combining Jenga with Hangman. Teams pull color-coded Jenga blocks to earn points and engage in Hangman with chemical engineering words.",
+            "mode": "Offline",
+            "team_size": "2-3 Members",
+            "event_heads": [
+              "Sudarsan Ranganathan - 7010628651",
+              "Santosh Krishna R B - 7305732170"
+            ],
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Round 1",
+                "round_desc": "Teams pull Jenga blocks and play Hangman based on the color of the block to accumulate points. Special yellow blocks offer unique advantages."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Round 2",
+                "round_desc": "Teams create and present advertisements on chemical engineering topics. Judged on creativity, technical accuracy, clarity, and presentation."
+              }
+            ],
+            "tagline": "Bid Smart, Think ahead and Dominate the Industrial Market"
+          },
+          {
+            "event_name": "MARAGATHA NAANAYAM",
+            "event_desc": "A treasure hunt challenging problem-solving skills, creativity, and chemical engineering knowledge. Teams solve clues on a treasure map within the chemical department.",
+            "mode": "Offline",
+            "team_size": "2-3 Members",
+            "event_heads": [
+              "Meenakshi Lalitha S - 7305760728",
+              "Tarun Gopal S - 9940490398"
+            ],
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Round 1",
+                "round_desc": "Teams receive a treasure map with clues leading to various locations. Complete challenges within a time limit and return to the starting point."
+              }
+            ],
+            "tagline": "The hunt for treasure with a chemical twist"
+          },
+          {
+            "event_name": "QUIZZLER",
+            "event_desc": "An ultimate chemical engineering quiz combining equations with meme-tier chaos. Participants face various rounds including Potpourri, Charades, and multitasking challenges.",
+            "mode": "Offline",
+            "team_size": "2-3 Members",
+            "event_heads": [
+              "Smruthi - 7092230140",
+              "Dharunya - 9444840865"
+            ],
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Potpourri",
+                "round_desc": "Participants unscramble words and solve riddles related to chemical engineering."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Charades",
+                "round_desc": "Teams guess chemical engineering terms through Charades."
+              },
+              {
+                "id": "round_3",
+                "round_name": "So You Think You Can Multitask?",
+                "round_desc": "Teams keep balloons in the air while answering questions, with new balloons added periodically."
+              }
+            ],
+            "tagline": "Where equations collide with meme-tier chaos"
+          },
+          {
+            "event_name": "CANVAS OF IDEAS: NEW FRONTIERS IN CHEMICAL TECHNOLOGY",
+            "event_desc": "A poster presentation event showcasing innovation in chemical technology. Participants present their work and engage in Q&A sessions.",
+            "mode": "Offline",
+            "team_size": "1-3 Members",
+            "event_heads": [
+              "Jenisha Christy.C - 9488245672",
+              "Lhalith.C - 7904790188"
+            ],
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Poster Presentation",
+                "round_desc": "Teams present posters on specified chemical technology topics. Each presentation lasts 5-7 minutes followed by 3-4 minutes of questioning."
+              }
+            ],
+            "tagline": "Where chemical processes transform into works of innovation",
+            "thrust_areas": [
+              "Biochemical and Biotechnology",
+              "Catalysis and Reaction Engineering",
+              "Chemical Crystallography",
+              "Chemical Technology/ Process Design and Intensification",
+              "Electrochemical Process Technology/ Separation Technique",
+              "Energy Conservation/ Sustainable energy/ Green Technology",
+              "Fluid Mechanics/ Computational Fluid Dynamics",
+              "Food Technology and safety/ Pharmaceuticals and Nutraceuticals",
+              "Material Science and Technology/ Nanotechnology",
+              "Process integration & system Optimization",
+              "Process Control/ Process Safety",
+              "Waste Water Treatment/ Pollution control/ Waste Management",
+              "Advanced Nano-materials and Nanotechnology",
+              "Petrochemicals and refining",
+              "Renewable energy science and technology",
+              "New chemical approaches for circularity",
+              "Waste re-integration and conversion into high-value products with zero hazards"
+            ]
+          },
+          {
+            "event_name": "AUCTION AVENUE",
+            "event_desc": "A bidding showdown where teams use initial points to select chemical industries and compete in various question-based games and debates.",
+            "mode": "Offline",
+            "team_size": "3-4 Members",
+            "event_heads": [
+              "Balan P - 9042315859",
+              "Charan - 6382256680"
+            ],
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Initial Bidding and Question Games",
+                "round_desc": "Teams bid points to select industries and answer questions based on the chosen categories. The top two teams advance to the final round."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Debate-style Relay",
+                "round_desc": "Teams defend their chosen industries in a relay-style debate against the opposing team."
+              }
+            ],
+            "tagline": "Bid Smart, Think ahead and Dominate the Industrial Market"
+          },
+          {
+            "event_name": "PAPER FEST",
+            "event_desc": "A platform for presenting research papers on chemical engineering topics. Participants can present in person or online, showcasing innovative ideas and research.",
+            "mode": "Hybrid",
+            "team_size": "1-3 Members",
+            "event_heads": [
+              "Karthick - 9345657450",
+              "Akshaya M C - 9841681045"
+            ],
+            "thrust_areas": [
+              "Sustainable development",
+              "Environmental engineering / renewable and green technology",
+              "Material technology / nanotechnology / polymer science and technology",
+              "Energy technology/ energy engineering/ food technology",
+              "Biochemical/ biotechnology/ food technology/pharmaceutical",
+              "Fuels and petrochemicals/ fuel alternatives/ chemical crystallography",
+              "Separation processes & reaction engineering/ carbon capturing and utilization",
+              "Computational modelling and simulation / CFD",
+              "Process optimization / process safety",
+              "Pollution control/ wastewater treatment"
+            ],
+            "rounds": []
+          },
+          {
+            "event_name": "KAHOOT!",
+            "event_desc": "Welcome to Kahoot! Here you can compete with your friends online and win crazy money just by a click!! So, just like the new GOAT song, we say... Quiz it! Kahoot it! Crack it! Win it!",
+            "mode": "Offline",
+            "team_size": "1",
+            "event_heads": [
+              "S. Sanjnaa - 9789893371",
+              "S. Vaibavashri - 99620 26535"
+            ],
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Round 1",
+                "round_desc": "The participants are required to login to a game website with the pin we give."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Round 2",
+                "round_desc": "The game consists of three rounds increasing in difficulty level and the number of participants entering the subsequent rounds will be decided by the leaderboard which will be displayed after each question and also after each round."
+              },
+              {
+                "id": "round_3",
+                "round_name": "Round 3",
+                "round_desc": "The participants are required to assemble at the venue in-person though the game is online, as the rules of each round will be announced before each round."
+              },
+              {
+                "id": "round_4",
+                "round_name": "Attendance Check",
+                "round_desc": "Attendance will be taken to ensure that all participants are present during the game."
+              }
+            ],
+            "tagline": "Quiz it! Kahoot it! Crack it! Win it!"
+          }
+        ],
+        "non_technical": [
+          {
+            "event_name": "BLITZ CHESS",
+            "event_desc": "A fast-paced chess tournament with three rounds, culminating in knockout-style competition and a final round featuring Blitz or Armageddon.",
+            "mode": "Offline",
+            "team_size": "1 Member",
+            "event_heads": [
+              "Sujita S - 8428931450",
+              "Sudiksha - 8300278125"
+            ],
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Initial Rounds",
+                "round_desc": "Three rounds of chess with time constraints. Winners advance to knockout stages."
+              },
+              {
+                "id": "round_2",
+                "round_name": "Knockout Stages",
+                "round_desc": "Top players from initial rounds compete in knockout stages."
+              },
+              {
+                "id": "round_3",
+                "round_name": "Final Round",
+                "round_desc": "Blitz or Armageddon chess round to determine the final winner."
+              }
+            ],
+            "tagline": "Where every second counts!"
+          },
+          {
+            "event_name": "INDUSTRY CONNECT",
+            "event_desc": "A networking event where students and industry professionals interact through panel discussions, presentations, and networking sessions.",
+            "mode": "Offline",
+            "team_size": "Individual",
+            "event_heads": [
+              "Ravi Kumar - 9158881234",
+              "Nisha R - 9305648967"
+            ],
+            "rounds": [
+              {
+                "id": "round_1",
+                "round_name": "Networking Sessions",
+                "round_desc": "Participants engage in discussions with industry professionals, exploring career opportunities and industry insights."
+              }
+            ],
+            "tagline": "Where academia meets industry"
+          }
+        ]
+      }
+    }
+  
 }
 
 export default events_data;

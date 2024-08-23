@@ -1,4 +1,4 @@
-import { NextUIProvider } from "@nextui-org/react";
+import { NextUIProvider, Tooltip } from "@nextui-org/react";
 import Navelement from "../Navelement";
 import React, { useState, useEffect } from "react";
 import {
@@ -15,6 +15,8 @@ import Rounds from "./Rounds";
 import EventDesc from "./EventDesc";
 import { FaChevronDown } from "react-icons/fa";
 import Footer from "../Footer";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Event({ dept }) {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,7 +31,7 @@ function Event({ dept }) {
   const eventType = isTechnical ? "technical" : "non_technical";
   const events = selectedCategory
     ? events_data[dept]?.events?.[eventType]?.[selectedCategory] || []
-    : [];
+    : events_data[dept]?.events?.[eventType] || [];
 
   const handleEventChange = (eventIndex) => {
     setSelectedEvent(events[eventIndex]);
@@ -62,6 +64,9 @@ function Event({ dept }) {
   useEffect(() => {
     if (events.length > 0) {
       setSelectedEvent(events[0]);
+      if (events.length > 1) {
+        toast.info('Note: There are multiple events under this department, choose the events in the blue dropdown.');
+      }
     }
   }, [events]);
 
@@ -69,45 +74,48 @@ function Event({ dept }) {
     <NextUIProvider>
       <div className="w-screen h-screen flex flex-col items-center px-3 overflow-x-hidden bg-cover bg-center bg-starry-sky pb-10">
         <Navelement menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <div className="px-[130px] flex flex-col space-y-8 mt-4 bg-slate-950 opacity-90 p-5">
+        <div className="px-[130px] p-5 flex flex-col space-y-8 mt-4 bg-slate-950 opacity-90 rounded-xl">
           {/* Conditional Category Selection for CSE */}
           {dept === "cse" && !selectedCategory && (
-            <div className="m-5 p-5  flex justify-center items-center gap-2 md:flex-row flex-col text-white text-2xl rounded-xl">
-              <div
-                className="hover:scale-110 transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg"
-                onClick={() => handleCategorySelection("SSN")}
-              >
-                SSN CSE Department
-              </div>
-
-              <p className="font-libre font-extrabold text-orange-600">OR</p>
-
-              <div
-                className="hover:scale-110 transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg"
-                onClick={() => handleCategorySelection("SNUC")}
-              >
-                SNUC School of Computing
-              </div>
+            <div className="m-5 p-5  flex justify-between items-center gap-2 md:flex-row flex-col text-white text-2xl rounded-xl">
+              <Tooltip content="Select a category to view events" placement="top">
+                <div
+                  className="hover:scale-110 hover:bg-white hover:text-black transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg"
+                  onClick={() => handleCategorySelection("SSN")}
+                >
+                  SSN CSE Department
+                </div>
+              </Tooltip>
+              <Tooltip content="Select a category to view events" placement="top">
+                <div
+                  className="hover:scale-110 hover:bg-white hover:text-black transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg"
+                  onClick={() => handleCategorySelection("SNUC")}
+                >
+                  SNUC School of Computing
+                </div>
+              </Tooltip>
             </div>
           )}
 
-          {/* Switch Section */}
+          {/* For other departments, directly load the events */}
           {(dept !== "cse" || selectedCategory) && (
             <div className="flex w-full items-center justify-end px-[80px] space-x-4">
               <span className="text-white text-lg">
-                {isTechnical ? "Technical" : "Non Technical"}
+                Looking at: {isTechnical ? " Tech Events" : " Non Tech Events"}
               </span>
-              <label className="relative inline-flex items-center cursor-pointer">
-                <input
-                  type="checkbox"
-                  checked={!isTechnical}
-                  onChange={() => setIsTechnical(!isTechnical)}
-                  className="sr-only peer"
-                />
-                <div className="w-12 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer dark:bg-gray-600 dark:peer-checked:bg-blue-600 relative">
-                  <div className="absolute left-0 top-0 w-6 h-6 bg-white rounded-full shadow-md peer-checked:translate-x-full transition-transform"></div>
-                </div>
-              </label>
+              <Tooltip content="Toggle between technical and non-technical events" placement="top">
+                <label className="relative inline-flex items-center cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={!isTechnical}
+                    onChange={() => setIsTechnical(!isTechnical)}
+                    className="sr-only peer"
+                  />
+                  <div className="w-16 h-8 bg-gray-200 dark:bg-gray-600 rounded-full peer-checked:bg-blue-600 transition-colors duration-300 flex peer-checked:justify-end items-center">
+                    <div className="mx-1 w-6 h-6 bg-white rounded-full shadow-md transform transition-transform duration-300"></div>
+                  </div>
+                </label>
+              </Tooltip>
             </div>
           )}
 
@@ -115,28 +123,30 @@ function Event({ dept }) {
           {(dept !== "cse" || selectedCategory) && (
             <div className="flex flex-col px-10">
               <div className="flex flex-col space-y-4">
-                <Dropdown>
-                  <DropdownTrigger>
-                    <Button
-                      auto
-                      icon={<FaChevronDown />}
-                      className="text-white bg-blue-600 hover:bg-blue-700"
-                    >
-                      {selectedEvent ? selectedEvent.event_name : "Select Event"}
-                    </Button>
-                  </DropdownTrigger>
-                  <DropdownMenu>
-                    {events.map((event, index) => (
-                      <DropdownItem
-                        key={index}
-                        onClick={() => handleEventChange(index)}
-                        className="text-blue-600 hover:bg-blue-100"
+                <Tooltip content="Select an event from the dropdown" placement="top">
+                  <Dropdown>
+                    <DropdownTrigger>
+                      <Button
+                        auto
+                        icon={<FaChevronDown />}
+                        className="text-white bg-blue-600 hover:bg-blue-700"
                       >
-                        {event.event_name}
-                      </DropdownItem>
-                    ))}
-                  </DropdownMenu>
-                </Dropdown>
+                        {selectedEvent ? selectedEvent.event_name : "Select Event"}
+                      </Button>
+                    </DropdownTrigger>
+                    <DropdownMenu>
+                      {events.map((event, index) => (
+                        <DropdownItem
+                          key={index}
+                          onClick={() => handleEventChange(index)}
+                          className="text-blue-600 hover:bg-blue-100"
+                        >
+                          {event.event_name}
+                        </DropdownItem>
+                      ))}
+                    </DropdownMenu>
+                  </Dropdown>
+                </Tooltip>
                 {selectedEvent && (
                   <Card className="md:w-[70vw] w-[90vw] m-4">
                     <CardBody
@@ -155,8 +165,8 @@ function Event({ dept }) {
                       </div>
                       <div className="w-full flex flex-col gap-10 text-white">
                         <EventDesc
-                          winner={selectedEvent["winner_prize"]}
-                          runner={selectedEvent["runner_up_prize"]}
+                          winner={selectedEvent["winner_prize"] || "TBD"}
+                          runner={selectedEvent["runner_up_prize"] || "TBD"}
                           date={selectedEvent["date"]}
                           location={selectedEvent["location"]}
                           participants={selectedEvent["participants"]}
@@ -165,6 +175,21 @@ function Event({ dept }) {
                         <p className="text-center text-xl font-dosis mb-4">
                           {selectedEvent.event_desc}
                         </p>
+                        {selectedEvent.domain && (
+                          <p className="text-center text-lg font-dosis mb-4">
+                            Domain: {selectedEvent.domain}
+                          </p>
+                        )}
+                        {selectedEvent.team_size && (
+                          <p className="text-center text-lg font-dosis mb-1">
+                            Team Size: {selectedEvent.team_size}
+                          </p>
+                        )}
+                        {selectedEvent.mode && (
+                          <p className="text-center text-lg font-dosis mb-1">
+                            Mode of Event: {selectedEvent.mode}
+                          </p>
+                        )}
                         <div className="flex flex-col w-full h-full justify-center items-center gap-4">
                           {selectedEvent.rounds.map((round, roundIndex) => (
                             <Rounds
@@ -202,6 +227,7 @@ function Event({ dept }) {
             </div>
           )}
         </div>
+        <ToastContainer />
       </div>
       <Footer />
     </NextUIProvider>
