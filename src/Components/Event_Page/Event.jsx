@@ -198,9 +198,13 @@ function Event({ dept }) {
                               round_desc={round.round_desc}
                             />
                           ))}
-                          <p className="text-md p-5 text-center font-raleway">
-                            {selectedEvent.tagline}
-                          </p>
+                          <div>
+                            {selectedEvent.tagline.split('\n').map((line, index) => (
+                              <p key={index} className="text-left">
+                                {line}
+                              </p>
+                            ))}
+                          </div>
                           {selectedEvent.event_heads && (
                             <div className="w-full flex flex-col items-center gap-4">
                               <h3 className="text-2xl text-white font-bold mb-2 font-dosis">
