@@ -51,7 +51,7 @@ const data_contact = [
       {
         "department": "Civil Engineering",
         "dept": "CIVIL",
-        "head_name": "Vijay Pandian",
+        "head_name": "Vijay",
         "ph_no": "+91 95856 66634",
         "insta": "@ssn_ace"
       }

@@ -15,7 +15,7 @@ function Sponsors() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-gray-900 flex flex-col items-center py-8 relative">
+    <div className="min-h-screen bg-gray-900 flex flex-col items-center relative">
       <Navelement menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="relative z-10 p-4 md:p-8 max-w-screen-xl">
         <h2 className="text-3xl font-bold text-white mb-8 text-center font-dosis">OUR SPONSORS❤️</h2>

@@ -36,8 +36,13 @@ module.exports = {
         'scroll-right': 'scrollRight 30s linear infinite',
         'flip': 'flip 0.6s ease-in-out',
         'growShrink': 'growShrink 2s ease-in-out infinite',
+        'wiggle': 'wiggle 1s ease-in-out infinite',
       },
       keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-2deg)' },
+          '50%': { transform: 'rotate(2deg)' },
+        },
         scrollLeft: {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)' },

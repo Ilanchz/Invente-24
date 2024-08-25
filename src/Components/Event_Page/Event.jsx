@@ -74,7 +74,7 @@ function Event({ dept }) {
     <NextUIProvider>
       <div className="w-screen h-screen flex flex-col items-center px-3 overflow-x-hidden bg-cover bg-center bg-starry-sky pb-10">
         <Navelement menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <div className="px-[130px] p-5 flex flex-col space-y-8 mt-4 bg-slate-950 opacity-90 rounded-xl">
+        <div className="px-[130px] p-5 flex flex-col space-y-8 mt-4 opacity-90 rounded-xl">
           {/* Conditional Category Selection for CSE */}
           {dept === "cse" && !selectedCategory && (
             <div className="m-5 p-5  flex justify-between items-center gap-2 md:flex-row flex-col text-white text-2xl rounded-xl">
