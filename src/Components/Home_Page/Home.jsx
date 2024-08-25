@@ -54,7 +54,7 @@ function Home() {
             <div id="home-text" className='flex flex-col h-full items-center justify-center w-full lg:w-1/3'>
               <span className="font-dosis font-extralight text-xl md:text-2xl block text-center md:text-left">OUR THEME THIS YEAR</span>
               <span className="font-libre font-bold text-4xl md:text-6xl block mt-2 text-center md:text-left text-green-200">Eco-volution</span>
-              <pre className="font-dosis font-normal text-base md:text-lg whitespace-pre-line mt-1 text-center md:text-left">Evolving Technology for a Sustainable Future</pre>
+              <pre className="font-dosis font-normal text-base md:text-lg whitespace-pre-line mt-4 text-center md:text-left">Evolving Technology for a Sustainable Future</pre>
               <pre className="font-dosis font-extrabold md:text-xl whitespace-pre-line mt-4 text-center md:text-left">
                 <span className='text-red-400'>27th</span> & <span className='text-red-400'>28th</span> September 2024
               </pre>
@@ -81,9 +81,8 @@ we look forward to seeing you here soon!!`}
             <div className='hidden sm:w-1/3 sm:h-full justify-center items-center lg:flex'>
               <img src="/leaf.svg" alt="Technology animation" className="w-2/3 rounded-full bg-cover" />
             </div>
-            
           </div>
-
+          
         </div>
 
         {/* Overlay Menu for Small Screens */}

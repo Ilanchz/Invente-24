@@ -37,14 +37,13 @@ function Navelement({ menuOpen, setMenuOpen }) {
       <img src="/snu-logo.svg" alt="SNU" className="w-48 h-12 md:h-16" />
       
       <button
-        className="md:hidden text-white text-3xl"
+        className="xl:hidden text-white text-3xl"
         onClick={() => setMenuOpen(!menuOpen)}
       >
         {menuOpen ? '✖' : '☰'}
       </button>
       
-      
-      <nav className="hidden md:flex items-center space-x-6 md:space-x-12 py-2 font-dosis text-sm md:text-md">
+      <nav className="hidden xl:flex items-center space-x-6 md:space-x-12 py-2 font-dosis text-sm md:text-md">
         {['/', '/#events', '/about', '/hackathonAndworkshop', '/schedule', '/sponsors', '/hospitality', '/gallery'].map((link) => (
           <Link
             key={link}

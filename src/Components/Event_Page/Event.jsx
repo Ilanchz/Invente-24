@@ -25,8 +25,6 @@ function Event({ dept }) {
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
 
-  const height = `calc(100vh - 350px)`;
-
   // Determine the type of event to display
   const eventType = isTechnical ? "technical" : "non_technical";
   const events = selectedCategory
@@ -72,15 +70,15 @@ function Event({ dept }) {
 
   return (
     <NextUIProvider>
-      <div className="w-screen h-screen flex flex-col items-center px-3 overflow-x-hidden bg-cover bg-center bg-starry-sky pb-10">
+      <div className="w-screen h-full flex flex-col items-center px-3 overflow-auto bg-cover bg-center bg-starry-sky pb-10">
         <Navelement menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
-        <div className="px-[130px] p-5 flex flex-col space-y-8 mt-4 opacity-90 rounded-xl">
+        <div className="px-5 flex flex-col space-y-8 mt-4 opacity-90 rounded-xl max-w-screen-lg">
           {/* Conditional Category Selection for CSE */}
           {dept === "cse" && !selectedCategory && (
-            <div className="m-5 p-5  flex justify-between items-center gap-2 md:flex-row flex-col text-white text-2xl rounded-xl">
+            <div className="m-5 p-5 flex justify-between items-center gap-2 md:flex-row flex-col text-white text-2xl rounded-xl">
               <Tooltip content="Select a category to view events" placement="top">
                 <div
-                  className="hover:scale-110 hover:bg-white hover:text-black transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg"
+                  className="w-64 hover:scale-110 hover:bg-white hover:text-black transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg cursor-pointer"
                   onClick={() => handleCategorySelection("SSN")}
                 >
                   SSN CSE Department
@@ -88,7 +86,7 @@ function Event({ dept }) {
               </Tooltip>
               <Tooltip content="Select a category to view events" placement="top">
                 <div
-                  className="hover:scale-110 hover:bg-white hover:text-black transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg"
+                  className="w-64 hover:scale-110 hover:bg-white hover:text-black transition-all duration-300 p-5 m-5 border-blue-400 border-1 bg-gray-900 md:w-1/3 h-44 text-3xl text-center text-raleway text-bold font-dosis flex items-center justify-center rounded-lg cursor-pointer"
                   onClick={() => handleCategorySelection("SNUC")}
                 >
                   SNUC School of Computing
@@ -99,7 +97,7 @@ function Event({ dept }) {
 
           {/* For other departments, directly load the events */}
           {(dept !== "cse" || selectedCategory) && (
-            <div className="flex w-full items-center justify-end px-[80px] space-x-4">
+            <div className="flex w-full items-center justify-end px-4 space-x-4">
               <span className="text-white text-lg">
                 Looking at: {isTechnical ? " Tech Events" : " Non Tech Events"}
               </span>
@@ -121,17 +119,18 @@ function Event({ dept }) {
 
           {/* Dropdown Section */}
           {(dept !== "cse" || selectedCategory) && (
-            <div className="flex flex-col px-10">
-              <div className="flex flex-col space-y-4">
+            <div className="flex flex-col justify-center">
+              <div className="flex flex-col space-y-4 justify-center items-center">
                 <Tooltip content="Select an event from the dropdown" placement="top">
                   <Dropdown>
                     <DropdownTrigger>
                       <Button
                         auto
                         icon={<FaChevronDown />}
-                        className="text-white bg-blue-600 hover:bg-blue-700"
+                        className="w-3/4 text-white bg-blue-600 hover:bg-blue-700 font-bold font-raleway uppercase flex items-center justify-between"
                       >
                         {selectedEvent ? selectedEvent.event_name : "Select Event"}
+                        ?<div>▼</div>
                       </Button>
                     </DropdownTrigger>
                     <DropdownMenu>
@@ -139,7 +138,7 @@ function Event({ dept }) {
                         <DropdownItem
                           key={index}
                           onClick={() => handleEventChange(index)}
-                          className="text-blue-600 hover:bg-blue-100"
+                          className="text-blue-600 hover:bg-orange-100 font-raleway"
                         >
                           {event.event_name}
                         </DropdownItem>
