@@ -1,0 +1,40 @@
+
+@keyframes backgroundTransition {
+    0% {
+      background-image: url('./background/1.png');
+    }
+    10% {
+        background-image: url('./background/2.png');
+    }
+    20% {
+        background-image: url('./background/3.png');
+    }
+    30% {
+        background-image: url('./background/4.png');
+    }
+    40% {
+        background-image: url('./background/5.png');
+    }
+    50% {
+        background-image: url('./background/6.png');
+    }
+    60% {
+        background-image: url('./background/7.png');
+    }
+    70% {
+        background-image: url('./background/8.png');
+    }
+    80% {
+        background-image: url('./background/9.png');
+    }
+    100% {
+        background-image: url('./background/10.png');
+    }
+  }
+  
+  .background-transition {
+    animation: backgroundTransition 10s ease-in-out infinite ;
+    background-size: cover;
+    background-position: center;
+  }
+  

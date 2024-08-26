@@ -4,6 +4,7 @@ import TimelineSection from '../TimelineSection';
 import CountdownTimer from '../CountdownTimer';
 import Navelement from '../Navelement';
 import { ToastContainer, toast } from 'react-toastify';
+import './home.css'; /*https://www.magicpattern.design/tools/starry-sky-generator*/
 
 function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -43,8 +44,8 @@ function Home() {
 
   return (
     <div className='w-screen flex flex-col items-center p-3 overflow-x-hidden bg-cover bg-center bg-starry-sky'>
-      <div className="relative w-screen sm:h-large flex flex-col items-center justify-center overflow-hidden rounded-xl">
-        <div className="w-full sm:h-full h-screen bg-deep-charcoal-gradient flex flex-col backdrop-blur-3xl" id="home">
+      <div className="relative w-screen sm:h-large flex flex-col items-center justify-center overflow-hidden rounded-xl px-2">
+        <div className="w-full sm:h-full h-screen bg-deep-charcoal-gradient background-transition flex flex-col backdrop-blur-3xl rounded-extra-large overflow-x-hidden" id="home">
           <Navelement menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
           <div id="home-content" className="flex justify-center items-center mb-10 pb-10 md:items-start px-4 md:px-16 mt-6 md:mt-12 text-white font-bold flex-col lg:flex-row">
@@ -70,10 +71,6 @@ nationwide.`}
                 Get Passes
               </button>
 
-              <pre className="font-libre font-extralight text-base md:text-lg whitespace-pre-line mt-4 text-center">
-                {`Grab your registrations now,
-we look forward to seeing you here soon!!`}
-              </pre>
             </div>
             <div className='lg:flex hidden sm:w-1/3 sm:h-full items-center justify-center -z-10 hover:animate-pulse'>
               <img src="/invente24_orange.png" alt="Invente Logo" />

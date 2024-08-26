@@ -129,8 +129,8 @@ function Event({ dept }) {
                         icon={<FaChevronDown />}
                         className="w-3/4 text-white bg-blue-600 hover:bg-blue-700 font-bold font-raleway uppercase flex items-center justify-between"
                       >
-                        {selectedEvent ? selectedEvent.event_name : "Select Event"}
-                        ?<div>▼</div>
+                        {selectedEvent ? selectedEvent.event_name:"Select Event"}
+                        <div>▼</div>
                       </Button>
                     </DropdownTrigger>
                     <DropdownMenu>
@@ -138,7 +138,7 @@ function Event({ dept }) {
                         <DropdownItem
                           key={index}
                           onClick={() => handleEventChange(index)}
-                          className="text-blue-600 hover:bg-orange-100 font-raleway"
+                          className="w-3/4 text-blue-600 hover:bg-orange-100 font-raleway"
                         >
                           {event.event_name}
                         </DropdownItem>
@@ -162,20 +162,21 @@ function Event({ dept }) {
                       <div className="text-white italic font-raleway p-5 text-xl">
                         HOSTED BY THE DEPARTMENT OF {dept.toUpperCase()}
                       </div>
-                      <div className="w-full flex flex-col gap-10 text-white">
+                      <div className="w-full flex flex-col gap-5 text-white">
                         <EventDesc
-                          winner={selectedEvent["winner_prize"] || "TBD"}
-                          runner={selectedEvent["runner_up_prize"] || "TBD"}
+                          first={selectedEvent["first"] || "TBD"}
+                          second={selectedEvent["second"] || "TBD"}
+                          third={selectedEvent["third"] || "TBD"}
                           date={selectedEvent["date"]}
                           location={selectedEvent["location"]}
                           participants={selectedEvent["participants"]}
                           dept={dept}
                         />
-                        <p className="text-center text-xl font-dosis mb-4">
+                        <p className="text-center text-xl font-dosis">
                           {selectedEvent.event_desc}
                         </p>
                         {selectedEvent.domain && (
-                          <p className="text-center text-lg font-dosis mb-4">
+                          <p className="text-center text-lg font-dosis">
                             Domain: {selectedEvent.domain}
                           </p>
                         )}

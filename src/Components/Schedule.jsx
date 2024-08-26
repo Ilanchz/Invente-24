@@ -4,8 +4,8 @@ import Footer from './Footer';
 
 // Sample data for demonstration purposes
 const scheduleData = {
-    IT: '/images/it.jpg',
     CSE: '/images/cse_schedule.png',
+    IT: '/images/it_schedule.png',
     ECE: '/images/ece_schedule.png',
     EEE: '/images/eee_schedule.png',
     ME: '/images/me_schedule.png',

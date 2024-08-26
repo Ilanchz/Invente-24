@@ -12,6 +12,8 @@ function Link({ label, href = "#" }) {
 
 const HOSPITALITY = {
   Instructions: [
+
+    /* Edit this afterwards
     {
       content: [
         <>
@@ -22,6 +24,7 @@ const HOSPITALITY = {
     {
       content: [<>Click here to view bus routes: {<Link label={"link"} />}</>],
     },
+    */
     {
       title: "Registration:",
       content: [
@@ -186,16 +189,14 @@ const HOSPITALITY = {
       title: "",
       content: [
         <div className="flex flex-col items-center justify-center w-full">
-          <div>Reach out to us if you have any further queries...</div>
+          <div>Reach out to us if you have any further queries</div>
           <div className="space-y-4 mt-8">
-            <div>
-              <div className="font-bold">Name</div>
-              <div>Phone</div>
+
+            <div className="text-red-500 italic">
+              To be Declared
             </div>
-            <div>
-              <div className="font-bold">Name</div>
-              <div>Phone</div>
-            </div>
+
+
           </div>
         </div>,
       ],

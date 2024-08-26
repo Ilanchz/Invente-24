@@ -20,12 +20,13 @@ const events_data = {
                     "round_desc": "This round has the teams trying to guess the code from executable files. Teams will give their input and view the output, then code the logic by analyzing input and output, which will be verified manually."
                 }
             ],
-            "winner_prize": "₹40,000",
-            "runner_up_prize": "₹20,000",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
             "tagline": "Expect the unexpected. Let the chaos and fun begin!\\(°o°)/"
           },
           {
-            "event_name": "Hex Marks the Spot",
+            "event_name": "Hacker's Asylum",
             "event_desc": "\"Hex Marks The Spot\" is a cybersecurity-oriented treasure hunt and capture-the-flag event that tests the codebreaking and cracking skills of participants in a thrilling treasure hunt taking them across campus in teams of 2-3.",
             "event_heads": ["Aathish Sivasubrahmanian", "Parthiban M"],
             "domain": "Cybersecurity",
@@ -41,8 +42,9 @@ const events_data = {
                     "round_desc": "Selected teams start the treasure hunt with an initial clue. Each solved clue leads to the next location. The penultimate clue reveals the location of the Treasure, where the final challenge awaits!"
                 }
             ],
-            "winner_prize": "₹40,000",
-            "runner_up_prize": "₹20,000",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
             "tagline": "Performance will be evaluated based on challenge completion, time taken, and creative solutions."
           },
           {
@@ -62,8 +64,9 @@ const events_data = {
                     "round_desc": "Teams design a robust, scalable architecture for their application, focusing on technical expertise. The event concludes with a pitch to a panel of judges, followed by a Q&A session."
                 }
             ],
-            "winner_prize": "₹40,000",
-            "runner_up_prize": "₹20,000",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
             "tagline": "Teams will be judged based on design innovation, usability, technical robustness, and presentation skills."
           },
           {
@@ -88,8 +91,9 @@ const events_data = {
                     "round_desc": "Finalists will present their papers at Invente 2024 at SSN College of Engineering. Each presentation is allotted 10 minutes, followed by 3 minutes for Q&A."
                 }
             ],
-            "winner_prize": "₹40,000",
-            "runner_up_prize": "₹20,000",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
             "tagline": "Themes:\nTheme1: Current Progress in Engineering Sciences\nTheme2 :Current Progress in Biochemical, Biomedical, and Physical Sciences\nTheme3 :Current Progress in Interdisciplinary Research"
           },
           {
@@ -109,8 +113,9 @@ const events_data = {
                     "round_desc": "1. Time Limit: 25 minutes.\n2. Preview: The webpage will be shown again for 60 seconds before this round begins. Focus on the design details!\n3. Blindfold Mode: Continue with your screen off, relying on your memory and CSS skills.\n4. Focus on CSS: Apply styles such as colors, fonts, margins, and positioning to replicate the design.\n5. Lifelines:\n- Peek (1x): Turn on your screen for 5 seconds to review your work.\n- Style Tip (1x): Request guidance on CSS properties or a specific design element.\n6. Scoring: Points will be awarded for how closely the styling matches the original site, with bonus points for creative solutions under pressure."
                 }
             ],
-            "winner_prize": "₹40,000",
-            "runner_up_prize": "₹20,000",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
             "tagline":"The closer your final product is to the original site, the more likely you are to advance!"
           },
           {
@@ -130,8 +135,9 @@ const events_data = {
                     "round_desc": "Apply and fine-tune uncommon machine learning algorithms to solve real-world problems. Teams will be assigned a specific ML algorithm and they have to come up with a problem statement and solve it using the given algorithm. They must fine-tune and apply the algorithm to achieve the best solution. Teams will be provided with internet access and they can use platforms like Colab & Kaggle."
                 }
             ],
-            "winner_prize": "₹40,000",
-            "runner_up_prize": "₹20,000",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
             "tagline": "3 participants per team.Teams are evaluated based on their ability to solve the challenges and apply their ML knowledge in creative and effective ways."
           },
           {
@@ -152,8 +158,9 @@ const events_data = {
               }
             ],
             "tagline": "Rules:\n1. Each team must consist of 1-2 participants.\n2. No changes to team members are allowed after the competition begins.\n3. All work submitted must be original and created within the competition timeframe.\n4. Use of pre-built templates or fully developed applications will result in immediate disqualification.\n5. Participants are allowed to use any development tools, libraries, or frameworks they are familiar with.\n6. Judges will evaluate the applications based on the criteria outlined for each round.\n7. Their decision will be the final and binding.",            
-            "winner_prize": "₹40,000",
-            "runner_up_prize": "₹20,000"
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
           },
           {
             "event_name": "Data Whiz",
@@ -173,8 +180,9 @@ const events_data = {
                 }
             ],
             "tagline": "",
-            "winner_prize": "₹40,000",
-            "runner_up_prize": "₹20,000"
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
           },
         ],
         "SNUC": []
@@ -204,8 +212,9 @@ const events_data = {
                 }
             ],
             "tagline": "Join us for a challenge where creativity meets strategy, and quick thinking is your best asset.Get ready to turn flops into winners and deliver pitches that pack a punch—all while beating the clock!",
-            "winner_prize": "₹40,000",
-            "runner_up_prize": "₹20,000"
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
         },
         {
             "event_name": "Ready Player One",
@@ -226,8 +235,9 @@ const events_data = {
                 }
             ],
             "tagline": "",
-            "winner_prize": "₹40,000",
-            "runner_up_prize": "₹20,000"
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
         }     
       ],
         "SNUC": []
@@ -346,8 +356,9 @@ const events_data = {
             {"position": "2nd Prize", "amount": 3000},
             {"position": "3rd Prize", "amount": 1000}
           ],
-          "winner_prize": "₹4000",
-          "runner_up_prize": "₹3000"
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD",
         },
         {
           "event_name": "Quest for Clarity",
@@ -374,8 +385,9 @@ const events_data = {
             {"position": "2nd Prize", "amount": 2000},
             {"position": "3rd Prize", "amount": 1000}
           ],
-          "winner_prize": "₹3000",
-          "runner_up_prize": "₹2000"
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD",
         },
         {
           "event_name": "Scrubs of Secrecy",
@@ -402,8 +414,9 @@ const events_data = {
             {"position": "2nd Prize", "amount": 2000},
             {"position": "3rd Prize", "amount": 0}
           ],
-          "winner_prize": "₹4000",
-          "runner_up_prize": "₹2000"
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD",
         },
         {
           "event_name": "Ink Vortex",
@@ -429,8 +442,9 @@ const events_data = {
             {"position": "2nd Prize", "amount": 2000},
             {"position": "3rd Prize", "amount": 1000}
           ],
-          "winner_prize": "₹3000",
-          "runner_up_prize": "₹2000"
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD",
         },
         {
           "event_name": "Innovente Healthathon",
@@ -461,8 +475,9 @@ const events_data = {
             {"position": "2nd Prize", "amount": 2000},
             {"position": "3rd Prize", "amount": 1000}
           ],
-          "winner_prize": "₹3500",
-          "runner_up_prize": "₹2000"
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD",
         },
         {
           "event_name": "Watt's Up 2.0",
@@ -493,8 +508,9 @@ const events_data = {
             {"position": "2nd Prize", "amount": 2000},
             {"position": "3rd Prize", "amount": 1000}
           ],
-          "winner_prize": "₹3000",
-          "runner_up_prize": "₹2000"
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD",
         },
         {
           "event_name": "Biobazaar",
@@ -525,8 +541,9 @@ const events_data = {
             {"position": "2nd Prize", "amount": 2000},
             {"position": "3rd Prize", "amount": 1000}
           ],
-          "winner_prize": "₹3000",
-          "runner_up_prize": "₹2000"
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD",
         },
         {
           "event_name": "Tri-tech Tournament",
@@ -548,8 +565,9 @@ const events_data = {
             }
           ],
           "tagline": "Embrace the tech challenge and stand out with your tech expertise!",
-          "winner_prize": "₹5000",
-          "runner_up_prize": "₹3000",
+          "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
           "prizes": [
             {"position": "1st Prize", "amount": 5000},
             {"position": "2nd Prize", "amount": 3000},
@@ -1180,8 +1198,9 @@ const events_data = {
                 "round_desc": "Eight participants compete in Round 3, which will have quarterfinals followed by semifinals and the final match. The final round will either be Armageddon or Blitz. Losers of the semifinals will have a Third Place match. The leaderboard prepared after Round 2 will favor those with higher leftover time."
               }
             ],
-            "winner_prize": "₹40,000",
-            "runner_up_prize": "₹20,000",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
             "tagline": "Outsmart, outlast, and checkmate your way to victory!",
             "mode": "Offline",
             "team_size": 1
@@ -1203,8 +1222,9 @@ const events_data = {
                 "round_desc": "Mode: Clash Squad Room Match. Teams will compete in a series of high-stakes 4v4 face-offs. Only Gloo walls allowed; no other grenades or smoke. Roof and building usage is not allowed. Gun upgrades are not allowed; specific guns will be assigned per round. No character skills, but pet skills are allowed for one round. Pranks allowed. Room ID will be given 5-10 minutes before the match starts. Teams must join within 5 minutes or be disqualified."
               }
             ],
-            "winner_prize": "₹50,000",
-            "runner_up_prize": "₹25,000",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD",
             "tagline": "Gear up and dominate the battlefield!",
             "mode": "Online",
             "team_size": 4

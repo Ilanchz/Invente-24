@@ -3,11 +3,11 @@ import Navelement from './Navelement';
 import Footer from './Footer';
 
 const sponsors = [
-  { name: 'Sponsor One', logo: '', url: 'https://www.sponsor1.com' },
-  { name: 'Sponsor Two', logo: '', url: 'https://www.sponsor2.com' },
-  { name: 'Sponsor Three', logo: '', url: 'https://www.sponsor3.com' },
-  { name: 'Sponsor Four', logo: '', url: 'https://www.sponsor4.com' },
-  { name: 'Sponsor Five', logo: '', url: 'https://www.sponsor5.com' },
+  { name: 'Sponsor One', logo: './coming_soon.png', url: "#" },
+  { name: 'Sponsor Two', logo: './coming_soon.png', url: '#' },
+  { name: 'Sponsor Three', logo: './coming_soon.png', url: '#' },
+  { name: 'Sponsor Four', logo: './coming_soon.png', url: '#' },
+  { name: 'Sponsor Five', logo: './coming_soon.png', url: '#' },
   // Add more sponsors as needed
 ];
 
@@ -31,7 +31,7 @@ function Sponsors() {
               <img
                 src={sponsor.logo}
                 alt={sponsor.name}
-                className="max-h-24 md:max-h-32 object-contain transition-opacity duration-300 ease-in-out hover:opacity-80"
+                className="max-h-24 md:max-h-32 object-contain transition-opacity duration-300 ease-in-out hover:opacity-80 rounded-lg"
               />
             </a>
           ))}
