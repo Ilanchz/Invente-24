@@ -6,7 +6,7 @@ const CountdownTimer = () => {
   const [showConfetti, setShowConfetti] = useState(false);
   const [confettiBurst, setConfettiBurst] = useState(false);
 
-  const targetDate = new Date('2024-07-27T00:00:00'); // Adjust the timer to September 27 00:00:00
+  const targetDate = new Date('2024-09-27T00:00:00'); // Adjust the timer to September 27 00:00:00
 
   useEffect(() => {
     if (showConfetti && !confettiBurst) {
