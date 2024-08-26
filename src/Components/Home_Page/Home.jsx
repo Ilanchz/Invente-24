@@ -5,6 +5,7 @@ import CountdownTimer from '../CountdownTimer';
 import Navelement from '../Navelement';
 import { ToastContainer, toast } from 'react-toastify';
 import './home.css'; /*https://www.magicpattern.design/tools/starry-sky-generator*/
+import MovingGalleries from './MovingGalleries'
 
 function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -97,9 +98,9 @@ nationwide.`}
         {/* <img src="SDG/SDG-Title.webp" alt="title" className='w-64 rounded-full'/> */}
       </section>
 
-      {/* <section>
+      <section>
         <MovingGalleries />
-      </section> */}
+      </section>
 
       {/* New Sections Below */}
       <section>
