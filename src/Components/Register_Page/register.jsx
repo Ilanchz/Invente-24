@@ -21,41 +21,41 @@ function Register() {
                 setMenuOpen={setMenuOpen} 
             />
 
-            <div className="font-libre flex flex-col md:flex-row overflow-hidden justify-center items-center h-screen bg-gray-800 bg-opacity-30 m-4 md:m-10 rounded-xl">
+            <div className="font-libre flex flex-col overflow-scroll scrollbar-hide md:flex-row justify-center items-center h-screen bg-gray-800 bg-opacity-30 p-4 md:p-10 rounded-xl">
                 {/* Left Section */}
                 <div className="w-full md:w-1/2 text-center md:text-left md:pr-8 mb-8 md:mb-40">
                     <div className="p-4 md:p-8 rounded-lg">
-                        <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-pink-400 to-red-600">
+                        <h1 className="text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-pink-400 to-red-600">
                             REGISTER NOW!
                         </h1>
-                        <p className="mt-4 text-gray-100 text-lg md:text-xl">
+                        <p className="mt-4 text-gray-100 text-base md:text-lg">
                             Make sure you have read the rules and regulations before you pay for the passes.
                         </p>
                         
-                        <div className="mt-8">
-                            <p className="text-2xl md:text-4xl text-gray-300">
-                                1.
-                                <button className="ml-4 md:ml-10 w-3/4 md:w-1/2 bg-gradient-to-r text-lg md:text-xl from-cyan-600 to-teal-600 hover:bg-gradient-to-l from-cyan-300 to-teal-400 font-bold py-2 px-4 rounded-lg mb-4">
-                                    PAY NOW
-                                </button>
-                            </p>
-                            
-                            <p className="text-2xl md:text-4xl text-gray-300">
-                                2.
+                        <div className="mt-6 md:mt-8">
+                            {[
+                                { text: 'Pay Now', link: '' },
+                                { text: 'Technical Passes', link: 'https://docs.google.com/forms/d/e/1FAIpQLScHZ7G6EKFZmyGvDUtvwTEtUgzGBs5e5EViK90xdv1jqLmg7A/viewform' },
+                                { text: 'Hackinfinity', link: 'https://docs.google.com/forms/u/2/d/e/1FAIpQLSdk69vYslrxmG02EOnCsOuOa0WqqWpbU4e8jkekqLV5_SZwTg/viewform' },
+                                { text: 'Impact Arcade (Game Jam) - 24 Hour Hackathon', link: '' },
+                                { text: 'Workshop 1', link: '' },
+                                { text: 'Workshop 2', link: '' },
+                            ].map((button, index) => (
                                 <button 
-                                    className="w-3/4 md:w-1/2 ml-4 md:ml-10 text-lg md:text-xl bg-gradient-to-r from-cyan-600 to-teal-600 hover:bg-gradient-to-l from-cyan-300 to-teal-400 font-bold py-2 px-4 rounded-lg"
-                                    onClick={() => window.location.href = 'https://docs.google.com/forms/d/e/1FAIpQLScHZ7G6EKFZmyGvDUtvwTEtUgzGBs5e5EViK90xdv1jqLmg7A/viewform'}
+                                    key={index}
+                                    className="text-white w-full md:w-1/2 mx-auto md:ml-10 text-sm md:text-lg bg-gradient-to-r from-cyan-600 to-teal-600 hover:bg-gradient-to-l from-cyan-300 to-teal-400 font-bold py-2 px-4 rounded-lg mb-4"
+                                    onClick={() => button.link && (window.location.href = button.link)}
                                 >
-                                    REGISTER HERE
+                                    {button.text}
                                 </button>
-                            </p>
+                            ))}
                         </div>
                     </div>
                 </div>
 
                 {/* Right Section */}
-                <div className="w-full md:w-1/2 p-4 md:p-8 rounded-lg h-full overflow-y-auto scrollbar-hide">
-                    <h2 className="text-2xl md:text-3xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-green-400 to-yellow-800 text-center">
+                <div className="w-full md:w-1/2 p-4 md:p-8 h-full rounded-lg overflow-y-auto scrollbar-hide">
+                    <h2 className="text-xl md:text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-l from-green-400 to-yellow-800 text-center">
                         RULES
                     </h2>
                     <ol className="mt-4 text-sm md:text-lg text-gray-100 list-decimal pl-6 space-y-2">
