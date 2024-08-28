@@ -34,10 +34,10 @@ function Navelement({ menuOpen, setMenuOpen }) {
 
   return (
     <div id="nav-bar" className="w-full h-16 md:h-24 flex items-center justify-between px-4 md:px-8 m-5">
-      <img src="/snu-logo.svg" alt="SNU" className="w-48 h-12 md:h-16" />
+      <img src="/snu-logo.svg" alt="SNU" className=" w-40 h-12 md:h-16" />
       
       <button
-        className="xl:hidden text-white text-3xl"
+        className="xl:hidden text-white text-3xl justify-center"
         onClick={() => setMenuOpen(!menuOpen)}
       >
         {menuOpen ? '✖' : '☰'}
@@ -48,7 +48,7 @@ function Navelement({ menuOpen, setMenuOpen }) {
           <Link
             key={link}
             to={link}
-            className={`text-white text-base md:text-lg font-bold text-center transition-transform duration-300 p-2 rounded-lg ${getLinkClass(link)}`}
+            className={`text-white text-base md:text-md font-bold text-center transition-transform duration-300 p-2 rounded-lg ${getLinkClass(link)}`}
             onClick={(event) => handleLinkClick(event, link)}
           >
             {link === '/' ? 'Home' :

@@ -21,15 +21,14 @@ import 'react-toastify/dist/ReactToastify.css';
 function Event({ dept }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const [isVertical, setIsVertical] = useState(true);
-  const [isTechnical, setIsTechnical] = useState(true);
   const [selectedEvent, setSelectedEvent] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
+  const [activeTab, setActiveTab] = useState("technical"); // State to manage active tab
 
   // Determine the type of event to display
-  const eventType = isTechnical ? "technical" : "non_technical";
   const events = selectedCategory
-    ? events_data[dept]?.events?.[eventType]?.[selectedCategory] || []
-    : events_data[dept]?.events?.[eventType] || [];
+    ? events_data[dept]?.events?.[activeTab]?.[selectedCategory] || []
+    : events_data[dept]?.events?.[activeTab] || [];
 
   const handleEventChange = (eventIndex) => {
     setSelectedEvent(events[eventIndex]);
@@ -57,7 +56,7 @@ function Event({ dept }) {
 
   useEffect(() => {
     setSelectedEvent(null);
-  }, [isTechnical]);
+  }, [activeTab]);
 
   useEffect(() => {
     if (events.length > 0) {
@@ -95,138 +94,134 @@ function Event({ dept }) {
             </div>
           )}
 
-          {/* For other departments, directly load the events */}
+          {/* Tab Section */}
           {(dept !== "cse" || selectedCategory) && (
-            <div className="flex w-full items-center justify-end px-4 space-x-4">
-              <span className="text-white text-lg">
-                Looking at: {isTechnical ? " Tech Events" : " Non Tech Events"}
-              </span>
-              <Tooltip content="Toggle between technical and non-technical events" placement="top">
-                <label className="relative inline-flex items-center cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={!isTechnical}
-                    onChange={() => setIsTechnical(!isTechnical)}
-                    className="sr-only peer"
-                  />
-                  <div className="w-16 h-8 bg-gray-200 dark:bg-gray-600 rounded-full peer-checked:bg-blue-600 transition-colors duration-300 flex peer-checked:justify-end items-center">
-                    <div className="mx-1 w-6 h-6 bg-white rounded-full shadow-md transform transition-transform duration-300"></div>
-                  </div>
-                </label>
-              </Tooltip>
-            </div>
-          )}
+            <div className="flex flex-col items-center">
+              <div className="flex w-1/2 space-x-4 mb-4 justify-between">
+                <button
+                  className={`px-4 font-dosis font-bold py-2 rounded-t-lg ${activeTab === "technical" ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-800"} transition-colors duration-300`}
+                  onClick={() => setActiveTab("technical")}
+                >
+                  Technical
+                </button>
+                <button
+                  className={`px-4 py-2 font-dosis rounded-t-lg ${activeTab === "non_technical" ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-800"} transition-colors duration-300`}
+                  onClick={() => setActiveTab("non_technical")}
+                >
+                  Non-Technical
+                </button>
+              </div>
 
-          {/* Dropdown Section */}
-          {(dept !== "cse" || selectedCategory) && (
-            <div className="flex flex-col justify-center">
-              <div className="flex flex-col space-y-4 justify-center items-center">
-                <Tooltip content="Select an event from the dropdown" placement="top">
-                  <Dropdown>
-                    <DropdownTrigger>
-                      <Button
-                        auto
-                        icon={<FaChevronDown />}
-                        className="w-3/4 text-white bg-blue-600 hover:bg-blue-700 font-bold font-raleway uppercase flex items-center justify-between"
-                      >
-                        {selectedEvent ? selectedEvent.event_name:"Select Event"}
-                        <div>▼</div>
-                      </Button>
-                    </DropdownTrigger>
-                    <DropdownMenu>
-                      {events.map((event, index) => (
-                        <DropdownItem
-                          key={index}
-                          onClick={() => handleEventChange(index)}
-                          className="w-3/4 text-blue-600 hover:bg-orange-100 font-raleway"
+              {/* Dropdown Section */}
+              <div className="flex flex-col justify-center">
+                <div className="flex flex-col space-y-4 justify-center items-center">
+                  <Tooltip content="Select an event from the dropdown" placement="top">
+                    <Dropdown>
+                      <DropdownTrigger>
+                        <Button
+                          auto
+                          icon={<FaChevronDown />}
+                          className="w-3/4 text-white bg-blue-600 hover:bg-blue-700 font-bold font-raleway uppercase flex items-center justify-between"
                         >
-                          {event.event_name}
-                        </DropdownItem>
-                      ))}
-                    </DropdownMenu>
-                  </Dropdown>
-                </Tooltip>
-                {selectedEvent && (
-                  <Card className="md:w-[70vw] w-[90vw] m-4">
-                    <CardBody
-                      className="flex flex-col items-center p-6"
-                      style={{
-                        background:
-                          "linear-gradient(to right, rgba(0, 51, 102, 0.9) 20%, rgba(85, 0, 119, 0.9) 80%)",
-                        backdropFilter: "blur(200px)", // Optional: Adds a blur effect for better transparency look
-                      }}
-                    >
-                      <h2 className="text-3xl text-white font-raleway font-extrabold mb-4">
-                        {selectedEvent.event_name}
-                      </h2>
-                      <div className="text-white italic font-raleway p-5 text-xl">
-                        HOSTED BY THE DEPARTMENT OF {dept.toUpperCase()}
-                      </div>
-                      <div className="w-full flex flex-col gap-5 text-white">
-                        <EventDesc
-                          first={selectedEvent["first"] || "TBD"}
-                          second={selectedEvent["second"] || "TBD"}
-                          third={selectedEvent["third"] || "TBD"}
-                          date={selectedEvent["date"]}
-                          location={selectedEvent["location"]}
-                          participants={selectedEvent["participants"]}
-                          dept={dept}
-                        />
-                        <p className="text-center text-xl font-dosis">
-                          {selectedEvent.event_desc}
-                        </p>
-                        {selectedEvent.domain && (
-                          <p className="text-center text-lg font-dosis">
-                            Domain: {selectedEvent.domain}
-                          </p>
-                        )}
-                        {selectedEvent.team_size && (
-                          <p className="text-center text-lg font-dosis mb-1">
-                            Team Size: {selectedEvent.team_size}
-                          </p>
-                        )}
-                        {selectedEvent.mode && (
-                          <p className="text-center text-lg font-dosis mb-1">
-                            Mode of Event: {selectedEvent.mode}
-                          </p>
-                        )}
-                        <div className="flex flex-col w-full h-full justify-center items-center gap-4">
-                          {selectedEvent.rounds.map((round, roundIndex) => (
-                            <Rounds
-                              key={roundIndex}
-                              round_name={round.round_name}
-                              round_desc={round.round_desc}
-                            />
-                          ))}
-                          <div>
-                            {selectedEvent.tagline.split('\n').map((line, index) => (
-                              <p key={index} className="text-left">
-                                {line}
-                              </p>
-                            ))}
-                          </div>
-                          {selectedEvent.event_heads && (
-                            <div className="w-full flex flex-col items-center gap-4">
-                              <h3 className="text-2xl text-white font-bold mb-2 font-dosis">
-                                Event Heads
-                              </h3>
-                              <div className="flex gap-2 flex-col md:flex-row">
-                                {selectedEvent.event_heads.map((head, headIndex) => (
-                                  <div
-                                    key={headIndex}
-                                    className="text-white p-4 shadow-lg bg-black rounded-lg w-64 text-center"
-                                  >
-                                    <p className="text-md font-semibold">{head}</p>
-                                  </div>
-                                ))}
-                              </div>
-                            </div>
-                          )}
+                          {selectedEvent ? selectedEvent.event_name : "Select Event"}
+                          <div>▼</div>
+                        </Button>
+                      </DropdownTrigger>
+                      <DropdownMenu>
+                        {events.map((event, index) => (
+                          <DropdownItem
+                            key={index}
+                            onClick={() => handleEventChange(index)}
+                            className="w-3/4 text-blue-600 hover:bg-orange-100 font-raleway"
+                          >
+                            {event.event_name}
+                          </DropdownItem>
+                        ))}
+                      </DropdownMenu>
+                    </Dropdown>
+                  </Tooltip>
+                  {selectedEvent && (
+                    <Card className="md:w-[70vw] w-[90vw] m-4">
+                      <CardBody
+                        className="flex flex-col items-center p-6"
+                        style={{
+                          background:
+                            "linear-gradient(to right, rgba(0, 51, 102, 0.9) 20%, rgba(85, 0, 119, 0.9) 80%)",
+                          backdropFilter: "blur(200px)", // Optional: Adds a blur effect for better transparency look
+                        }}
+                      >
+                        <h2 className="text-3xl text-white font-raleway font-extrabold mb-4">
+                          {selectedEvent.event_name}
+                        </h2>
+                        <div className="text-white italic font-raleway p-5 text-xl">
+                          HOSTED BY THE DEPARTMENT OF {dept.toUpperCase()}
                         </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                )}
+                        <div className="w-full flex flex-col gap-5 text-white">
+                          <EventDesc
+                            first={selectedEvent["first"] || "TBD"}
+                            second={selectedEvent["second"] || "TBD"}
+                            third={selectedEvent["third"] || "TBD"}
+                            date={selectedEvent["date"]}
+                            location={selectedEvent["location"]}
+                            participants={selectedEvent["participants"]}
+                            dept={dept}
+                          />
+                          <p className="text-center text-xl font-dosis">
+                            {selectedEvent.event_desc}
+                          </p>
+                          {selectedEvent.domain && (
+                            <p className="text-center text-lg font-dosis">
+                              Domain: {selectedEvent.domain}
+                            </p>
+                          )}
+                          {selectedEvent.team_size && (
+                            <p className="text-center text-lg font-dosis mb-1">
+                              Team Size: {selectedEvent.team_size}
+                            </p>
+                          )}
+                          {selectedEvent.mode && (
+                            <p className="text-center text-lg font-dosis mb-1">
+                              Mode of Event: {selectedEvent.mode}
+                            </p>
+                          )}
+                          <div className="flex flex-col w-full h-full justify-center items-center gap-4">
+                            {selectedEvent.rounds.map((round, roundIndex) => (
+                              <Rounds
+                                key={roundIndex}
+                                round_name={round.round_name}
+                                round_desc={round.round_desc}
+                              />
+                            ))}
+                            <div>
+                              {selectedEvent.tagline.split('\n').map((line, index) => (
+                                <p key={index} className="text-left">
+                                  {line}
+                                </p>
+                              ))}
+                            </div>
+                            {selectedEvent.event_heads && (
+                              <div className="w-full flex flex-col items-center gap-4">
+                                <h3 className="text-2xl text-white font-bold mb-2 font-dosis">
+                                  Event Heads
+                                </h3>
+                                <div className="flex gap-2 flex-col md:flex-row">
+                                  {selectedEvent.event_heads.map((head, headIndex) => (
+                                    <div
+                                      key={headIndex}
+                                      className="text-white p-4 shadow-lg bg-black rounded-lg w-64 text-center"
+                                    >
+                                      <p className="text-md font-semibold">{head}</p>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </CardBody>
+                    </Card>
+                  )}
+                </div>
               </div>
             </div>
           )}

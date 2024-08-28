@@ -44,7 +44,7 @@ function Home() {
   }, []);
 
   return (
-    <div className='w-screen flex flex-col items-center p-3 overflow-x-hidden bg-cover bg-center bg-starry-sky'>
+    <div className='w-screen flex flex-col items-center p-3 overflow-x-hidden bg-cover bg-center bg-starry-sky overflow-clip'>
       <div className="relative w-screen sm:h-large flex flex-col items-center justify-center overflow-hidden rounded-xl px-2">
         <div className="w-full sm:h-full h-screen bg-deep-charcoal-gradient background-transition flex flex-col backdrop-blur-3xl rounded-extra-large overflow-x-hidden" id="home">
           <Navelement menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
