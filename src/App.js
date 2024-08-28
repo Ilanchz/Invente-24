@@ -10,6 +10,7 @@ import Sponsors from './Components/Sponsors';
 import Gallery from './Components/Gallery/Gallery';
 import About from './Components/About_Page/about_page';
 import ScrollToTop from './Components/ScrollToTop'; // Adjust import path as needed
+import Register from './Components/Register_Page/register';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/sponsors" element={<Sponsors />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/about" element={<About />} />
+        <Route path="/register" element={<Register />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
