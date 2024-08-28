@@ -7,7 +7,6 @@ const Workshop_data = [
     prizeWinner: 9000,
     prizeRunner: 4000,
     domain: "Game Development",
-    team: "●  Each team can consist of a maximum of 2 players.\n● Individual participants are also allowed to compete solo.",
     location: 'Tech Lab',
     description: "Game Jam is an intense 24-hour game development competition where teams are tasked with creating engaging and thoughtful games based on the theme that will be announced on the day of the competition. This theme will be related to the United Nations Sustainable Development Goals (SDGs), ensuring the games focus on relevant global issues.",
     date: "2024-09-15",
@@ -21,6 +20,10 @@ const Workshop_data = [
       },
     ],
     rules: [
+      {
+        rule_name: "Team Composition",
+        rule_desc: "Each team can consist of a maximum of 2 players.\nIndividual participants are also allowed to compete solo.",
+      },
       {
         rule_name: "Time Limit",
         rule_desc: "The competition runs for 24 hours, starting from the official theme announcement.",
