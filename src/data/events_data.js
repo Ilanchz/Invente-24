@@ -6,7 +6,7 @@ const events_data = {
           {
             "event_name": "Codolympics",
             "event_desc": "This is a coding competition based purely on Data structures and Algorithms. Participants will contest against each other in teams of 2 in a competitive programming contest.",
-            "event_heads": ["Shravan Shreeram", "Vaishnavi T"],
+            "event_heads": ["Shravan Shreeram - 9342152620", "Vaishnavi T - 9790917467"],
             "domain": "Competitive Programming",
             "rounds": [
                 {
@@ -28,7 +28,7 @@ const events_data = {
           {
             "event_name": "Hacker's Asylum",
             "event_desc": "\"Hex Marks The Spot\" is a cybersecurity-oriented treasure hunt and capture-the-flag event that tests the codebreaking and cracking skills of participants in a thrilling treasure hunt taking them across campus in teams of 2-3.",
-            "event_heads": ["Aathish Sivasubrahmanian", "Parthiban M"],
+            "event_heads": ["Aathish Sivasubrahmanian - 9025780160", "Parthiban M - 8825862600"],
             "domain": "Cybersecurity",
             "rounds": [
                 {
@@ -50,7 +50,7 @@ const events_data = {
           {
             "event_name": "Sketch and Scale",
             "event_desc": "\"Sketch and Scale\" is a unique event designed to test your design and problem-solving prowess in wireframing and architecture design based on a given business requirement or use case. Teams of two will demonstrate their skills in this two-round event.",
-            "event_heads": ["Alamelu Kannan", "Jahnavi Murali"],
+            "event_heads": ["Alamelu Kannan - 6385137900", "Jahnavi Murali - 9283190766"],
             "domain": "Product Design",
             "rounds": [
                 {
@@ -72,7 +72,7 @@ const events_data = {
           {
             "event_name": "Paper Presentation",
             "event_desc": "The Paper Presentation event provides a platform for students from various colleges to showcase their innovative research and ideas. This event encourages intellectual collaboration among young scholars, contributing to the advancement of knowledge across diverse fields.",
-            "event_heads": ["Sanjai Balajee K G", "Bhavana A"],
+            "event_heads": ["Sanjai Balajee K G - 8220267097", "Bhavana A - 9500012079"],
             "domain": "General",
             "rounds": [
                 {
@@ -99,7 +99,7 @@ const events_data = {
           {
             "event_name": "Code in the Dark",
             "event_desc": "Do you have what it takes to recreate a webpage without even looking at the screen? Welcome to 'Code in the Dark,' the ultimate challenge for coding enthusiasts ready to showcase their skills in the most exhilarating way possible.",
-            "event_heads": ["Swetha J", "Nandini Sree"],
+            "event_heads": ["Swetha J - 8608163631", "Nandini Sree - 6369055844"],
             "domain": "UI/UX",
             "rounds": [
                 {
@@ -121,7 +121,7 @@ const events_data = {
           {
             "event_name": "ML Maze Runner",
             "event_desc": "This is a competition designed to test your machine learning expertise through a series of interactive challenges. This event encourages participants to apply their knowledge of ML to solve real-world problems. The competition is divided into two rounds: a hands-on AI Scavenger Hunt followed by an Algorithmic Problem-Solving round.",
-            "event_heads": ["Harish Kumar MV", "Mohith A"],
+            "event_heads": ["Harish Kumar MV - 9894049102", "Mohith A - 9790778133"],
             "domain": "Machine Learning",
             "rounds": [
                 {
@@ -143,7 +143,7 @@ const events_data = {
           {
             "event_name": "Reality Redefined",
             "event_desc": "Reality Redefined is an immersive event that challenges participants to showcase their skills in developing cutting-edge AR applications through a thrilling, two-round competition. Working individually or in a team of 2 members, participants will be tasked with creating AR applications aligned with the following agenda.",
-            "event_heads": ["Raghul Yadhav K", "L Sri Shalini"],
+            "event_heads": ["Raghul Yadhav K - 8015023475", "L Sri Shalini - 8148016725"],
             "domain": "AR/VR",
             "rounds": [
               {
@@ -165,7 +165,7 @@ const events_data = {
           {
             "event_name": "Data Whiz",
             "event_desc": "Join us for a data-driven adventure at this captivating event that blends creativity, analytics, and storytelling into a seamless experience. Uncover the art of transforming raw data into compelling narratives using dynamic tools. Our event welcomes everyone, from seasoned designers to analytical newcomers. Participation as individuals or in teams of a maximum of three members is allowed. Let your creativity run wild and your analytical skills shine - join us and discover the magic that happens when data and design unite.",
-            "event_heads": ["Krithik Sathya M", "Vaishnavi S"],
+            "event_heads": ["Krithik Sathya M - 9003936444", "Vaishnavi S - 9994389221"],
             "domain": "Data Science",
             "rounds": [
                 {
@@ -191,7 +191,7 @@ const events_data = {
         "SSN": [
 		      {
             "event_name": "Pitch Perfect",
-            "event_heads": ["Tejas", "Pranav"],
+            "event_heads": ["Tejas - 9499944705", "Pranav - 8778942743"],
             "domain": "Business",
             "event_desc": "Join us for a challenge where creativity meets strategy, and quick thinking is your best asset. Get ready to turn flops into winners and deliver pitches that pack a punch—all while beating the clock.",
             "rounds": [
@@ -218,7 +218,7 @@ const events_data = {
         },
         {
             "event_name": "Ready Player One",
-            "event_heads": ["Subramanian T", "Subash A"],
+            "event_heads": ["Subramanian T - 9488781158", "Subash A - 7305816029"],
             "domain": "Campus Activities",
             "event_desc": "Get ready for an action-packed adventure filled with campus-wide tasks and strategic gameplay. Participate in tasks ranging from creative to physical, and engage in a thrilling game of stealth and strategy.",
             "rounds": [
