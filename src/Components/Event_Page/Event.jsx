@@ -97,7 +97,7 @@ function Event({ dept }) {
           {/* Tab Section */}
           {(dept !== "cse" || selectedCategory) && (
             <div className="flex flex-col items-center">
-              <div className="flex w-1/2 space-x-4 mb-4 justify-between">
+              <div className="flex w-1/2 md:w-64 space-x-4 mb-4 justify-between">
                 <button
                   className={`px-4 font-dosis font-bold py-2 rounded-t-lg ${activeTab === "technical" ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-800"} transition-colors duration-300`}
                   onClick={() => setActiveTab("technical")}
