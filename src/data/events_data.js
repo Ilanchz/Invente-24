@@ -247,83 +247,253 @@ const events_data = {
   "it": {
     "events": {
       "technical": [
-        {
-          "event_name": "Event1",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
+          {
+            "event_name": "CODERA",
+            "event_heads": ["Adharsh Gurudev - 95666 97621", "Sri Sai Ankit - 97908 31970"],
+            "domain": "CP",
+            "event_desc": "A quintessential event that tests the contestant’s ability to conjure up and master data structures and algorithms to compete against multiple participants across the country.",
+            "rounds": [
+                {
+                    "id": "round_1",
+                    "round_name": "Coding Contest",
+                    "round_desc": "Participants would participate in a classical style competitive programming contest with 90 minutes time and 4-5 questions in increasing difficulty. The round is time bound and participants who perform well in this round would be qualified to the finals."
+                },
+                {
+                    "id": "round_2",
+                    "round_name": "Final Showdown!",
+                    "round_desc": "Participants will attend a quiz that will test their coding skills, problem-solving ability, lateral thinking, and programming knowledge. The questions have internal tiebreakers and the winners are decided based on the points the participant scores."
+                }
+            ],
+            "tagline": "",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD"
         },
         {
-          "event_name": "Event2",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
-        }
+            "event_name": "WEBSITICA",
+            "event_heads": ["Selcia S - 8778377419", "Srithaja- 91107 70893"],
+            "domain": "Web Development",
+            "event_desc": "Welcome to Websitica, the ultimate challenge for web app maestros! If you thrive on crafting remarkable digital experiences, this is your arena. This is an event that tests the participants' knack for web app development.",
+            "rounds": [
+                {
+                    "id": "round_1",
+                    "round_name": "The WebWizard",
+                    "round_desc": "Participants are given a basic HTML/CSS template and tasked with enhancing the design and layout according to a specific theme. Elevate the webpage with your best styling, responsive techniques, and multimedia elements like images or videos. Every 5 minutes, participants will face a design-related question. Nail it, and you'll unlock a sneak peek into your competitors' work, giving you the edge to stand out."
+                },
+                {
+                    "id": "round_2",
+                    "round_name": "The dare-DEV-ils",
+                    "round_desc": "Participants are shown a landing page for 30 seconds. After the 30-second preview, participants must recreate the landing page from memory as accurately as possible within the allotted time."
+                }
+            ],
+            "tagline": "",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD"
+        },
+        {
+            "event_name": "ML GRAND PRIX : The Data Circuit",
+            "event_heads": ["Mitul - 95513 98396", "Thanuja- 99447 77943"],
+            "domain": "Machine Learning",
+            "event_desc": "In this high-stakes competition, teams will navigate through a series of rooms, each presenting unique datasets and challenges, as they work to build, refine, and deploy machine learning models under intense time pressure. The race isn't just against the clock—it's a battle of wits and strategy.",
+            "rounds": [
+                {
+                    "id": "round_1",
+                    "round_name": "The Qualifier",
+                    "round_desc": "Teams receive their first dataset and must train a model swiftly. Accurate predictions will unlock the next room."
+                },
+                {
+                    "id": "round_2",
+                    "round_name": "Do You Dare? Checkpoints",
+                    "round_desc": "1. EDA Challenge: Analyze the dataset to answer a hidden bonus question. Success earns a time bonus, but failure risks a penalty. 2. Quiz Challenge: Achieve the highest accuracy to unlock this quiz. Correct answers gain time; wrong answers add pressure with a time penalty. 3. Model Steal: As datasets become more complex, teams can 'steal' another team’s model, but it comes with a 10% accuracy penalty."
+                },
+                {
+                    "id": "round_3",
+                    "round_name": "The Final Sprint",
+                    "round_desc": "In the last room, the pressure peaks. Teams must navigate the most challenging dataset yet. The EDA and Quiz Challenges offer one last chance to gain an edge—or fall behind."
+                }
+            ],
+            "tagline": "",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD"
+        },
+        {
+            "event_name": "CACHE ME IF YOU CAN",
+            "event_heads": ["Shrikar - 87545 88946", "Viswvardinii - 73585 22405"],
+            "domain": "Programming",
+            "event_desc": "Get ready to dive into a series of electrifying tasks designed to test your problem-solving prowess, technical acumen, and teamwork.",
+            "rounds": [
+                {
+                    "id": "round_1",
+                    "round_name": "Decode & Decrypt",
+                    "round_desc": "Crack the encrypted clue to reveal the next location, where a brand-new challenge awaits."
+                },
+                {
+                    "id": "round_2",
+                    "round_name": "Network Explorer",
+                    "round_desc": "Dive into network data analysis to unearth a hidden IP address. The teams will be provided a packet capture file that they must analyze using a packet analyzer to find the destination IP address within the captured traffic."
+                },
+                {
+                    "id": "round_3",
+                    "round_name": "Digital Quest",
+                    "round_desc": "Clues will be present at various places of the website (both hidden and visible). The clues will consecutively lead to further clues. At the end, they have to figure out the API endpoint."
+                },
+                {
+                    "id": "round_4",
+                    "round_name": "The Grand Finale",
+                    "round_desc": "The Grand Finale will test both your physical and mental agility in a unique and thrilling challenge. The final event details will be revealed on the day of the event."
+                }
+            ],
+            "tagline": "",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD"
+        },
+        {
+            "event_name": "IDEAXPORT",
+            "event_heads": ["Srujana - 63805 13878", "Madhu- 73055 66689"],
+            "domain": "Product Pitch",
+            "event_desc": "This event is designed to test your ability to think creatively, develop technical solutions, and present them effectively.",
+            "rounds": [
+                {
+                    "id": "round_1",
+                    "round_name": "Innovation Pitch",
+                    "round_desc": "Teams are given pressing issues and problems faced currently in society and must come up with creative ideas and solutions on overcoming it with technical solutions."
+                },
+                {
+                    "id": "round_2",
+                    "round_name": "Prototype Showcase",
+                    "round_desc": "Teams will develop their concepts by creating a prototype using tools like Canva, Figma, HTML, or any other platform of their choice. The evaluation will focus on the feasibility, scalability, and marketability of the proposed solutions."
+                }
+            ],
+            "tagline": "",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD"
+        },
+        {
+            "event_name": "CYPHER CHASE",
+            "event_heads": ["Sabarish - 80560 99616", "Rupam - 80723 84210"],
+            "domain": "Cyber Security",
+            "event_desc": "A multi-round challenge that tests your cyber skills, from phishing clues to crafting secure passwords and capturing flags in a thrilling finale.",
+            "rounds": [
+                {
+                    "id": "round_1",
+                    "round_name": "PhishTrace",
+                    "round_desc": "Teams hunt for phishing clues hidden within 5 simulated emails. Each email contains potential phishing indicators. Teams are judged on the number of clues identified, time taken, and accuracy."
+                },
+                {
+                    "id": "round_2",
+                    "round_name": "PasswordCraft",
+                    "round_desc": "Teams will craft a password that adheres to 30 unique and often humorous rules. Teams that craft the most compliant password will move on to the final round."
+                },
+                {
+                    "id": "round_3",
+                    "round_name": "HackQuest: Capture the Flag",
+                    "round_desc": "Team members will tackle a series of thrilling cybersecurity tasks across cryptography, web security, and reverse engineering. Teams will be evaluated on the number of flags captured, accuracy of their solutions, and time taken."
+                }
+            ],
+            "tagline": "",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD"
+        },
+        {
+            "event_name": "CRAWL AND CONQUER",
+            "event_heads": ["Priyamvadha - 95660 64483", "Priyanka - 63851 54151"],
+            "domain": "Web Scraping",
+            "event_desc": "A competition that challenges participants to develop efficient crawlers or scrapers, analyze the collected data, and present their findings.",
+            "rounds": [
+                {
+                    "id": "round_1",
+                    "round_name": "Data Gathering (Web Crawling/Scraping)",
+                    "round_desc": "Participants must develop efficient crawlers or scrapers to gather data from various websites within a limited timeframe. The collected data should be structured and stored properly for further analysis."
+                },
+                {
+                    "id": "round_2",
+                    "round_name": "Data Analysis & Presentation",
+                    "round_desc": "After gathering the data, participants must analyze it and present their findings. The analysis should uncover meaningful insights, trends, or patterns from the collected data."
+                }
+            ],
+            "tagline": "",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD"
+        },
+        {
+            "event_name": "Ready Player One",
+            "event_heads": ["Subramanian T - 9488781158", "Subash A - 7305816029"],
+            "domain": "Campus Activities",
+            "event_desc": "Get ready for an action-packed adventure filled with campus-wide tasks and strategic gameplay. Participate in tasks ranging from creative to physical, and engage in a thrilling game of stealth and strategy.",
+            "rounds": [
+                {
+                    "id": "round_1",
+                    "round_name": "Campus Quest",
+                    "round_desc": "In the first round, teams participate in 'Campus Quest,' a Bingo-style game where they must complete a variety of tasks across categories like Trivia, Creative Challenges, Physical Tasks, Social Interactions, and Mystery Hunts. Teams earn points by completing tasks and achieving Bingo (completing a row, column, or diagonal). Tasks range from solving riddles to taking creative photos or completing physical challenges. The goal is to collect the most points and achieve Bingo before the time runs out. First round might have on spot surprise tasks as well!!",
+                    "quest_example": "Photo Frenzy: Teams must take a creative group photo in front of a campus landmark, following specific guidelines (e.g., everyone must be jumping, or the photo must include a funny prop)."
+                },
+                {
+                    "id": "round_2",
+                    "round_name": "Spy vs. Spy",
+                    "round_desc": "In the second round, 'Spy vs. Spy: Campus Edition,' players are divided into two teams—Spies and Counter-Spies. Spies have secret objectives to complete around campus without being detected, while Counter-Spies aim to identify and thwart the Spies' plans. The game involves stealth, strategy, and periodic meetings where players can vote to eliminate suspected Spies. The round ends when either the Spies complete all their objectives or the Counter-Spies successfully eliminate all the Spies."
+                }
+            ],
+            "tagline": "",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD"
+        }      
       ],
       "non_technical": [
-        {
-          "event_name": "Non tech Event1",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
+          {
+            "event_name": "Charades",
+            "event_heads": ["Aishwarya - 89253 90169", "Arshat - 81485 49401"],
+            "domain": "Non Technical",
+            "event_desc": "Despite its seemingly simple name, Dumb Charades is a game that invites the most perceptive minds. Originating as a form of drama, it involves one person acting out a given phrase or song while the others strive to decode it. The game's challenge lies in effectively conveying the given with subtle clues without the use of spoken words or sounds. This event promises both enjoyment and a measure of contestants' spontaneity, making it a fun-filled yet thought-provoking experience.",
+            "rounds": [
+                {
+                    "id": "round_1",
+                    "round_name": "Mix & Mingle",
+                    "round_desc": "Provide hints for the specified word by describing it while adhering to a list of forbidden words that you'll receive in advance."
+                },
+                {
+                    "id": "round_2",
+                    "round_name": "Pictionary",
+                    "round_desc": "Provide hints only through illustrations on a whiteboard, with a restriction against using written words or numbers."
+                },
+                {
+                    "id": "round_3",
+                    "round_name": "Tune Quest",
+                    "round_desc": "Provide hints to guide your headphone-wearing teammate to guess the specified song solely through dance and expression."
+                }
+            ],
+            "tagline": "",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD"
         },
         {
-          "event_name": "Non tech Event2",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
+            "event_name": "Pixel Playoff",
+            "event_heads": ["Vishal - 94448 30470", "Vishnu - 75581 07725"],
+            "domain": "Non Technical",
+            "event_desc": "Are you ready to showcase your gaming skills like never before? We're thrilled to invite you to our action-packed gaming tournament featuring two of the hottest esports titles around: FIFA and Valorant. Get ready to compete, strategize, and triumph in this electrifying gaming extravaganza!",
+            "rounds": [
+                {
+                    "id": "valorant",
+                    "round_name": "Valorant 5v5 Tournament",
+                    "round_desc": "Join us for an intense 5v5 Valorant competitive tournament, where teams will battle it out in the official format. Bring your own laptop for offline play, or join the online action from anywhere. You can register as a 5-man team or sign up solo, and we'll create dynamic teams for solo participants. Coaches are allowed to guide teams, and tactical timeouts can be used to strategize during the game. The tournament will span two days, with group stages on Day 1 and playoffs on Day 2. Master teamwork, outwit your opponents, and claim victory in this high-stakes 5v5 tournament."
+                },
+                {
+                    "id": "fifa",
+                    "round_name": "FIFA 1v1 Showdown",
+                    "round_desc": "Prove your soccer prowess in thrilling 1v1 matches. Feel free to bring your own input device or use one of our generic controllers if needed. Solo registrations are open! Sign up, showcase your FIFA skills, and vie for the top spot."
+                }
+            ],
+            "tagline": "",
+            "first": "TBD",
+            "second": "TBD",
+            "third": "TBD"
         }
       ]
     }
@@ -604,83 +774,211 @@ const events_data = {
     "events": {
       "technical": [
         {
-          "event_name": "Event1",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
+          "event_name": "SOLDER IT",
+          "event_heads": [
+            "S.A.Kaniska Kiran -8248972915",
+            "Jayashree C G -8667023324"
+          ],
+          "domain": "AECE",
+          "event_desc": "SOLDER IT is a dynamic event where students and electronics enthusiasts can bring their circuit designs to life. Participants will apply their theoretical knowledge in a hands-on setting, developing practical skills in circuit design and assembly. Get ready to solder, innovate, and showcase your creations in a high-energy environment that celebrates learning, creativity, and fun!",
           "rounds": [
             {
-              "id": "round_1",
+              "id": 1,
               "round_name": "Round 1",
-              "round_desc": ""
+              "round_desc": "Duration: 30 Minutes. Number of Questions: 15. Topic covered: Circuit Analysis, Semiconductor Devices, Analog Electronic Circuits and Digital Electronics. Description: Participants shall attempt a technical quiz (Pen and Paper) based on the above-mentioned topics. Teams will be selected on the basis of points scored. Only one submission per team would be allowed. Tie Breakers: Star Marked Questions: Some Priority Questions can be used to break ties. Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used. Sudden Death: Team that makes the first mistake shall not qualify for the next round."
             },
             {
-              "id": "round_2",
+              "id": 2,
               "round_name": "Round 2",
-              "round_desc": ""
+              "round_desc": "Duration: 45-60 Minutes. Description: Teams will be shortlisted based on the pen and paper test score (prelims round score). Each shortlisted team will be given a circuit description that has to be solved and solder the components according to the circuit layout they inferred. Necessary items such as soldering rod, lead, flux, transistors, resistors, capacitors etc. You will be scored on how well and neat your circuit is soldered and implemented. Tie Breakers: Colour coding of resistor: Participants will be given a specific resistance value. They must identify the corresponding resistor by determining its colour code and selecting the correct resistor from a set of provided options."
             }
           ],
-          "tagline": ""
+          "tagline": "Solder, innovate, and showcase your creations.",
+          "first": "Rs. 3000",
+          "second": "Rs. 2000",
+          "third": "Rs. 1000"
         },
         {
-          "event_name": "Event2",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
+          "event_name": "PITCH IT PLEASE!",
+          "event_heads": [
+            "Suruthikha KS - 7092487893",
+            "Namrutha SK - 9444089976"
+          ],
+          "domain": "AECE",
+          "event_desc": "In 'Pitch it Please!', you'll have the unique opportunity to present your product, service, or solution to a panel of experts. This is your chance to showcase your ideas and receive insightful feedback on how to enhance your strategies and make your vision a reality. Remember, in today's world, ideas are incredibly valuable—don't miss this opportunity to transform your innovative concepts into tangible success.",
           "rounds": [
             {
-              "id": "round_1",
+              "id": 1,
               "round_name": "Round 1",
-              "round_desc": ""
+              "round_desc": "Duration: 25-30 Minutes. Mode: Pen and Paper type. Registered teams will be provided with a printed questionnaire. The questionnaire will include scenarios designed to test the team’s problem-solving skills in current marketing strategies. It will feature a mix of both subjective and objective questions. Teams will need to address various challenges and demonstrate their marketing expertise through this assessment. Tie breaker: Earliest Submission: Team to make the earlier submission shall qualify for the next round. If a tie is still not broken, the next method will be used based on quality of the answers fabricated."
             },
             {
-              "id": "round_2",
+              "id": 2,
               "round_name": "Round 2",
-              "round_desc": ""
+              "round_desc": "Duration: 15-20 Minutes. Mode: Pen and Paper type. Approximately 10-15 teams will advance to the second round, where they will receive a case study via video or text and answer questions on marketing and sales strategies using a printed questionnaire. Teams will be evaluated based on the creativity and feasibility of their solutions, as well as their implementation plans. Selection for the third round will focus on how effectively teams address the case study with innovative and practical solutions. Tie breaker: In the event of a tie, a product will be given to each team, where they will present their advertising ideas. The team which advertises the best will qualify to the final round."
+            },
+            {
+              "id": 3,
+              "round_name": "Round 3",
+              "round_desc": "Duration: 60 - 100 Minutes. Mode: Oral presentation. Shortlisted participants will receive a list of topics related to their domain or general themes and will need to develop a product that aligns with these topics. Teams will pitch their product ideas to a panel of judges. The panel will evaluate the pitches and determine the winners based on their assessments. Tie breaker: In the event of a tie, the same evaluation criteria and methods used in the second round will be applied."
             }
           ],
-          "tagline": ""
+          "tagline": "Pitch your ideas to turn concepts into success.",
+          "first": "Rs. 3000",
+          "second": "Rs. 2000",
+          "third": "Rs. 1000"
+        },
+        {
+          "event_name": "ENIGMA",
+          "event_heads": [
+            "Abirami Vaidyanathan - 8608167405",
+            "Abhivedha A - 9995377534"
+          ],
+          "domain": "AECE",
+          "event_desc": "Get ready to unleash your problem-solving skills and dive into the world of puzzles, logic, and tech with ENIGMA, the ultimate challenge for sharp minds! Hosted by AECE, this two-round event will test your knowledge, teamwork, and speed. Gather your squad of 2-3 members and compete for the top spot across all departments.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Round 1",
+              "round_desc": "Duration: 30 minutes. Topics Covered: Logical reasoning, Basic science and Mathematics, Data Interpretation, Basic Programming, Boolean Algebra, Computational Thinking and Tech Trivia. An exciting questionnaire will be held in the first round with two sections. Section 1 will have 30 technical MCQs from the given topics, and Section 2 will feature tech puzzles. All teams will participate in both sections, and advancement to future rounds depends on the total points scored. Mobile phones are not allowed. Tie Breakers: Surprise Round: In the event of a tie, a surprise round will be conducted to determine the advancing team. Earliest Submission: Team to make the earlier submission shall also be considered to qualify for the next round."
+            },
+            {
+              "id": 2,
+              "round_name": "Round 2",
+              "round_desc": "Duration: 60 Minutes. A set of puzzles will be given to each team which has to be completed to reach the final stage. The solution of each puzzle will be a clue for the final task which is to crack an enigmatic code. The difficulty level will increase with each task. The points for each task will depend on the difficulty level. If the team gets stuck in between any task, they are allowed to take help from the event heads for a clue but at the cost of reduction in points. The first team to complete the final task with all the collected clues having the highest points will be declared as the winner."
+            }
+          ],
+          "tagline": "Crack the code, solve the puzzles.",
+          "first": "Rs. 3000",
+          "second": "Rs. 2000",
+          "third": "Rs. 1000"
+        },
+        {
+          "event_name": "MAKE-A-THON",
+          "event_heads": [
+            "GOPINATH.M – 8925434461",
+            "KARTHIK RAJU.RD – 7548897230"
+          ],
+          "domain": "AECE",
+          "event_desc": "MAKE-A-THON is a test of coding, creativity, and quick thinking. Teams will participate in a quiz on basic programming concepts, followed by an auction-based coding round where participants can bid on unique problem statements and power-ups to help them solve the challenges.",
+          "rounds": [
+            {
+              "id": 2,
+              "round_name": "Round 2",
+              "round_desc": "Duration: 50-60 Minutes. Auction-based coding round where participants use virtual currency to bid on various problem statements and power-ups. Each team will receive a budget and can choose to bid on problems or buy power-ups that could help them with their solutions. The problems will vary in difficulty and will require creativity and coding skills to solve. Teams must solve as many problems as possible within the allotted time. Scores will be based on the number of problems solved and the efficiency of their solutions. Tie Breakers: Quality of Code: In case of a tie, the team with the cleaner and more efficient code will be favored. Bonus Points: Additional points may be awarded for particularly creative or elegant solutions."
+            }
+          ],
+          "tagline": "Code, bid, and solve your way to victory.",
+          "first": "Rs. 3000",
+          "second": "Rs. 2000",
+          "third": "Rs. 1000"
+        },
+        {
+          "event_name": "PAPER PRESENTATION",
+          "event_heads": [
+            "Taruna - 9965905000",
+            "Chankya - 7603883729"
+          ],
+          "domain": "Research and Technical Knowledge",
+          "event_desc": "The Paper Presentation event is designed to provide a platform for students and researchers to showcase their original research, innovative ideas, and technical knowledge. Participants will have the opportunity to present their papers on a range of topics, engage with peers, and receive valuable feedback from a panel of experts.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Round 1",
+              "round_desc": "Submission of abstract. All entries will be evaluated and shortlisted by the chair and secretary. Authors of shortlisted papers will be notified for the next round 3 days prior. All participants making submissions will receive participation certificates."
+            },
+            {
+              "id": 2,
+              "round_name": "Round 2",
+              "round_desc": "Live Presentation of the shortlisted papers from Round 1. Participants will have 5-10 minutes to present their paper to the panel of judges. The panel will evaluate based on content, originality, organization, and ability to field questions."
+            }
+          ],
+          "tagline": "Showcase your research and innovative ideas.",
+          "first": "Rs. 8000",
+          "second": "Rs. 6000",
+          "third": "Rs. 4000",
+          "participation": "Open to all departments"
+        },
+        {
+          "event_name": "CITYSCAPE 2050",
+          "event_heads": [
+            "Rupadharshini R - 8637451018",
+            "Shruti Chandrasekar - 7305637779"
+          ],
+          "domain": "Urban Design and Sustainability",
+          "event_desc": "Cityscape 2050 is a futuristic city design challenge focusing on sustainable and net-zero urban development. Teams will conceptualize and design a metropolitan city of the future, adhering to sustainability guidelines and budget constraints.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Round 1",
+              "round_desc": "Eco-Quiz Challenge or Pictography Challenge to demonstrate foundational knowledge on sustainability and urban planning."
+            },
+            {
+              "id": 2,
+              "round_name": "Round 2",
+              "round_desc": "The Net-Zero City Design Challenge. Teams design a net-zero city for 2050 within a budget of $50,000, using 30 cards representing facilities with associated costs and carbon emissions. Teams present their designs to the judges."
+            }
+          ],
+          "tagline": "Design the city of the future with sustainability in mind.",
+          "first": "Rs. 3000",
+          "second": "Rs. 2000",
+          "third": "Rs. 1000",
+          "participation": "Open to all departments"
+        },
+        {
+          "event_name": "ECO FUSION",
+          "event_heads": [
+            "Kavya S - 8838994576",
+            "Aruna - 6381557784"
+          ],
+          "domain": "Circuit Design and Electronics",
+          "event_desc": "Eco Fusion is a two-round event testing knowledge in electronics and signal processing. Teams will take part in a pen and paper test followed by a spin-the-wheel challenge to match answers on a grid sheet.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Round 1",
+              "round_desc": "A pen and paper test with questions on analog and digital devices, signal processing, and communications. The top 8 teams based on scores will move to the next round."
+            },
+            {
+              "id": 2,
+              "round_name": "Round 2",
+              "round_desc": "Spin the wheel to choose a topic and answer questions. Teams strike out words on a grid sheet based on their answers. The first to complete a line wins."
+            }
+          ],
+          "tagline": "Test your knowledge in electronics and signal processing.",
+          "first": "Rs. 3000",
+          "second": "Rs. 2000",
+          "third": "Rs. 1000",
+          "participation": "ECE, EEE, BME, and other circuit-related majors"
+        },
+        {
+          "event_name": "DEAL DASH",
+          "event_heads": [
+            "Padmaja R - 8667764651",
+            "Philo Valencia V - 9489847597"
+          ],
+          "domain": "Technical Problem Solving",
+          "event_desc": "Deal Dash challenges participants with visual clues related to physics, electronics, and communication in Round 1 and a circuit design challenge with component trading in Round 2. The first to complete their circuit wins.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Round 1",
+              "round_desc": "Teams solve 20 questions with pictures related to technical terms. Tie breakers include star-marked questions, earliest submission, and a buzzer round if needed."
+            },
+            {
+              "id": 2,
+              "round_name": "Round 2",
+              "round_desc": "Teams design a circuit using a mix of provided and traded components. Negotiations and correct answers determine successful trades. The first team to complete their circuit wins."
+            }
+          ],
+          "tagline": "Apply your knowledge and strategic thinking in a fast-paced challenge.",
+          "first": "Rs. 3000",
+          "second": "Rs. 2000",
+          "third": "Rs. 1000",
+          "participation": "Open to all departments"
         }
       ],
       "non_technical": [
-        {
-          "event_name": "Non tech Event1",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
-        },
-        {
-          "event_name": "Non tech Event2",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
-          "rounds": [
-            {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
-            }
-          ],
-          "tagline": ""
-        }
       ]
     }
   },
@@ -936,89 +1234,592 @@ const events_data = {
         ]
       }
     },
-
-
-  "com": {
+  "me": {
     "events": {
       "technical": [
         {
-          "event_name": "Event1",
-          "event_desc": "",
+          "event_name": "HOVERCRAFT",
           "event_heads": [],
-          "domain": "",
+          "domain": "Mechanical Engineering",
+          "event_desc": "The Department of Mechanical Engineering invites you to participate in the 'RC Hovercraft Racing Competition' to showcase your creativity and technical skills. This event offers a unique opportunity to design, build, and race your own amphibious craft. Tech enthusiasts, it's time to put on your thinking caps and get hands-on with this exciting challenge!\n\nRules:\n1. Only DIY hovercrafts that are pre-made will be accepted. Any hovercrafts purchased from a shop will be disqualified.\n2. RPM can be adjusted as desired.\n3. The hovercraft must be remote-controlled, either through wired or wireless means.\n4. The event will be conducted in heats (batches), depending on the number of participants.\n5. The track layout will be disclosed on the spot.\n6. The track has a width of 50 cm, so design your hovercraft to fit within these dimensions.\n7. Hovercrafts must be capable of traveling on both water and land and should not topple.\n8. Scoring will be based on lap times.\n9. General instructions will be notified on the event day.\n10. E-certificates will be provided to all participants.",
           "rounds": [
             {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
+              "id": 1,
+              "round_name": "Competition",
+              "round_desc": "Compete against your peers where the best-designed hovercraft and the fastest one on the track will emerge victorious. The event tests your teamwork and skills in a competitive environment with a chance to win!"
             }
           ],
-          "tagline": ""
+          "tagline": "Design, build, and race your own hovercraft in a thrilling competition!",
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD"
         },
         {
-          "event_name": "Event2",
-          "event_desc": "",
+          "event_name": "BLITZ GP",
           "event_heads": [],
-          "domain": "",
+          "domain": "Racing",
+          "event_desc": "Blitz GP is the ultimate test of speed, strategy, and determination. Experience a thrilling new dimension of racing at Invente '24. The event includes Qualifiers and The Ultimate Face-Off, where teams of up to 4 members will compete for victory. Vehicle Specifications: The obstacles on the circuit will test stability, durability, grip, and speed. Wired and wireless are allowed. 4WD and 2WD are allowed. Track width = 150 cm; recommended vehicle track width around 50 cm.\n\nRules:\n1. Maximum number of participants per team: 4.\n2. Multiple paths filled with obstacles will be available. The driver must decide the most suitable path.\n3. It is compulsory to collect one of the two Flag points present on the track.\n4. Participants must bring their own RC vehicles and batteries. No spare batteries or components will be provided.\n5. In case of a tie, there will be another match for one more lap.\n6. The organizers reserve the rights to change any or all of the above rules as they deem fit. Changes, if any, will be highlighted on the website and notified to the registered participants.\n7. Organizers' decision shall be final and binding on all.\n8. Violation of rules will lead to disqualification.",
           "rounds": [
             {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
+              "id": 1,
+              "round_name": "Qualifiers",
+              "round_desc": "1 lap and two chances will be given; the latest lap time will be considered. If the driver opts for a second chance, even if it takes more time, that will be considered."
             },
             {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
+              "id": 2,
+              "round_name": "Face-Offs",
+              "round_desc": "1 vs 1 knockout. The final will be among the two best teams."
             }
           ],
-          "tagline": ""
+          "tagline": "Push the limits in a high-stakes race of willpower and skill!",
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD"
+        },
+        {
+          "event_name": "MECHATHLON",
+          "event_heads": [],
+          "domain": "Placement Preparation",
+          "event_desc": "Mechathlon is a mock placement process designed to help students prepare for job placements. It includes a quiz, group discussion, and mock interview, offering a realistic placement experience and the chance to win internships and cash prizes.\n\nRules:\n1. Round 1: Quiz Challenge - Features technical and aptitude questions.\n2. Round 2: Group Discussion - Participants will be grouped into teams and given a topic to discuss.\n3. Round 3: Mock Interview - Conducted by professors to simulate real interview experiences.\n4. Win exciting cash prizes and internship opportunities.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Quiz Challenge",
+              "round_desc": "Includes technical and aptitude questions."
+            },
+            {
+              "id": 2,
+              "round_name": "Group Discussion",
+              "round_desc": "Shortlisted participants will engage in a group discussion on a given topic."
+            },
+            {
+              "id": 3,
+              "round_name": "Mock Interview",
+              "round_desc": "Participants will experience a mock interview conducted by professionals."
+            }
+          ],
+          "tagline": "Prepare for your career with a mock placement process!",
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD"
+        },
+        {
+          "event_name": "ROBO WARS",
+          "event_heads": [],
+          "domain": "Robotics",
+          "event_desc": "ROBOWARS is a competition where robots attempt to push each other out of a circle. Participants design and build sumobots to engage in strategic battles.\n\nRules:\n1. Participants must apply their engineering skills to create robust, innovative robots.\n2. The competition is played on a knock-out basis with 2 players at a time.\n3. The maximum duration of each round is 5 minutes.\n4. Any team not ready at the specified time will be disqualified.\n5. The machine will be checked for safety before the competition.\n6. Any robot found unsafe to other participants and spectators will be disqualified.\n7. The organizers reserve the rights to change any or all of the above rules as they deem fit.\n8. Violation of any rule will lead to disqualification.\n9. Judges' decision shall be final and binding on all.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Knock-Out Battles",
+              "round_desc": "Two robots face off in each match. The objective is to disable the opponent's robot or outlast it in terms of functionality and durability. The competition is played on a knockout basis with 2 robots at a time."
+            }
+          ],
+          "tagline": "Test your engineering skills in a thrilling robot battle!",
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD"
+        },
+        {
+          "event_name": "PAPER PRESENTATION",
+          "event_heads": [],
+          "domain": "Research",
+          "event_desc": "The Paper Presentation event allows participants to showcase their innovative research across various domains. Abstracts are submitted and shortlisted for presentation. Winners receive cash prizes.\n\nRules:\n1. The subject must be the title of the paper.\n2. The body of the email should include the name and institute of the participant(s), department and year, contact numbers, and email addresses.\n3. Submit the paper as an attachment in two columns IEEE format, limited to 6 pages.\n4. The paper must be in .pdf format.\n5. Plagiarism is strictly prohibited; only original research works are accepted.\n6. Maximum of 4 authors allowed, and all must be students.\n7. Shortlisted teams will be called for a presentation.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Abstract Submission",
+              "round_desc": "Submit abstracts for evaluation. Shortlisted papers will proceed to the main presentation round."
+            },
+            {
+              "id": 2,
+              "round_name": "Main Presentation",
+              "round_desc": "Shortlisted papers are presented to faculty members who evaluate based on various criteria."
+            }
+          ],
+          "tagline": "Showcase your research and win exciting prizes!",
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD"
+        },
+        {
+          "event_name": "PROJECT PRESENTATION",
+          "event_heads": [],
+          "domain": "Engineering Projects",
+          "event_desc": "The Project Presentation event provides a platform for showcasing engineering projects. Participants submit presentations and working videos in advance and present their projects to faculty members on the event day.\n\nRules:\n1. Submit project presentations and working videos a week in advance.\n2. Present project models to faculty members who will evaluate them based on innovation, functionality, and presentation skills.\n3. Only completed projects will be considered; prototypes or concept designs are not eligible.\n4. Teams of up to 4 members are allowed.\n5. The time for each presentation is strictly 15 minutes, followed by a Q&A session of 5 minutes.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Submission",
+              "round_desc": "Submit presentations and working videos for pre-evaluation."
+            },
+            {
+              "id": 2,
+              "round_name": "Presentation",
+              "round_desc": "Present projects to faculty members. Evaluation will be based on criteria provided."
+            }
+          ],
+          "tagline": "Showcase your engineering projects and impress the judges!",
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD"
+        },
+        {
+          "event_name": "BOTTLE ROCKETRIX",
+          "event_heads": [],
+          "domain": "Engineering",
+          "event_desc": "Imagine a group of enthusiasts, their eyes sparkling with anticipation, hands crafting rockets with care and precision. Bottle Rocketrix is about turning everyday objects into vessels of dreams. It’s about turning a plastic bottle, water, and air pressure into a roaring spectacle that defies gravity. The rocket has a fixed volume and the compressed air inside pushes on the water as it tries to expand. The water pushes downwards through the nozzle. The water rushes through the nozzle, making a thrust to counter the weight and air resistance. The thrust pushes the rocket upwards into the sky.\n\nRules:\nRound 1: Rocket Building and Safety Test\n- 1 trial launch and 1 main launch for the judgment (optional).\nRound 2: Range Test\n- 2 chances of launching; farther the distance, more the points.\nRound 3: Accuracy Test\n- Launch the rocket to hit a target and land within the target zone; points will be based on the accuracy of the landing area.\n- All teams will participate in all three rounds. If the rocket breaks during any round, it cannot proceed to the next round.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Rocket Building and Safety Test",
+              "round_desc": "Initial test to evaluate rocket safety and functionality. Includes 1 trial and 1 main launch (optional)."
+            },
+            {
+              "id": 2,
+              "round_name": "Range Test",
+              "round_desc": "Two chances to launch the rocket. Distance achieved will determine the score."
+            },
+            {
+              "id": 3,
+              "round_name": "Accuracy Test",
+              "round_desc": "Targeted launch where accuracy of landing in the designated zone will be scored."
+            }
+          ],
+          "tagline": "Transform everyday objects into rockets and defy gravity!",
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD"
+        },
+        {
+          "event_name": "DRONE RACING",
+          "event_heads": [],
+          "domain": "Racing",
+          "event_desc": "Drone Racing brings pilots and their drones to the forefront in a high-speed, obstacle-filled competition. The event includes a Qualifying Time Trial, an Obstacle Gauntlet, and a Top Team Face-Off.\n\nRules:\nQualifying Time Trial:\n- Each participant has two attempts to complete the course. The best lap time from the two attempts will be used for ranking.\nObstacle Gauntlet:\n- Features a challenging course with obstacles. Points are awarded based on completion time and number of obstacles navigated without penalties.\n- Top 4 teams advance to the final round.\nTop Team Face-Off:\n- Teams compete in a single-elimination format. The pilot who crosses the finish line first earns a point for their team.\n- The team with the most points wins.\n- Participants must bring their own drones and comply with technical specifications. First-person view (FPV) goggles or monitors can be used. Penalties may be given for unsportsmanlike conduct, track deviations, or interference with opponents.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Qualifying Time Trial",
+              "round_desc": "Each participant completes the course twice. Best lap time determines qualification ranking."
+            },
+            {
+              "id": 2,
+              "round_name": "Obstacle Gauntlet",
+              "round_desc": "Participants navigate a challenging course with obstacles. Points are awarded based on performance."
+            },
+            {
+              "id": 3,
+              "round_name": "Top Team Face-Off",
+              "round_desc": "Teams compete in a knockout format. The team with the most points wins."
+            }
+          ],
+          "tagline": "Race through obstacles and prove your piloting skills!",
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD"
+        },
+        
+      ],
+      "non_technical": [
+        {
+          "event_name": "MURDER MYSTERY",
+          "event_heads": [],
+          "domain": "Interactive",
+          "event_desc": "The 'Murder Mystery' event engages participants in an immersive scenario of investigation and detective work. Teams take on roles of investigators, gathering clues, interrogating suspects, and piecing together evidence to identify the culprit. It's a thrilling and interactive experience that challenges critical thinking and problem-solving skills.\n\nRules:\n- Each team should consist of 3-4 members.\n- The game consists of 3 rounds, including various levels of investigations and interrogation.\n- Briefings will be provided before each round.\n- Participants must bring their own notepad and pen.\n- The organizer’s decision is final.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Investigation",
+              "round_desc": "Initial round where teams gather clues and start their investigation."
+            },
+            {
+              "id": 2,
+              "round_name": "Interrogation",
+              "round_desc": "Teams question suspects and piece together evidence."
+            },
+            {
+              "id": 3,
+              "round_name": "Final Deduction",
+              "round_desc": "Teams present their conclusions and identify the culprit."
+            }
+          ],
+          "tagline": "Solve the mystery and catch the culprit!",
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD"
+        },
+        {
+          "event_name": "SQUID GAME",
+          "event_heads": [],
+          "domain": "Interactive",
+          "event_desc": "Inspired by the popular series, 'Squid Game' features a series of thrilling and competitive games where participants test their strategy, endurance, and wit. Each session includes multiple rounds with exciting challenges.\n\nRules:\n- Registered players compete with 4 others in each session.\n- Each session consists of 3 rounds with 5 available indoor games.\n- 2 players will be eliminated in the first round and 1 in each of the following rounds.\n- Winners from each session compete against other winners for exciting prizes.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Session 1",
+              "round_desc": "Compete in a set of 5 indoor games. 2 players are eliminated in the first round."
+            },
+            {
+              "id": 2,
+              "round_name": "Session 2",
+              "round_desc": "Continue with the remaining players. 1 player is eliminated in this round."
+            },
+            {
+              "id": 3,
+              "round_name": "Final Session",
+              "round_desc": "Winners from previous sessions compete for the final prize."
+            }
+          ],
+          "tagline": "Test your strategy and endurance in thrilling competitive games!",
+          "first": "TBD",
+          "second": "TBD",
+          "third": "TBD"
+        }
+      ]
+    }
+  },
+  "cv": {
+    "events": {
+      "technical": [
+        {
+          "event_name": "PAPER PRESENTATION",
+          "event_heads": [
+            "R Anbunathan - +91 99625 85538",
+            "Hemalatha R - +91 7397 234 903",
+            "Poorneshwaran S - +91 86800 90149"
+          ],
+          "domain": "Civil Engineering",
+          "event_desc": "All of us claim to study but only a few of us can delve deep into the subject in order to present what we have gained from our studies. Presentations, now-a-days, are an indispensable part of the corporate sector. People wanting to move mountains in future must begin by carrying small stones and this is the impetus of this technical paper presentation. The purpose of this technical paper presentation is to judge efficaciously how skilled we are in our own fields.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Presentation and Q&A",
+              "round_desc": "Present your paper for 7 minutes followed by a 3-minute Q&A session."
+            }
+          ],
+          "tagline": "Showcase your expertise and presentation skills!",
+          "first": "Rs. 3500",
+          "second": "Rs. 1500",
+          "third": "TBD"
+        },
+        {
+          "event_name": "REAL ESTATE",
+          "event_heads": [
+            "Thanush Kumar M V - +91 9841185567",
+            "Thithiksha L - +91 78452 63917"
+          ],
+          "domain": "Real Estate",
+          "event_desc": "Auction days yet again. A set of prime locations across the country will be disclosed to the teams on-spot and they will bid for the same, bid wisely as your assets will be evaluated against the liabilities you might carry.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Auction Bidding",
+              "round_desc": "Bid for prime locations disclosed on-spot, with no mobile phones allowed for assistance."
+            }
+          ],
+          "tagline": "Bid wisely and manage your assets in the real estate auction!",
+          "first": "Rs. 2500",
+          "second": "Rs. 1500",
+          "third": "TBD"
+        },
+        {
+          "event_name": "KNOW-IT",
+          "event_heads": [
+            "Harini S - 9843560215",
+            "Sanmati K - +91 9344409845"
+          ],
+          "domain": "General Knowledge",
+          "event_desc": "A technical event comprising of questions to test our knowledge. The participants are split into teams. Event comprises of 2 rounds and the teams for round 2 are chosen with points and bonus obtained from the round. The winning team with highest score is rewarded with exciting prizes.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Prelims",
+              "round_desc": "20 minutes written quiz with 30 questions. Top 6 teams will qualify for the next round."
+            },
+            {
+              "id": 2,
+              "round_name": "Finals",
+              "round_desc": "Rapid fire buzzer round with questions and points calculated on the spot."
+            }
+          ],
+          "tagline": "Test your knowledge and win exciting prizes!",
+          "first": "Rs. 2500",
+          "second": "Rs. 1500",
+          "third": "TBD"
+        },
+        {
+          "event_name": "SNAKE & LADDER",
+          "event_heads": [
+            "Sarvesh Nikhil M - +91 8056533300",
+            "P Pradeep Kumar - +91 9943915070"
+          ],
+          "domain": "Games",
+          "event_desc": "Want to put your technical knowledge to the test and have fun at the same time? Then look no further than the Snake & Ladder event and stand a chance to win exciting cash prizes.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "MCQ Round",
+              "round_desc": "25 MCQs to be solved within 10 minutes. Top teams will move to the next round."
+            },
+            {
+              "id": 2,
+              "round_name": "Buzzer Round",
+              "round_desc": "Answer questions to move up the ladder. Team with the highest score or that reaches 100 wins."
+            }
+          ],
+          "tagline": "Combine fun with knowledge and climb to victory!",
+          "first": "Rs. 2500",
+          "second": "Rs. 1500",
+          "third": "TBD"
+        },
+        {
+          "event_name": "CADD-PRO",
+          "event_heads": [
+            "Elanthalir - +91 80154 16061",
+            "Ravi Raam S - +91 79042 31114"
+          ],
+          "domain": "Civil Engineering",
+          "event_desc": "\"Drawing is the art of taking a line for a walk!\" - Paul Klee \"Cad Drawing is the art of taking a building for a walk.\" Prove your mettle by Creating with AutoCAD.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Design Challenge",
+              "round_desc": "Design an aesthetic and sustainable room using AutoCAD, based on given specifications and questions."
+            }
+          ],
+          "tagline": "Showcase your AutoCAD skills and creativity!",
+          "first": "Rs. 2500",
+          "second": "Rs. 1500",
+          "third": "TBD"
+        },
+        {
+          "event_name": "APT-IQ",
+          "event_heads": [
+            "Santhosh Kumar S - +91 9486181909",
+            "Raheina A - +91 93454460"
+          ],
+          "domain": "Aptitude",
+          "event_desc": "Put your problem-solving skills to the test in our Mastermind Challenge! This aptitude event is designed to push your logical thinking, numerical ability, and analytical reasoning to the limit.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Prelims",
+              "round_desc": "25 questions in 30 minutes."
+            },
+            {
+              "id": 2,
+              "round_name": "Finals",
+              "round_desc": "15 questions in 20 minutes."
+            }
+          ],
+          "tagline": "Challenge your mind with complex problems and excel!",
+          "first": "Rs. 2500",
+          "second": "Rs. 1500",
+          "third": "TBD"
+        },
+        {
+          "event_name": "INTERVIEW-X",
+          "event_heads": [
+            "Annamalai N - +91 9585848184",
+            "Hariharan K - +91 7550151319",
+            "Kranisha S - +91 8148047319"
+          ],
+          "domain": "Interview Skills",
+          "event_desc": "Prepare yourself for the real-world interview experience with Interview-X! This event simulates professional job interviews and provides feedback to improve your skills.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Prelims",
+              "round_desc": "Answer 15 basic interview questions (Aptitude, Numerical, Technical) in 30 minutes."
+            },
+            {
+              "id": 2,
+              "round_name": "Finals",
+              "round_desc": "Face an interview with judges and receive feedback."
+            }
+          ],
+          "tagline": "Prepare for interviews with real-world simulations and feedback!",
+          "first": "Rs. 2500",
+          "second": "Rs. 1500",
+          "third": "TBD"
+        },
+        {
+          "event_name": "ECO SKETCH",
+          "event_heads": [
+            "Namachivayam L - +91 8825798625",
+            "Vishva T - +91 9952541470"
+          ],
+          "domain": "Art",
+          "event_desc": "The Eco-sketch event aims to inspire students to create artwork that promotes environmental awareness and reflects the theme 'Sustainable Art.' Participants will use provided materials to complete their artwork.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Sketching",
+              "round_desc": "Create artwork based on the theme 'Sustainable Art' using provided materials within the given time."
+            }
+          ],
+          "tagline": "Express your creativity and raise environmental awareness through art!",
+          "first": "Rs. 2500",
+          "second": "Rs. 1500",
+          "third": "TBD"
         }
       ],
       "non_technical": [
         {
-          "event_name": "Event1",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
+          "event_name": "PHOTOGRAPHY",
+          "event_heads": ["N Jewison Jacob - +91 9847591945"],
+          "domain": "Photography",
+          "event_desc": "Capture the world through your lens and showcase your creativity! Whether you're an amateur or a seasoned photographer, this event is designed for all photography enthusiasts. Participants are encouraged to submit their best shots, reflecting the given theme. The competition will be judged by a panel of members. Don’t miss this opportunity to let your photographs tell a story and inspire others.",
           "rounds": [
             {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
-            },
-            {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
+              "id": 1,
+              "round_name": "Submission",
+              "round_desc": "Send your photos to acephotographycontest24@gmail.com. The mail should contain: Name, College name, and Contact details of the participant. Themes: Nature, Historic places, Abandoned buildings. Only one entry per person. Entry fee per person Rs.25. Basic editing is allowed. Winners will be selected based on judgement. Last day of submission: 26/09/2024 by 11.59 p.m."
             }
           ],
-          "tagline": ""
+          "tagline": "Showcase your creativity through your lens!",
+          "first": "Rs. 500/-",
+          "second": "Rs. 250/-",
+          "third": ""
+        },
+      ]
+    }
+  },
+  "com": {
+    "events": {
+      "technical": [
+        {
+          "event_name": "Price ‘n’ Pitches",
+          "event_heads": [
+            "Aathithiya Ganesh - 8122325132",
+            "Madhumitha Dayalan - 9500091496"
+          ],
+          "domain": "Marketing & Creativity",
+          "event_desc": "Price 'n' Pitches is an exciting two-part competition that tests participants' price-guessing skills and marketing creativity. Teams will compete in 'The Price is Right' preliminary round, guessing prices of everyday items. Top teams advance to the 'Adzap' finals, where they'll create impromptu, engaging advertisements for random products.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Prelims",
+              "round_desc": "Teams will guess prices of everyday items. Top teams will advance to the finals."
+            },
+            {
+              "id": 2,
+              "round_name": "Adzap",
+              "round_desc": "Selected teams create impromptu advertisements for random products."
+            }
+          ],
+          "tagline": "Show your price-guessing skills and marketing creativity!",
+          "first": "Rs. 4000",
+          "second": "Rs. 3000",
+          "third": "Rs. 1000",
+          "team_size": "3-4"
         },
         {
-          "event_name": "Event2",
-          "event_desc": "",
-          "event_heads": [],
-          "domain": "",
+          "event_name": "BizQuiz",
+          "event_heads": [
+            "Parthiv S - 8522817577",
+            "Madhumitha Dayalan - 9500091496"
+          ],
+          "domain": "Business",
+          "event_desc": "The Business Quiz is an intellectually stimulating competition centered on business modules, in which teams work together to traverse different questions and real-world business scenarios. It provides a unique quizzing experience requiring critical thinking and problem-solving abilities.",
           "rounds": [
             {
-              "id": "round_1",
-              "round_name": "Round 1",
-              "round_desc": ""
+              "id": 1,
+              "round_name": "Prelims",
+              "round_desc": "Teams answer questions from different business categories in a mixed bag format."
             },
             {
-              "id": "round_2",
-              "round_name": "Round 2",
-              "round_desc": ""
+              "id": 2,
+              "round_name": "Finals",
+              "round_desc": "Teams compete in a final round with more challenging questions based on performance in the prelims."
             }
           ],
-          "tagline": ""
+          "tagline": "Test your business knowledge and strategic acumen!",
+          "first": "Rs. 4000",
+          "second": "Rs. 2500",
+          "third": "Rs. 1500",
+          "team_size": "2"
+        },
+        {
+          "event_name": "Startup Showdown",
+          "event_heads": [
+            "Adithya Madhav - 8056207527",
+            "Madhumitha Dayalan - 9500091496"
+          ],
+          "domain": "Entrepreneurship",
+          "event_desc": "Startup Showdown challenges participants to pitch innovative business ideas envisioned for the year 2050. Teams present their futuristic ideas to a panel of judges, aiming to secure investment by demonstrating both the viability and potential impact of their product.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Prelims",
+              "round_desc": "Teams present a creative business idea for the year 2050. PowerPoint presentations are prepared in advance."
+            },
+            {
+              "id": 2,
+              "round_name": "Finals",
+              "round_desc": "Top 5 teams receive a product on-spot and pitch a business plan for it. Teams have 20 minutes to prepare and 10 minutes to present, followed by Q&A."
+            }
+          ],
+          "tagline": "Pitch innovative ideas for the year 2050!",
+          "first": "Rs. 6000",
+          "second": "Rs. 2000",
+          "third": "",
+          "team_size": "2-4"
+        },
+        {
+          "event_name": "EcoNexus",
+          "event_heads": [
+            "Mayukha - 9840572091",
+            "Madhumitha Dayalan - 9500091496"
+          ],
+          "domain": "Economics",
+          "event_desc": "EcoNexus challenges teams to apply economic concepts to real-world scenarios. This competition is perfect for policy enthusiasts looking to test their knowledge, think on their feet, and tackle global economic challenges in a fun, competitive environment.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Quiz",
+              "round_desc": "Teams participate in a multiple-choice quiz on economics. Top-performing teams advance to the next round."
+            },
+            {
+              "id": 2,
+              "round_name": "Strategy Development",
+              "round_desc": "Qualified teams develop strategies and policies for assigned economic scenarios. Teams prepare for 45 minutes and present in 5 minutes, followed by Q&A."
+            }
+          ],
+          "tagline": "Apply economic concepts to real-world challenges!",
+          "first": "Rs. 5000",
+          "second": "Rs. 3000",
+          "third": "",
+          "team_size": "2-4"
+        },
+        {
+          "event_name": "YES (Youth Economic Summit)",
+          "event_heads": [
+            "Mayukha - 9840572091",
+            "Madhumitha Dayalan - 9500091496"
+          ],
+          "domain": "Economics & Sustainability",
+          "event_desc": "The Youth Economic Summit explores the intersection of economics, sustainability, and global policy. It features a poster presentation on sustainability and economics, and a model conference where delegates tackle pressing economic issues.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Poster Presentation",
+              "round_desc": "Participants submit and present posters on sustainability and economics topics. Submissions must be approved five days before the event."
+            },
+            {
+              "id": 2,
+              "round_name": "Conference Presentation",
+              "round_desc": "Delegates participate in a model conference, presenting and debating on economic issues."
+            }
+          ],
+          "tagline": "Showcase your research and debate global challenges!",
+          "first": "Stream I (Poster Presentation): Rs. 3000\nStream II (Conference Presentation): Rs. 2000",
+          "second": "Stream I (Poster Presentation): Rs. 2000\nStream II (Conference Presentation): Rs. 1000",
+          "team_size": "1-3"
         }
+      ],
+      "non_technical": [
+        
       ]
     }
   },

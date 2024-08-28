@@ -166,9 +166,14 @@ function Event({ dept }) {
                             participants={selectedEvent["participants"]}
                             dept={dept}
                           />
-                          <p className="text-center text-xl font-dosis">
-                            {selectedEvent.event_desc}
-                          </p>
+                          <div className="text-center text-xl font-dosis">
+                            {/* {selectedEvent.event_desc} */}
+                            {selectedEvent.event_desc.split('\n').map((line, index) => (
+                                <p key={index} className="text-centre">
+                                  {line}
+                                </p>
+                              ))}
+                          </div>
                           {selectedEvent.domain && (
                             <p className="text-center text-lg font-dosis">
                               Domain: {selectedEvent.domain}
