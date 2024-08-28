@@ -5,11 +5,18 @@ import CountdownTimer from '../CountdownTimer';
 import Navelement from '../Navelement';
 import { ToastContainer, toast } from 'react-toastify';
 import './home.css'; /*https://www.magicpattern.design/tools/starry-sky-generator*/
-import MovingGalleries from './MovingGalleries'
+import MovingGalleries from './MovingGalleries';
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
   const eventsRef = useRef(null);
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate('/register');
+  };
 
   useEffect(() => {
     // Set up IntersectionObserver
@@ -68,7 +75,10 @@ Since 2016, Invente has been our flagship techfest,
 catered to challenge the spirits and intellects of students
 nationwide.`}
               </pre>
-              <button className="text-black font-libre font-extralight w-40 md:w-44 bg-white rounded-xl p-4 md:p-5 mt-6 shadow-lg hover:shadow-xl transform transition-transform duration-300 hover:scale-105">
+              <button
+                className="text-black font-libre font-extralight w-40 md:w-44 bg-white rounded-xl p-4 md:p-5 mt-6 shadow-lg hover:shadow-xl transform transition-transform duration-300 hover:scale-105"
+                onClick={handleClick}
+              >
                 Get Passes
               </button>
 

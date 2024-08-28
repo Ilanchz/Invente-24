@@ -9,7 +9,7 @@ function About() {
     return (
         <div 
             className="w-full min-h-screen flex flex-col bg-gray-100"
-            id="about_rab"
+            id="about_tab"
             style={{ 
                 backgroundImage: `url('/bg-image.jpg')`,
                 backgroundSize: 'cover', 
