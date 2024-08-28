@@ -20,6 +20,7 @@ const events_data = {
                     "round_desc": "This round has the teams trying to guess the code from executable files. Teams will give their input and view the output, then code the logic by analyzing input and output, which will be verified manually."
                 }
             ],
+            "team_size":"2",
             "first": "TBD",
             "second": "TBD",
             "third": "TBD",
@@ -42,6 +43,7 @@ const events_data = {
                     "round_desc": "Selected teams start the treasure hunt with an initial clue. Each solved clue leads to the next location. The penultimate clue reveals the location of the Treasure, where the final challenge awaits!"
                 }
             ],
+            "team_size":"2-3",
             "first": "TBD",
             "second": "TBD",
             "third": "TBD",
@@ -64,6 +66,7 @@ const events_data = {
                     "round_desc": "Teams design a robust, scalable architecture for their application, focusing on technical expertise. The event concludes with a pitch to a panel of judges, followed by a Q&A session."
                 }
             ],
+            "team_size":"2",
             "first": "TBD",
             "second": "TBD",
             "third": "TBD",
@@ -91,6 +94,7 @@ const events_data = {
                     "round_desc": "Finalists will present their papers at Invente 2024 at SSN College of Engineering. Each presentation is allotted 10 minutes, followed by 3 minutes for Q&A."
                 }
             ],
+            "team_size":"1-3",
             "first": "TBD",
             "second": "TBD",
             "third": "TBD",
@@ -113,6 +117,7 @@ const events_data = {
                     "round_desc": "1. Time Limit: 25 minutes.\n2. Preview: The webpage will be shown again for 60 seconds before this round begins. Focus on the design details!\n3. Blindfold Mode: Continue with your screen off, relying on your memory and CSS skills.\n4. Focus on CSS: Apply styles such as colors, fonts, margins, and positioning to replicate the design.\n5. Lifelines:\n- Peek (1x): Turn on your screen for 5 seconds to review your work.\n- Style Tip (1x): Request guidance on CSS properties or a specific design element.\n6. Scoring: Points will be awarded for how closely the styling matches the original site, with bonus points for creative solutions under pressure."
                 }
             ],
+            "team_size":"1",
             "first": "TBD",
             "second": "TBD",
             "third": "TBD",
@@ -135,6 +140,7 @@ const events_data = {
                     "round_desc": "Apply and fine-tune uncommon machine learning algorithms to solve real-world problems. Teams will be assigned a specific ML algorithm and they have to come up with a problem statement and solve it using the given algorithm. They must fine-tune and apply the algorithm to achieve the best solution. Teams will be provided with internet access and they can use platforms like Colab & Kaggle."
                 }
             ],
+            "team_size":"3-4",
             "first": "TBD",
             "second": "TBD",
             "third": "TBD",
@@ -158,6 +164,7 @@ const events_data = {
               }
             ],
             "tagline": "Rules:\n1. Each team must consist of 1-2 participants.\n2. No changes to team members are allowed after the competition begins.\n3. All work submitted must be original and created within the competition timeframe.\n4. Use of pre-built templates or fully developed applications will result in immediate disqualification.\n5. Participants are allowed to use any development tools, libraries, or frameworks they are familiar with.\n6. Judges will evaluate the applications based on the criteria outlined for each round.\n7. Their decision will be the final and binding.",            
+            "team_size":"1-2",
             "first": "TBD",
             "second": "TBD",
             "third": "TBD",
@@ -179,6 +186,7 @@ const events_data = {
                     "round_desc": "Here, you'll receive 120 minutes to refine your data, craft visuals that not only convey captivating stories but also unearth intriguing insights and present them."
                 }
             ],
+            "team_size":"1-3",
             "tagline": "",
             "first": "TBD",
             "second": "TBD",
