@@ -1965,7 +1965,7 @@ const events_data = {
           "event_name": "APT-IQ",
           "event_heads": [
             "Santhosh Kumar S - +91 9486181909",
-            "Raheina A - +91 93454460"
+            "Raheina A - +91 9345446008"
           ],
           "domain": "Aptitude",
           "event_desc": "Put your problem-solving skills to the test in our Mastermind Challenge! This aptitude event is designed to push your logical thinking, numerical ability, and analytical reasoning to the limit.",
