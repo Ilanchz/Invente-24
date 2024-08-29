@@ -1814,7 +1814,7 @@ const events_data = {
     }
   },
   "cv": {
-    "name":"Civil Engineering",
+    "name": "Civil Engineering",
     "events": {
       "technical": [
         {
@@ -1987,21 +1987,21 @@ const events_data = {
           "team_size": "1"
         },
         {
-          "event_name": "ECO SKETCH",
+          "event_name": "BOB THE BUILDER",
           "event_heads": [
             "Namachivayam L - +91 8825798625",
             "Vishva T - +91 9952541470"
           ],
-          "domain": "Art",
-          "event_desc": "The Eco-sketch event aims to inspire students to create artwork that promotes environmental awareness and reflects the theme 'Sustainable Art.' Participants will use provided materials to complete their artwork.",
+          "domain": "Engineering",
+          "event_desc": "Participants will face the challenge of constructing a load-bearing structure model from scratch, guided by a unique problem statement. With limited time and materials, they must craft a design that withstands rigorous testing. Creativity, precision, and teamwork are key, but only the most resilient structure will emerge victorious, as judged by our expert panel.",
           "rounds": [
             {
               "id": 1,
-              "round_name": "Sketching",
-              "round_desc": "Create artwork based on the theme 'Sustainable Art' using provided materials within the given time."
+              "round_name": "Construction Challenge",
+              "round_desc": "Construct a load-bearing structure model using only the materials provided. The model must withstand rigorous testing and be completed within the given time."
             }
           ],
-          "tagline": "Express your creativity and raise environmental awareness through art!",
+          "tagline": "Build a winning structure with creativity and precision!",
           "first": "Rs. 2500",
           "second": "Rs. 1500",
           "third": "-",
