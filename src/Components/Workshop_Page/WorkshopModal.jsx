@@ -1,4 +1,5 @@
 import React from 'react';
+import Rounds from './Rounds';
 
 function Modal({ isOpen, onClose, workshop }) {
   if (!isOpen) return null;
@@ -10,9 +11,8 @@ function Modal({ isOpen, onClose, workshop }) {
           <h2 className="text-2xl font-bold text-gray-100">{workshop.title}</h2>
           <button onClick={onClose} className="text-white hover:text-red-600 text-lg">✕</button>
         </div>
-        <img src={workshop.image} alt={workshop.title} className="w-full h-40 object-cover rounded-md mb-4" />
-        <div className="bg-blue-600 bg-opacity-60 rounded-xl p-4 mb-4">
-          <div className="flex justify-around text-white">
+        <div className="mt-10 mb-8 bg-blue-600 bg-opacity-60 rounded-xl p-4 mb-4">
+          <div className="font-dosis flex justify-around text-white flex-col sm:flex-row gap-4">
             <div className="text-center">
               <p className="text-xl"><b>₹{workshop.prizeWinner}</b></p>
               <p>Winner</p>
@@ -29,11 +29,43 @@ function Modal({ isOpen, onClose, workshop }) {
               <p className="text-xl"><b>{workshop.location}</b></p>
               <p>Location</p>
             </div>
+            <div className="text-center">
+              <p className="text-xl text-orange-500"><b>{workshop.domain}</b></p>
+              <p>Domain</p>
+            </div>
           </div>
         </div>
         <div className="mb-10">
-          <p className="text-gray-100 whitespace-pre-wrap">{workshop.description}</p>
-          <p className="text-gray-100 mt-2 mb-10"><strong>Date:</strong> {workshop.date}</p>
+          <p className="text-gray-100 whitespace-pre-wrap text-lg font-dosis">{workshop.description}</p>
+          <div className="mt-12 flex flex-col w-full h-full justify-center items-center gap-10">
+            {workshop["rules"].map((round) => (
+              <Rounds
+                key={round["round_name"]}
+                round_name={round["rule_name"]}
+                round_desc={round["rule_desc"]}
+              />
+            ))}
+          </div>
+          <div className="flex flex-col w-full h-full justify-center items-center gap-4">
+            {workshop.coordinators && (
+              <div className="mt-10 w-full flex flex-col items-center gap-4">
+                <h3 className="text-2xl text-white font-bold mb-2 font-dosis">
+                  Coordinators
+                </h3>
+                <div className="flex gap-2 flex-col md:flex-row">
+                  {workshop.coordinators.map((name) => (
+                    <div
+                      key={name["name"]}
+                      className="text-white p-4 shadow-lg bg-black rounded-lg w-64 text-center"
+                    >
+                      <p className="text-md font-semibold">{name["name"]}</p>
+                      <p className="text-md font-semibold">{name["ph"]}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </div>
