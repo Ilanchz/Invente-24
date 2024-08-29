@@ -194,24 +194,24 @@ const events_data = {
           },
         ],
         "SNUC": [
-            {
-              "event_name": "Impact Arcade: Level Up for Sustainability",
-              "event_desc": "Game Jam is an intense 24-hour game development competition where teams are tasked with creating engaging and thoughtful games based on the theme that will be announced on the day of the competition. This theme will be related to the United Nations Sustainable Development Goals (SDGs), ensuring the games focus on relevant global issues.",
-              "event_heads": ["Karunya Harikrishnan - +91 73056 34359", "Saanjith Reddy - +91 94927 53456"],
-              "domain": "Game Development",
-              "rounds": [
-                  {
-                      "id": "round_1",
-                      "round_name": "Game Development",
-                      "round_desc": "Teams will have 24 hours to develop a game based on the theme announced at the beginning of the competition.\nRules:\n1. Time Limit: The competition runs for 24 hours, starting from the official theme announcement.\n2. Judging Criteria: Games will be judged based on creativity, gameplay, adherence to the theme, and technical execution.\n 3. Mentor Feedback: Teams can earn additional points by incorporating feedback from mentors after the first 12 hours of the competition.\n4. Original Work: All content, including code, art, and audio, must be created during the Game Jam. Pre-existing assets are not allowed, except for fonts and publicly available libraries/frameworks.\n5. Use of Tools: Participants are free to use any game development tools, engines, or frameworks of their choice, as long as they adhere to the competition’s theme and time constraints.\n6. Theme Adherence: Games must clearly reflect the given theme, related to the United Nations SDGs. Creativity in interpreting and integrating the theme is encouraged.\n7. Submission: Games must be submitted before the 24-hour deadline. Late submissions will not be accepted.\n8. Platforms: The game must be playable on at least one of the following platforms: Windows, macOS, Linux, or a web browser.\n9. Code Submission: The full source code must be submitted alongside the game, with clear instructions on how to run the game."
-                  }
-              ],
-              "team_size": "1-2",
-              "tagline": "",
-              "first": "Rs 8000",
-              "second": "Rs 4000",
-              "third": "-"
-          },
+          //   {
+          //     "event_name": "Impact Arcade: Level Up for Sustainability",
+          //     "event_desc": "Game Jam is an intense 24-hour game development competition where teams are tasked with creating engaging and thoughtful games based on the theme that will be announced on the day of the competition. This theme will be related to the United Nations Sustainable Development Goals (SDGs), ensuring the games focus on relevant global issues.",
+          //     "event_heads": ["Karunya Harikrishnan - +91 73056 34359", "Saanjith Reddy - +91 94927 53456"],
+          //     "domain": "Game Development",
+          //     "rounds": [
+          //         {
+          //             "id": "round_1",
+          //             "round_name": "Game Development",
+          //             "round_desc": "Teams will have 24 hours to develop a game based on the theme announced at the beginning of the competition.\nRules:\n1. Time Limit: The competition runs for 24 hours, starting from the official theme announcement.\n2. Judging Criteria: Games will be judged based on creativity, gameplay, adherence to the theme, and technical execution.\n 3. Mentor Feedback: Teams can earn additional points by incorporating feedback from mentors after the first 12 hours of the competition.\n4. Original Work: All content, including code, art, and audio, must be created during the Game Jam. Pre-existing assets are not allowed, except for fonts and publicly available libraries/frameworks.\n5. Use of Tools: Participants are free to use any game development tools, engines, or frameworks of their choice, as long as they adhere to the competition’s theme and time constraints.\n6. Theme Adherence: Games must clearly reflect the given theme, related to the United Nations SDGs. Creativity in interpreting and integrating the theme is encouraged.\n7. Submission: Games must be submitted before the 24-hour deadline. Late submissions will not be accepted.\n8. Platforms: The game must be playable on at least one of the following platforms: Windows, macOS, Linux, or a web browser.\n9. Code Submission: The full source code must be submitted alongside the game, with clear instructions on how to run the game."
+          //         }
+          //     ],
+          //     "team_size": "1-2",
+          //     "tagline": "",
+          //     "first": "Rs 8000",
+          //     "second": "Rs 4000",
+          //     "third": "-"
+          // },
           {
             "event_name": "Compile Combat",
             "event_desc": "Welcome to Compile Combat: Where Coding Meets Crazy Fun! Get ready to compete, connect, and conquer in an experience filled with laughter, challenges, and unforgettable moments.",
@@ -444,41 +444,6 @@ const events_data = {
             "second": "Rs 500",
             "third": "-",
             "tagline": ""
-          },
-          {
-            "event_name": "Call of Duty Mobile",
-            "event_heads": [
-              "Akhshan P",
-              "Sanjay D"
-            ],
-            "domain": "Non-Tech",
-            "first": "Rs 1000",
-            "second": "Rs 500",
-            "third": "-",
-            "event_desc": "Enter the battlefield in Call of Duty Mobile, a tournament where only the strongest teams will survive. Compete through upper and lower brackets in a knockout format, with each round testing your skills across various multiplayer modes.",
-            "rounds": [
-              {
-                "round_name": "Round 0",
-                "round_desc": "Shhh.. It is suspense which will be revealed during the event."
-              },
-              {
-                "round_name": "Round 1",
-                "round_desc": "Teams compete in Hardpoint matches."
-              },
-              {
-                "round_name": "Round 2",
-                "round_desc": "Teams face off in Search and Destroy mode."
-              },
-              {
-                "round_name": "Round 3",
-                "round_desc": "Teams battle in Control mode with a strategic twist: once a player selects a class (e.g., Sniper), no other player on their team can choose the same class."
-              },
-              {
-                "round_name": "Grand Finals",
-                "round_desc": "The top two teams—one from the upper bracket and one from the lower bracket—will face off in the same three rounds: Hardpoint, Search and Destroy, and Control. In the Control mode, the rule of unique class selection per team remains in effect. The team that wins the Grand Finals is crowned the champion."
-              }
-            ],
-            "tagline": "Rules:\n1. Each team must consist of 5 members. Once the tournament begins, changes to team members will not be allowed.\n2. Teams must ensure they arrive on time for their matches. Late arrivals may result in disqualification or forfeiture.\n3. All participants are expected to maintain good sportsmanship and conduct. The use of abusive language, disrespectful behavior, or any form of misconduct will not be tolerated.\n4. Participants are strictly prohibited from using hacks, cheats, or any banned items. If any player is found guilty of such actions, their team will be moved to the lower bracket or may be disqualified from the tournament."
           }
         ]
       }
@@ -1160,8 +1125,8 @@ const events_data = {
         {
           "event_name": "PAPER PRESENTATION",
           "event_heads": [
-            "Taruna - 9965905000",
-            "Chankya - 7603883729"
+            "Varshaa S J - 7550059950",
+            "Neilalohithan - 9962462775"
           ],
           "domain": "Research and Technical Knowledge",
           "event_desc": "The Paper Presentation event is designed to provide a platform for students and researchers to showcase their original research, innovative ideas, and technical knowledge. Participants will have the opportunity to present their papers on a range of topics, engage with peers, and receive valuable feedback from a panel of experts.",
