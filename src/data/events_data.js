@@ -1,5 +1,6 @@
 const events_data = {
     "cse": {
+      "name":"Computer Science and Engineering",
     "events": {
       "technical": {
         "SSN": [
@@ -450,6 +451,7 @@ const events_data = {
     }
   },
   "it": {
+    "name":"Information Technology",
     "events": {
       "technical": [
           {
@@ -717,6 +719,7 @@ const events_data = {
     }
   },
   "bme": {
+    "name":"Bio Medical Engineering",
     "events": {
       "technical": [
         {
@@ -1011,6 +1014,7 @@ const events_data = {
     }
   },
   "ece": {
+    "name":"Electronics and Communications Engineering",
     "events": {
       "technical": [
         {
@@ -1290,6 +1294,7 @@ const events_data = {
 
   //EEE Data 
     "eee": {
+      "name":"Electrical and Electronics Engineering",
       "events": {
         "technical": [
           {
@@ -1564,6 +1569,7 @@ const events_data = {
       }
     },
   "me": {
+    "name":"Mechanical Engineering",
     "events": {
       "technical": [
         {
@@ -1808,6 +1814,7 @@ const events_data = {
     }
   },
   "cv": {
+    "name":"Civil Engineering",
     "events": {
       "technical": [
         {
@@ -2036,6 +2043,7 @@ const events_data = {
     }
   },
   "com": {
+    "name":"SNU Commerce and Economics",
     "events": {
       "technical": [
         {
@@ -2177,6 +2185,7 @@ const events_data = {
 
   //CHEMICAL DEPARTMENT
     "ce": {
+      "name":"Chemical Engineering",
       "events": {
         "technical":
           [

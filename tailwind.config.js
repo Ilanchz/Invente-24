@@ -13,6 +13,7 @@ module.exports = {
         libre: ['Libre Baskerville', 'serif'],
         shadows: ['"Shadows Into Light"', 'cursive'],
         raleway: ['Raleway', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'], // Add Roboto here
       },
       colors: {
         'custom-green': '#5c7c57',

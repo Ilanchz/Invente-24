@@ -94,22 +94,26 @@ function Event({ dept }) {
             </div>
           )}
 
+          {console.log(dept)}
           {/* Tab Section */}
           {(dept !== "cse" || selectedCategory) && (
             <div className="flex flex-col items-center">
-              <div className="flex w-1/2 md:w-64 space-x-4 mb-4 justify-between">
+              <div className="flex w-3/4 md:justify-around space-x-4 mb-4 justify-between items-center">
                 <button
                   className={`px-4 font-dosis font-bold py-2 rounded-t-lg ${activeTab === "technical" ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-800"} transition-colors duration-300`}
                   onClick={() => setActiveTab("technical")}
                 >
                   Technical
                 </button>
+
+                {(dept!="com") &&
                 <button
                   className={`px-4 py-2 font-dosis rounded-t-lg ${activeTab === "non_technical" ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-800"} transition-colors duration-300`}
                   onClick={() => setActiveTab("non_technical")}
                 >
                   Non-Technical
                 </button>
+                }
               </div>
 
               {/* Dropdown Section */}
@@ -154,7 +158,7 @@ function Event({ dept }) {
                           {selectedEvent.event_name}
                         </h2>
                         <div className="text-white italic font-raleway p-5 text-xl">
-                          HOSTED BY THE DEPARTMENT OF {dept.toUpperCase()}
+                          HOSTED BY THE DEPARTMENT OF {(events_data[dept].name).toUpperCase()}
                         </div>
                         <div className="w-full flex flex-col gap-5 text-white">
                           <EventDesc
@@ -169,7 +173,7 @@ function Event({ dept }) {
                           <div className="text-center text-xl font-dosis">
                             {/* {selectedEvent.event_desc} */}
                             {selectedEvent.event_desc.split('\n').map((line, index) => (
-                                <p key={index} className="text-justify">
+                                <p key={index} className="text-justify font-roboto font-light">
                                   {line}
                                 </p>
                               ))}

@@ -6,10 +6,10 @@ import workshop_data from '../../data/workshop_data';
 function Workshop() {
   const [workshops, setWorkshops] = useState([]);
   const [selectedWorkshop, setSelectedWorkshop] = useState(null);
-  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     setWorkshops(workshop_data);
+    console.log(workshop_data);
   }, []);
 
   const openModal = (workshop) => {
@@ -33,7 +33,6 @@ function Workshop() {
     >
 
       <h2 className="text-3xl text-center font-raleway text-blue-500 font-extrabold mb-8 mt-8">UPCOMING HACKATHONS & WORKSHOP</h2>
-
       <div className="w-full flex flex-wrap justify-center gap-6 p-6">
         {workshops.map((workshop) => (
           <div className="w-full sm:w-1/3 p-4" key={workshop.title}>
