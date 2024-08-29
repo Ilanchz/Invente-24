@@ -61,14 +61,14 @@ const data_contact = [
       "head_name": "Mithila",
       "ph_no": "+91 75502 15425",
       "insta": "@ssn_ame",
-      "image": "./Presidents/"  // Updated path
+      "image": "./Presidents/Mithila_Mech.jpg"  // Updated path
   },
   {
     "department": "SNUC School of Computer Science and Engineering",
     "dept": "SNU CSE",
     "head_name": "Kandukuri Lohith Saradhi",
     "ph_no": "+91 9384809005",
-    "insta": "@ssn_ame",
+    "insta": "@ssnsnucinvente",
     "image": "./Presidents/Lohith_SNUC_CSE.jpg"  // Updated path
 },
 {
@@ -76,7 +76,7 @@ const data_contact = [
   "dept": "SNUC Commerce/Economics",
   "head_name": "Madhumitha Dayalan",
   "ph_no": "+91 95000 91496",
-  "insta": "@ssn_ame",
+  "insta": "@snuc_business.club",
   "image": "./Presidents/Madhumitha_SNUC_Commerce.jpg"  // Updated path
 }
 
