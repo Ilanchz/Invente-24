@@ -7,9 +7,9 @@ const Workshop_data = [
     prizeWinner: 9000,
     prizeRunner: 4000,
     domain: "Game Development",
-    location: 'Tech Lab',
+    location: 'TBD',
     description: "Game Jam is an intense 24-hour game development competition where teams are tasked with creating engaging and thoughtful games based on the theme that will be announced on the day of the competition. This theme will be related to the United Nations Sustainable Development Goals (SDGs), ensuring the games focus on relevant global issues.",
-    date: "2024-09-15",
+    date: "TBD",
     image: Workshop_image,
     coordinators: [
       {

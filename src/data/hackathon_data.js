@@ -7,10 +7,10 @@ const hackathon_data = [
     prizeWinner: 12000,
     prizeRunner: 8000,
     prizeSecondRunner: 5000,
-    location: "IT Department",
+    location: "TBD",
     description:
       "The flagship event of the Invente, emerges as a celebration of ingenuity, collaboration, and relentless passion for problem-solving. Problem statements are chosen in the fields of Healthcare, Renewable Energy, Fintech, Sustainability, Smart cities, supply chain and logistics, Agritech, Education and Tourism. It's not just another hackathon, it is a whirlwind of imagination and coding prowess that unfolds over the course of 24 hours where aspiring developers, designers, and creators converge to transform their ideas into reality.\n\nGeneral instructions:\n1. All the team members must have proper internet connection.\n2. Participants are required to have their own components and software in order to implement their solution (including extension boxes).\n3. Each team will be allocated separate mentors.\n4. Mentorship for technical skills will be provided.\n5. Participants are supposed to build their product/solution during the Hackathon.\n6. Participants are allowed to use existing libraries or components, however only the work done during the 24 hrs will be considered for evaluation.\n7. Solutions/products can be a mix of hardware and software technologies, but can be purely software or hardware based as well.\n8. Participants will be informed of the order in which reviews will happen and must attend their meetings at the specified times.\n9. Solutions/products will be judged based on Innovation, Impact, Feasibility and Marketability.\n10. Organizers will be available for any further help/queries.",
-    date: "2024-09-15",
+    date: "TBD",
     coordinators: [
       {
         name: "Sanjay B",
