@@ -24,18 +24,12 @@ function Workshop() {
     <div
       className="w-full flex flex-col"
       id="workshop_tab"
-      style={{
-        backgroundImage: `url('/bg-image.jpg')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-      }}
     >
 
-      <h2 className="text-3xl text-center font-raleway text-blue-500 font-extrabold mb-8 mt-8">UPCOMING HACKATHONS & WORKSHOP</h2>
+      
       <div className="w-full flex flex-wrap justify-center gap-6 p-6">
         {workshops.map((workshop) => (
-          <div className="w-full sm:w-1/3 p-4" key={workshop.title}>
+          <div className="w-full sm:w-1/3 p-4 animate-pulse" key={workshop.title}>
             <WorkshopCard
               title={workshop.title}
               image={workshop.image}

@@ -36,14 +36,15 @@ function Register() {
                             {[
                                 { text: 'Technical Passes', link: 'https://docs.google.com/forms/d/e/1FAIpQLScHZ7G6EKFZmyGvDUtvwTEtUgzGBs5e5EViK90xdv1jqLmg7A/viewform' },
                                 { text: 'Hackinfinity', link: 'https://docs.google.com/forms/u/2/d/e/1FAIpQLSdk69vYslrxmG02EOnCsOuOa0WqqWpbU4e8jkekqLV5_SZwTg/viewform' },
-                                { text: 'Impact Arcade (Game Jam) - 24 Hour Hackathon', link: '' },
-                                { text: 'Workshop 1', link: '' },
-                                { text: 'Workshop 2', link: '' },
+                                { text: 'Impact Arcade (Game Jam) - 24 Hour Hackathon', link: 'https://forms.gle/9ktxPpdhFnGXcqs68' },
+                                { text: 'Workshop 1', link: '', status: 'disabled' },
+                                { text: 'Workshop 2', link: '', status: 'disabled' },
                             ].map((button, index) => (
                                 <button 
                                     key={index}
-                                    className="font-dosis text-white w-full md:w-1/2 mx-auto md:ml-10 text-sm md:text-lg bg-gradient-to-r font from-cyan-600 to-teal-600 hover:bg-gradient-to-l font-bold py-2 px-4 rounded-lg mb-4"
-                                    onClick={() => button.link && (window.location.href = button.link)}
+                                    className={`font-dosis text-white w-full md:w-1/2 mx-auto md:ml-10 text-sm md:text-lg bg-gradient-to-r from-cyan-600 to-teal-600 hover:bg-gradient-to-l font-bold py-2 px-4 rounded-lg mb-4 ${button.status === 'disabled' ? 'opacity-20 cursor-not-allowed' : ''}`}
+                                    onClick={() => button.status !== 'disabled' && button.link && (window.location.href = button.link)}
+                                    disabled={button.status === 'disabled'}
                                 >
                                     {button.text}
                                 </button>

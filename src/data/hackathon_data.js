@@ -64,7 +64,7 @@ const hackathon_data = [
   },
   {
     id: 2,
-    title: "Impact Arcade: level up for sustainability - A Game developing competition",
+    title: "Impact Arcade: Level up for Sustainability - A Game developing competition",
     prizeWinner: 9000,
     prizeRunner: 4000,
     prizeSecondRunner: "None",
