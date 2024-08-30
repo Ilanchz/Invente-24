@@ -1,4 +1,5 @@
 const hackathon_image = "/hackathon.jpg";
+const Workshop_image = '/workshop.png';
 
 const hackathon_data = [
   {
@@ -60,6 +61,78 @@ const hackathon_data = [
           "1. In this round, teams will be evaluated based on presentation skills, ability to explain their idea in a lucid manner and the degree of innovation in their solution.\n   2. Teams which address the marketability of their product will be awarded additional points. The hackathon will follow a leaderboard system. The final score will be the cumulative points gained by the team over the three reviews and final presentation. The team with the highest score will be announced the winner of the hackathon. Decisions taken by the review panel will be final in all regards.",
       },
     ],
+  },
+  {
+    id: 2,
+    title: "Impact Arcade: level up for sustainability - A Game developing competition",
+    prizeWinner: 9000,
+    prizeRunner: 4000,
+    prizeSecondRunner: "None",
+    domain: "Game Development",
+    location: 'TBD',
+    description: "Game Jam is an intense 24-hour game development competition where teams are tasked with creating engaging and thoughtful games based on the theme that will be announced on the day of the competition. This theme will be related to the United Nations Sustainable Development Goals (SDGs), ensuring the games focus on relevant global issues.",
+    date: "TBD",
+    image: Workshop_image,
+    coordinators: [
+      {
+        name: "Karunya  Harikrishnan",
+      },
+      {
+        name: "Saanjith Reddy",
+      },
+    ],
+    rounds: [
+      {
+        id: "round_1",
+        round_name: "Team Composition",
+        round_desc: "Each team can consist of a maximum of 2 players.\nIndividual participants are also allowed to compete solo.",
+      },
+      {
+        id: "round_2",
+        round_name: "Time Limit",
+        round_desc: "The competition runs for 24 hours, starting from the official theme announcement.",
+      },
+      {
+        id: "round_3",
+        round_name: "Judging Criteria",
+        round_desc: "Games will be judged based on creativity, gameplay, adherence to the theme, and technical execution.",
+      },
+      {
+        id: "round_4",
+        round_name: "Mentor Feedback",
+        round_desc: "Teams can earn additional points by incorporating feedback from mentors after the first 12 hours of the competition.",
+      },
+      {
+        id: "round_5",
+        round_name: "Original Work",
+        round_desc: "All content, including code, art, and audio, must be created during the Game Jam. Pre-existing assets are not allowed, except for fonts and publicly available libraries/frameworks.",
+      },
+      {
+        id: "round_6",
+        round_name: "Use of Tools",
+        round_desc: "Participants are free to use any game development tools, engines, or frameworks of their choice, as long as they adhere to the competition’s theme and time constraints.",
+      },
+      {
+        id: "round_7",
+        round_name: "Theme Adherence",
+        round_desc: "Games must clearly reflect the given theme, related to the United Nations SDGs. Creativity in interpreting and integrating the theme is encouraged.",
+      },
+      {
+        id: "round_8",
+        round_name: "Submission",
+        round_desc: "Games must be submitted before the 24-hour deadline. Late submissions will not be accepted.",
+      },
+      {
+        id: "round_9",
+        round_name: "Platforms",
+        round_desc: "The game must be playable on at least one of the following platforms: Windows, macOS, Linux, or a web browser.",
+      },
+      {
+        id: "round_10",
+        round_name: "Code Submission",
+        round_desc: "The full source code must be submitted alongside the game, with clear instructions on how to run the game.",
+      },
+    ]
   },
 ];
 
