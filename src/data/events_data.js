@@ -28,8 +28,8 @@ const events_data = {
             "tagline": "Expect the unexpected. Let the chaos and fun begin!\\(°o°)/"
           },
           {
-            "event_name": "Hex Marks the Spot",
-            "event_desc": "\"Hex Marks The Spot\" is a cybersecurity-oriented treasure hunt and capture-the-flag event that tests the codebreaking and cracking skills of participants in a thrilling treasure hunt taking them across campus in teams of 2-3.",
+            "event_name": "Hacker's Asylum",
+            "event_desc": "\"Hackers Asylum\" is a cybersecurity-oriented treasure hunt and capture-the-flag event that tests the codebreaking and cracking skills of participants in a thrilling treasure hunt taking them across campus in teams of 2-3.",
             "event_heads": ["Aathish Sivasubrahmanian - 9025780160", "Parthiban M - 8825862600"],
             "domain": "Cybersecurity",
             "rounds": [
@@ -82,12 +82,12 @@ const events_data = {
                 {
                     "id": "round_1",
                     "round_name": "Initial Screening",
-                    "round_desc": "Participants must submit an abstract on their chosen topic by x date. The abstract should be submitted through the designated form sent by mail upon registration."
+                    "round_desc": "Participants must submit an abstract on their chosen topic by 13/09/2024 date. The abstract should be submitted through the designated form sent by mail upon registration."
                 },
                 {
                     "id": "round_2",
                     "round_name": "PPT Submission",
-                    "round_desc": "Shortlisted participants will be notified via email by x date. Presentations should be submitted in MS PowerPoint format by y date. The format will be sent via email."
+                    "round_desc": "Shortlisted participants will be notified via email by 17/09/2024 date. Presentations should be submitted in MS PowerPoint format by 21/09/2024 date. The format will be sent via email."
                 },
                 {
                     "id": "final_round",
