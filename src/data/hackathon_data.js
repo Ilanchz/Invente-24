@@ -64,7 +64,7 @@ const hackathon_data = [
   },
   {
     id: 2,
-    title: "Impact Arcade: Level up for Sustainability - A Game developing competition",
+    title: "Impact Arcade(Game Jam) 24 Hour Hackathon",
     prizeWinner: 9000,
     prizeRunner: 4000,
     prizeSecondRunner: "None",
@@ -75,10 +75,10 @@ const hackathon_data = [
     image: Workshop_image,
     coordinators: [
       {
-        name: "Karunya  Harikrishnan",
+        name: "Karunya  Harikrishnan +91 7305634359",
       },
       {
-        name: "Saanjith Reddy",
+        name: "Saanjith Reddy +91 9492753456",
       },
     ],
     rounds: [
