@@ -190,10 +190,19 @@ const HOSPITALITY = {
       content: [
         <div className="flex flex-col items-center justify-center w-full">
           <div>Reach out to us if you have any further queries</div>
-          <div className="space-y-4 mt-8">
+          <div className="space-y-4 mt-8 flex justify-center items-center h-full w-full">
 
-            <div className="text-red-500 italic">
-              To be Declared
+            <div className="w-full flex gap-5 justify-center items-center">
+              <div className="hover:bg-black hover:text-white transition-all duration-400 ease-soft-spring w-1/3 m-2 p-5 rounded-xl flex flex-col bg-white text-black justify-center items-center">
+                <div className="text-xl">Pradeep Kumar P</div>
+                <div className="text-blue-600">9943915070</div>
+                <div className="">CIVIL</div>
+              </div>
+              <div className="hover:bg-black hover:text-white transition-all duration-400 ease-soft-spring w-1/3 m-2 p-5 rounded-xl flex flex-col bg-white text-black justify-center items-center">
+                <div className="text-xl">Prashanna</div>
+                <div className="text-blue-600">7358514834</div>
+                <div>SNU</div>
+              </div>
             </div>
 
 

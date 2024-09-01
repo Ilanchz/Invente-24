@@ -1569,13 +1569,22 @@ const events_data = {
       }
     },
   "me": {
-    "name":"Mechanical Engineering",
+    "name": "Mechanical Engineering",
     "events": {
       "technical": [
         {
           "event_name": "HOVERCRAFT",
-          "event_heads": [],
-          "domain": "Mechanical Engineering",
+          "event_heads": [
+            "Preetha - 7094015234",
+            "Shravan - 9940383452"
+          ],
+          "domain": "Fabrication",
+          "team_size": "1-4",
+          "cash_prize_amount": {
+            "first": 5000,
+            "second": 3000,
+            "third": null
+          },
           "event_desc": "The Department of Mechanical Engineering invites you to participate in the 'RC Hovercraft Racing Competition' to showcase your creativity and technical skills. This event offers a unique opportunity to design, build, and race your own amphibious craft. Tech enthusiasts, it's time to put on your thinking caps and get hands-on with this exciting challenge!\n\nRules:\n1. Only DIY hovercrafts that are pre-made will be accepted. Any hovercrafts purchased from a shop will be disqualified.\n2. RPM can be adjusted as desired.\n3. The hovercraft must be remote-controlled, either through wired or wireless means.\n4. The event will be conducted in heats (batches), depending on the number of participants.\n5. The track layout will be disclosed on the spot.\n6. The track has a width of 50 cm, so design your hovercraft to fit within these dimensions.\n7. Hovercrafts must be capable of traveling on both water and land and should not topple.\n8. Scoring will be based on lap times.\n9. General instructions will be notified on the event day.\n10. E-certificates will be provided to all participants.",
           "rounds": [
             {
@@ -1584,15 +1593,21 @@ const events_data = {
               "round_desc": "Compete against your peers where the best-designed hovercraft and the fastest one on the track will emerge victorious. The event tests your teamwork and skills in a competitive environment with a chance to win!"
             }
           ],
-          "tagline": "Design, build, and race your own hovercraft in a thrilling competition!",
-          "first": "TBD",
-          "second": "TBD",
-          "third": "TBD"
+          "tagline": "Design, build, and race your own hovercraft in a thrilling competition!"
         },
         {
           "event_name": "BLITZ GP",
-          "event_heads": [],
-          "domain": "Racing",
+          "event_heads": [
+            "Deepak G - 8438210112",
+            "Naren K - 7708560192"
+          ],
+          "domain": "Fabrication",
+          "team_size": "3-4",
+          "cash_prize_amount": {
+            "first": 5000,
+            "second": 3000,
+            "third": null
+          },
           "event_desc": "Blitz GP is the ultimate test of speed, strategy, and determination. Experience a thrilling new dimension of racing at Invente '24. The event includes Qualifiers and The Ultimate Face-Off, where teams of up to 4 members will compete for victory. Vehicle Specifications: The obstacles on the circuit will test stability, durability, grip, and speed. Wired and wireless are allowed. 4WD and 2WD are allowed. Track width = 150 cm; recommended vehicle track width around 50 cm.\n\nRules:\n1. Maximum number of participants per team: 4.\n2. Multiple paths filled with obstacles will be available. The driver must decide the most suitable path.\n3. It is compulsory to collect one of the two Flag points present on the track.\n4. Participants must bring their own RC vehicles and batteries. No spare batteries or components will be provided.\n5. In case of a tie, there will be another match for one more lap.\n6. The organizers reserve the rights to change any or all of the above rules as they deem fit. Changes, if any, will be highlighted on the website and notified to the registered participants.\n7. Organizers' decision shall be final and binding on all.\n8. Violation of rules will lead to disqualification.",
           "rounds": [
             {
@@ -1606,15 +1621,21 @@ const events_data = {
               "round_desc": "1 vs 1 knockout. The final will be among the two best teams."
             }
           ],
-          "tagline": "Push the limits in a high-stakes race of willpower and skill!",
-          "first": "TBD",
-          "second": "TBD",
-          "third": "TBD"
+          "tagline": "Push the limits in a high-stakes race of willpower and skill!"
         },
         {
           "event_name": "MECHATHLON",
-          "event_heads": [],
-          "domain": "Placement Preparation",
+          "event_heads": [
+            "Krishnaa - 8122136549",
+            "Vignesh V S - 7092009238"
+          ],
+          "domain": "Mock Placement",
+          "team_size": "1",
+          "cash_prize_amount": {
+            "first": 1500,
+            "second": 1000,
+            "third": null
+          },
           "event_desc": "Mechathlon is a mock placement process designed to help students prepare for job placements. It includes a quiz, group discussion, and mock interview, offering a realistic placement experience and the chance to win internships and cash prizes.\n\nRules:\n1. Round 1: Quiz Challenge - Features technical and aptitude questions.\n2. Round 2: Group Discussion - Participants will be grouped into teams and given a topic to discuss.\n3. Round 3: Mock Interview - Conducted by professors to simulate real interview experiences.\n4. Win exciting cash prizes and internship opportunities.",
           "rounds": [
             {
@@ -1633,15 +1654,21 @@ const events_data = {
               "round_desc": "Participants will experience a mock interview conducted by professionals."
             }
           ],
-          "tagline": "Prepare for your career with a mock placement process!",
-          "first": "TBD",
-          "second": "TBD",
-          "third": "TBD"
+          "tagline": "Prepare for your career with a mock placement process!"
         },
         {
           "event_name": "ROBO WARS",
-          "event_heads": [],
-          "domain": "Robotics",
+          "event_heads": [
+            "Arul Thiagarajan - 9080824998",
+            "Nithish Saran - 9787860161"
+          ],
+          "domain": "Fabrication",
+          "team_size": "3-4",
+          "cash_prize_amount": {
+            "first": 4000,
+            "second": 2000,
+            "third": null
+          },
           "event_desc": "ROBOWARS is a competition where robots attempt to push each other out of a circle. Participants design and build sumobots to engage in strategic battles.\n\nRules:\n1. Participants must apply their engineering skills to create robust, innovative robots.\n2. The competition is played on a knock-out basis with 2 players at a time.\n3. The maximum duration of each round is 5 minutes.\n4. Any team not ready at the specified time will be disqualified.\n5. The machine will be checked for safety before the competition.\n6. Any robot found unsafe to other participants and spectators will be disqualified.\n7. The organizers reserve the rights to change any or all of the above rules as they deem fit.\n8. Violation of any rule will lead to disqualification.\n9. Judges' decision shall be final and binding on all.",
           "rounds": [
             {
@@ -1650,15 +1677,22 @@ const events_data = {
               "round_desc": "Two robots face off in each match. The objective is to disable the opponent's robot or outlast it in terms of functionality and durability. The competition is played on a knockout basis with 2 robots at a time."
             }
           ],
-          "tagline": "Test your engineering skills in a thrilling robot battle!",
-          "first": "TBD",
-          "second": "TBD",
-          "third": "TBD"
+          "tagline": "Test your engineering skills in a thrilling robot battle!"
         },
         {
           "event_name": "PAPER PRESENTATION",
-          "event_heads": [],
-          "domain": "Research",
+          "event_heads": [
+            "Monish - 8610944758",
+            "Ramji - 8220271233"
+          ],
+          "domain": "General",
+          "team_size": "1-4",
+          "cash_prize_amount": {
+            "first": 2500,
+            "second": 2500,
+            "third": 2500,
+            "fourth": 2500
+          },
           "event_desc": "The Paper Presentation event allows participants to showcase their innovative research across various domains. Abstracts are submitted and shortlisted for presentation. Winners receive cash prizes.\n\nRules:\n1. The subject must be the title of the paper.\n2. The body of the email should include the name and institute of the participant(s), department and year, contact numbers, and email addresses.\n3. Submit the paper as an attachment in two columns IEEE format, limited to 6 pages.\n4. The paper must be in .pdf format.\n5. Plagiarism is strictly prohibited; only original research works are accepted.\n6. Maximum of 4 authors allowed, and all must be students.\n7. Shortlisted teams will be called for a presentation.",
           "rounds": [
             {
@@ -1668,147 +1702,120 @@ const events_data = {
             },
             {
               "id": 2,
-              "round_name": "Main Presentation",
-              "round_desc": "Shortlisted papers are presented to faculty members who evaluate based on various criteria."
+              "round_name": "Presentation",
+              "round_desc": "Present your paper to a panel of judges. Judging criteria include originality, relevance, and presentation quality."
             }
           ],
-          "tagline": "Showcase your research and win exciting prizes!",
-          "first": "TBD",
-          "second": "TBD",
-          "third": "TBD"
+          "tagline": "Present your research and innovative ideas to a panel of experts!"
         },
         {
           "event_name": "PROJECT PRESENTATION",
-          "event_heads": [],
-          "domain": "Engineering Projects",
-          "event_desc": "The Project Presentation event provides a platform for showcasing engineering projects. Participants submit presentations and working videos in advance and present their projects to faculty members on the event day.\n\nRules:\n1. Submit project presentations and working videos a week in advance.\n2. Present project models to faculty members who will evaluate them based on innovation, functionality, and presentation skills.\n3. Only completed projects will be considered; prototypes or concept designs are not eligible.\n4. Teams of up to 4 members are allowed.\n5. The time for each presentation is strictly 15 minutes, followed by a Q&A session of 5 minutes.",
+          "event_heads": [
+            "Venkata Siri - 8008721723",
+            "Dheeraj - 8072864128"
+          ],
+          "domain": "General",
+          "team_size": "1-4",
+          "cash_prize_amount": {
+            "first": 3000,
+            "second": 2000,
+            "third": null
+          },
+          "event_desc": "The Project Presentation event provides a platform for students to showcase their engineering projects. The event is open to projects across various domains, with evaluation based on creativity, implementation, and presentation.\n\nRules:\n1. Projects can be related to any domain of engineering or technology.\n2. Each team will have 10 minutes to present their project, followed by a Q&A session.\n3. Participants must bring their own presentation materials and equipment.\n4. The project should be original and not previously presented in other forums.\n5. Projects will be evaluated based on innovation, relevance, and technical execution.",
           "rounds": [
             {
               "id": 1,
-              "round_name": "Submission",
-              "round_desc": "Submit presentations and working videos for pre-evaluation."
-            },
-            {
-              "id": 2,
               "round_name": "Presentation",
-              "round_desc": "Present projects to faculty members. Evaluation will be based on criteria provided."
+              "round_desc": "Present your project to a panel of judges. The evaluation will be based on creativity, implementation, and overall presentation."
             }
           ],
-          "tagline": "Showcase your engineering projects and impress the judges!",
-          "first": "TBD",
-          "second": "TBD",
-          "third": "TBD"
+          "tagline": "Showcase your engineering projects and win prizes!"
         },
         {
           "event_name": "BOTTLE ROCKETRIX",
-          "event_heads": [],
-          "domain": "Engineering",
-          "event_desc": "Imagine a group of enthusiasts, their eyes sparkling with anticipation, hands crafting rockets with care and precision. Bottle Rocketrix is about turning everyday objects into vessels of dreams. It’s about turning a plastic bottle, water, and air pressure into a roaring spectacle that defies gravity. The rocket has a fixed volume and the compressed air inside pushes on the water as it tries to expand. The water pushes downwards through the nozzle. The water rushes through the nozzle, making a thrust to counter the weight and air resistance. The thrust pushes the rocket upwards into the sky.\n\nRules:\nRound 1: Rocket Building and Safety Test\n- 1 trial launch and 1 main launch for the judgment (optional).\nRound 2: Range Test\n- 2 chances of launching; farther the distance, more the points.\nRound 3: Accuracy Test\n- Launch the rocket to hit a target and land within the target zone; points will be based on the accuracy of the landing area.\n- All teams will participate in all three rounds. If the rocket breaks during any round, it cannot proceed to the next round.",
+          "event_heads": [
+            "Gnana Stefan - 9025197957",
+            "Yeswanth - 7358562241"
+          ],
+          "domain": "Fabrication",
+          "team_size": "1-5",
+          "cash_prize_amount": {
+            "first": 3000,
+            "second": 2000,
+            "third": null
+          },
+          "event_desc": "BOTTLE ROCKETRIX challenges participants to design and build their own bottle rockets. The competition involves launching rockets and achieving the highest altitude.\n\nRules:\n1. Only homemade rockets are allowed.\n2. The rocket must be powered by a liquid propulsion system.\n3. The rocket must be launched from a standard launch pad provided by the organizers.\n4. The maximum allowable height is 100 meters.\n5. Participants must ensure that the rocket is safe and does not pose a risk to others.",
           "rounds": [
             {
               "id": 1,
-              "round_name": "Rocket Building and Safety Test",
-              "round_desc": "Initial test to evaluate rocket safety and functionality. Includes 1 trial and 1 main launch (optional)."
-            },
-            {
-              "id": 2,
-              "round_name": "Range Test",
-              "round_desc": "Two chances to launch the rocket. Distance achieved will determine the score."
-            },
-            {
-              "id": 3,
-              "round_name": "Accuracy Test",
-              "round_desc": "Targeted launch where accuracy of landing in the designated zone will be scored."
+              "round_name": "Rocket Launch",
+              "round_desc": "Launch your rocket and achieve the highest altitude. The highest altitude wins."
             }
           ],
-          "tagline": "Transform everyday objects into rockets and defy gravity!",
-          "first": "TBD",
-          "second": "TBD",
-          "third": "TBD"
+          "tagline": "Build and launch your bottle rocket to reach the highest altitude!"
         },
         {
           "event_name": "DRONE RACING",
-          "event_heads": [],
-          "domain": "Racing",
-          "event_desc": "Drone Racing brings pilots and their drones to the forefront in a high-speed, obstacle-filled competition. The event includes a Qualifying Time Trial, an Obstacle Gauntlet, and a Top Team Face-Off.\n\nRules:\nQualifying Time Trial:\n- Each participant has two attempts to complete the course. The best lap time from the two attempts will be used for ranking.\nObstacle Gauntlet:\n- Features a challenging course with obstacles. Points are awarded based on completion time and number of obstacles navigated without penalties.\n- Top 4 teams advance to the final round.\nTop Team Face-Off:\n- Teams compete in a single-elimination format. The pilot who crosses the finish line first earns a point for their team.\n- The team with the most points wins.\n- Participants must bring their own drones and comply with technical specifications. First-person view (FPV) goggles or monitors can be used. Penalties may be given for unsportsmanlike conduct, track deviations, or interference with opponents.",
+          "event_heads": [
+            "Sahil - 9142595403",
+            "Niraikulathan - 8667892838"
+          ],
+          "domain": "Fabrication",
+          "team_size": "1-2",
+          "cash_prize_amount": {
+            "first": 5000,
+            "second": 5000,
+            "third": 5000
+          },
+          "event_desc": "Drone Racing is an exhilarating event where participants race drones through a challenging course. It tests piloting skills and the drone’s performance.\n\nRules:\n1. Drones must be built by the participants themselves.\n2. The race course will be disclosed on the event day.\n3. Participants must adhere to safety regulations during the race.\n4. Drones must be equipped with functioning cameras for real-time viewing.\n5. The fastest drone through the course wins.",
           "rounds": [
             {
               "id": 1,
-              "round_name": "Qualifying Time Trial",
-              "round_desc": "Each participant completes the course twice. Best lap time determines qualification ranking."
-            },
-            {
-              "id": 2,
-              "round_name": "Obstacle Gauntlet",
-              "round_desc": "Participants navigate a challenging course with obstacles. Points are awarded based on performance."
-            },
-            {
-              "id": 3,
-              "round_name": "Top Team Face-Off",
-              "round_desc": "Teams compete in a knockout format. The team with the most points wins."
+              "round_name": "Race",
+              "round_desc": "Race your drone through the course. The fastest time wins."
             }
           ],
-          "tagline": "Race through obstacles and prove your piloting skills!",
-          "first": "TBD",
-          "second": "TBD",
-          "third": "TBD"
-        },
-        
+          "tagline": "Race your drone through a challenging course and claim victory!"
+        }
       ],
       "non_technical": [
         {
           "event_name": "MURDER MYSTERY",
-          "event_heads": [],
-          "domain": "Interactive",
-          "event_desc": "The 'Murder Mystery' event engages participants in an immersive scenario of investigation and detective work. Teams take on roles of investigators, gathering clues, interrogating suspects, and piecing together evidence to identify the culprit. It's a thrilling and interactive experience that challenges critical thinking and problem-solving skills.\n\nRules:\n- Each team should consist of 3-4 members.\n- The game consists of 3 rounds, including various levels of investigations and interrogation.\n- Briefings will be provided before each round.\n- Participants must bring their own notepad and pen.\n- The organizer’s decision is final.",
+          "event_heads": [
+            "Arulsivam - 7904713685",
+            "Adhavan - 8754505981"
+          ],
+          "domain": "Non-tech",
+          "team_size": "4",
+          "cash_prize_amount": null,
+          "event_desc": "MURDER MYSTERY is an engaging and interactive event where teams solve a fictional murder case. Participants use clues to uncover the mystery and identify the culprit.\n\nRules:\n1. Teams of 4 will be provided with clues and scenarios.\n2. Participants must work together to solve the mystery within the allotted time.\n3. The team that correctly identifies the culprit wins the game.",
           "rounds": [
             {
               "id": 1,
-              "round_name": "Investigation",
-              "round_desc": "Initial round where teams gather clues and start their investigation."
-            },
-            {
-              "id": 2,
-              "round_name": "Interrogation",
-              "round_desc": "Teams question suspects and piece together evidence."
-            },
-            {
-              "id": 3,
-              "round_name": "Final Deduction",
-              "round_desc": "Teams present their conclusions and identify the culprit."
+              "round_name": "Mystery Solving",
+              "round_desc": "Solve the fictional murder case by using the clues provided. The first team to correctly identify the culprit wins."
             }
           ],
-          "tagline": "Solve the mystery and catch the culprit!",
-          "first": "TBD",
-          "second": "TBD",
-          "third": "TBD"
+          "tagline": "Unravel the mystery and solve the case before time runs out!"
         },
         {
           "event_name": "SQUID GAME",
-          "event_heads": [],
-          "domain": "Interactive",
-          "event_desc": "Inspired by the popular series, 'Squid Game' features a series of thrilling and competitive games where participants test their strategy, endurance, and wit. Each session includes multiple rounds with exciting challenges.\n\nRules:\n- Registered players compete with 4 others in each session.\n- Each session consists of 3 rounds with 5 available indoor games.\n- 2 players will be eliminated in the first round and 1 in each of the following rounds.\n- Winners from each session compete against other winners for exciting prizes.",
+          "event_heads": [
+            "Sanjay K - 6379934566",
+            "Aditya TSS - 9150119604"
+          ],
+          "domain": "Non-tech",
+          "team_size": null,
+          "cash_prize_amount": null,
+          "event_desc": "SQUID GAME is a thrilling and competitive event based on popular games and challenges. Participants compete in a series of games to win various prizes.\n\nRules:\n1. The specific games and challenges will be announced on the event day.\n2. Participants must follow all instructions given by the organizers.\n3. The winners of each game will receive prizes.",
           "rounds": [
             {
               "id": 1,
-              "round_name": "Session 1",
-              "round_desc": "Compete in a set of 5 indoor games. 2 players are eliminated in the first round."
-            },
-            {
-              "id": 2,
-              "round_name": "Session 2",
-              "round_desc": "Continue with the remaining players. 1 player is eliminated in this round."
-            },
-            {
-              "id": 3,
-              "round_name": "Final Session",
-              "round_desc": "Winners from previous sessions compete for the final prize."
+              "round_name": "Games and Challenges",
+              "round_desc": "Participate in various games and challenges. Winners will be determined based on performance in each game."
             }
           ],
-          "tagline": "Test your strategy and endurance in thrilling competitive games!",
-          "first": "TBD",
-          "second": "TBD",
-          "third": "TBD"
+          "tagline": "Compete in exciting challenges and emerge victorious!"
         }
       ]
     }

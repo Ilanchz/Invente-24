@@ -162,9 +162,9 @@ function Event({ dept }) {
                         </div>
                         <div className="w-full flex flex-col gap-5 text-white">
                           <EventDesc
-                            first={selectedEvent["first"] || "TBD"}
-                            second={selectedEvent["second"] || "TBD"}
-                            third={selectedEvent["third"] || "TBD"}
+                            first={/*selectedEvent["first"] ||*/"TBD"}
+                            second={/*selectedEvent["second"] ||*/"TBD"}
+                            third={/*selectedEvent["third"] || */"TBD"}
                             date={selectedEvent["date"]}
                             location={selectedEvent["location"]}
                             participants={selectedEvent["participants"]}
