@@ -64,7 +64,7 @@ const data_contact = [
       "image": "./Presidents/Mithila_Mech.jpg"  // Updated path
   },
   {
-    "department": "SNUC School of Computer Science and Engineering",
+    "department": "CSE, SNUC",
     "dept": "SNU CSE",
     "head_name": "Kandukuri Lohith Saradhi",
     "ph_no": "+91 9384809005",
@@ -72,7 +72,7 @@ const data_contact = [
     "image": "./Presidents/Lohith_SNUC_CSE.jpg"  // Updated path
 },
 {
-  "department": "SNUC School of Commerce & Economics",
+  "department": "Commerce and Economics, SNUC",
   "dept": "SNUC Commerce/Economics",
   "head_name": "Madhumitha Dayalan",
   "ph_no": "+91 95000 91496",

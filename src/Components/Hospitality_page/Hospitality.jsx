@@ -91,7 +91,7 @@ const HOSPITALITY = {
           <ul className="ml-4 list-disc space-y-2">
             <li>Hire an auto/taxi.</li>
             <li>
-              Catch the 40603/40605 bus from Egmore Station to Tambaram and 515
+              Catch the 40603/40605 train from Egmore Station to Tambaram and 515
               from Tambaram to SSN.
             </li>
           </ul>
