@@ -216,7 +216,7 @@ const events_data = {
           {
             "event_name": "Compile Combat",
             "event_desc": "Welcome to Compile Combat: Where Coding Meets Crazy Fun! Get ready to compete, connect, and conquer in an experience filled with laughter, challenges, and unforgettable moments.",
-            "event_heads": ["Nithya Dharshini"],
+            "event_heads": ["Nithya Dharshini - 7397597634", "Ragadharshini R - 9840607008"],
             "domain": "CP",
             "rounds": [
                 {
@@ -239,7 +239,7 @@ const events_data = {
           {
             "event_name": "Code Golf",
             "event_desc": "Code golf is a unique and exciting form of competitive programming where participants aim to solve a problem using the shortest possible source code. It's a test of both programming skill and creativity.",
-            "event_heads": ["Abhiroop I", "Shruthi Mohan"],
+            "event_heads": ["Abhiroop Ippagunta - 8778137900", "Shruthi Mohan - 7200842741"],
             "domain": "CP",
             "rounds": [
                 {
@@ -262,7 +262,7 @@ const events_data = {
           {
             "event_name": "Code Auction",
             "event_desc": "Code Auction is a coding competition where teams use strategy and coding skills to win. Compete in teams, bid wisely, and solve challenging Data Structures and Algorithms (DSA) problems to claim victory.",
-            "event_heads": ["Manav Karthikeyan", "Vedant Nair"],
+            "event_heads": ["Manav Karthikeyan - 7338980753", "Vedant Nair - 7303963857"],
             "domain": "",
             "rounds": [
                 {
@@ -285,7 +285,7 @@ const events_data = {
           {
             "event_name": "CTRL+Escape",
             "event_desc": "CTRL+Escape is a fun and exhilarating adventure where coding skills and logic lead the way. Teams solve coding challenges that reveal flashcards with clues, leading them through a thrilling digital story.",
-            "event_heads": ["Anantha Murthy S", "Smruthi Balaji"],
+            "event_heads": ["Anantha Murthy S - 8807793679", "Smruthi Balaji - 8148265065"],
             "domain": "General",
             "rounds": [
                 {
@@ -303,7 +303,7 @@ const events_data = {
           {
             "event_name": "Cryptic Cadavers",
             "event_desc": "Cryptic Cadavers is a murder mystery-themed Capture the Flag event designed for both newbies and cybersecurity enthusiasts. Participants will solve puzzles and challenges to uncover hidden clues and solve the mystery.",
-            "event_heads": ["Trishaa S"],
+            "event_heads": ["Trishaa S - 9958228489"],
             "domain": "Cybersecurity",
             "rounds": [
                 {
@@ -326,7 +326,7 @@ const events_data = {
           {
             "event_name": "Hardwired Ideathon 2024",
             "event_desc": "The Hardwired Ideathon 2024 is a day of innovation and technical challenges hosted by the SNUC Robotics Club. Participants showcase their skills in IoT and Business through a dynamic multi-round competition.",
-            "event_heads": ["Abhay C Mathen"],
+            "event_heads": ["Abhay C Mathen - 6309190023"],
             "domain": "IoT and Business",
             "rounds": [
                 {
@@ -427,8 +427,8 @@ const events_data = {
           {
             "event_name": "Typing Battle",
             "event_heads": [
-              "Malathi M",
-              "Shravya D"
+              "Malathi M - 7305942774",
+              "Shravya D - 9789287788"
             ],
             "event_desc": "Typing Battle is a fun-filled competition where teams of 2 compete in unique typing challenges. In the first round, each team member faces individual challenges. In the second round, teamwork is put to the test as members share a single keyboard! The top teams will battle it out for the win.",
             "rounds": [
@@ -2060,7 +2060,7 @@ const events_data = {
             "Madhumitha Dayalan - 9500091496"
           ],
           "domain": "Marketing & Creativity",
-          "event_desc": "Price 'n' Pitches is an exciting two-part competition that tests participants' price-guessing skills and marketing creativity. Teams will compete in 'The Price is Right' preliminary round, guessing prices of everyday items. Top teams advance to the 'Adzap' finals, where they'll create impromptu, engaging advertisements for random products.",
+          "event_desc": "Price 'n' Pitches is an exciting two-part competition that tests participants's price-guessing skills and marketing creativity. Teams will compete in 'The Price is Right' preliminary round, guessing prices of everyday items. Top teams advance to the 'Adzap' finals, where they'll create impromptu, engaging advertisements for random products.",
           "rounds": [
             {
               "id": 1,
@@ -2073,17 +2073,17 @@ const events_data = {
               "round_desc": "Selected teams create impromptu advertisements for random products."
             }
           ],
-          "tagline": "Show your price-guessing skills and marketing creativity!\nRules:\n1. The event consists of two rounds: Prelims and Finals.\n2. All teams will participate in the prelims and contest for the top positions.\n3. Only selected teams advancing from prelims will compete in \"Adzap\" for the Final round.\n 4. Teams must have 3-4 members.\n 5. The decision of the organizers and judges is final and binding.",
+          "tagline": "Show your price-guessing skills and marketing creativity!\nRules:\n1. The event consists of two rounds: Prelims and Finals.\n2. All teams will participate in the prelims and contest for the top positions.\n3. Only selected teams advancing from prelims will compete in \"Adzap\" for the Final round.\n 4. Teams must have 4-5 members.\n 5. The decision of the organizers and judges is final and binding.",
           "first": "Rs. 4000",
           "second": "Rs. 3000",
           "third": "Rs. 1000",
-          "team_size": "3-4"
+          "team_size": "4-5"
         },
         {
           "event_name": "BizQuiz",
           "event_heads": [
-            "Parthiv S - 8522817577",
-            "Madhumitha Dayalan - 9500091496"
+            "Parthiv Susarla - 8522817577",
+            "Adithya A -  8247667696"
           ],
           "domain": "Business",
           "event_desc": "The Business Quiz is an intellectually stimulating competition centered on business modules, in which teams work together to traverse different questions and real-world business scenarios. It provides a unique quizzing experience requiring critical thinking and problem-solving abilities.",
@@ -2109,7 +2109,7 @@ const events_data = {
           "event_name": "Startup Showdown",
           "event_heads": [
             "Adithya Madhav - 8056207527",
-            "Madhumitha Dayalan - 9500091496"
+            "Srinidhi - Madhumitha Dayalan - 9500091496"
           ],
           "domain": "Entrepreneurship",
           "event_desc": "Startup Showdown challenges participants to pitch innovative business ideas envisioned for the year 2050. Teams present their futuristic ideas to a panel of judges, aiming to secure investment by demonstrating both the viability and potential impact of their product.",
@@ -2134,11 +2134,12 @@ const events_data = {
         {
           "event_name": "EcoNexus",
           "event_heads": [
-            "Mayukha - 9840572091",
-            "Madhumitha Dayalan - 9500091496"
+            "Tanishk Jalan - 8651943296",
+            "Nivedha B - 9894173527"
+
           ],
-          "domain": "Economics",
-          "event_desc": "EcoNexus challenges teams to apply economic concepts to real-world scenarios. This competition is perfect for policy enthusiasts looking to test their knowledge, think on their feet, and tackle global economic challenges in a fun, competitive environment.",
+          "domain": "Economic Planning",
+          "event_desc": "EcoNexus: Where Economics Meets Excitement! Challenge your mind with real-world scenarios, blend critical thinking with creative problem-solving, and push the limits of traditional knowledge in a thrilling competition. Ready to tackle critical challenges and think on your feet? Dive into EcoNexus and strategize your way to thrilling cash prizes!",
           "rounds": [
             {
               "id": 1,
@@ -2161,10 +2162,10 @@ const events_data = {
           "event_name": "YES (Youth Economic Summit)",
           "event_heads": [
             "Mayukha - 9840572091",
-            "Madhumitha Dayalan - 9500091496"
+            "Shobi Iva – 8637477324"
           ],
           "domain": "Economics & Sustainability",
-          "event_desc": "The Youth Economic Summit explores the intersection of economics, sustainability, and global policy. It features a poster presentation on sustainability and economics, and a model conference where delegates tackle pressing economic issues.",
+          "event_desc": "Do you envision a sustainable future? The Youth Economic Summit is your chance to make it real. Showcase your creativity through a dynamic paper presentation or a striking poster design. Let’s bring economic theories to life with sustainability at the forefront. Ready to push boundaries and shape a better tomorrow?",
           "rounds": [
             {
               "id": 1,
@@ -2173,19 +2174,61 @@ const events_data = {
             },
             {
               "id": 2,
-              "round_name": "Conference Presentation",
-              "round_desc": "Delegates participate in a model conference, presenting and debating on economic issues."
+              "round_name": "Paper Presentation",
+              "round_desc": "Participants are required to prepare and submit a paper on topics related to sustainability and economics from the given topics."
             }
           ],
-          "tagline": "Showcase your research and debate global challenges!",
-          "first": "Stream I (Poster Presentation): Rs. 3000\nStream II (Conference Presentation): Rs. 2000",
-          "second": "Stream I (Poster Presentation): Rs. 2000\nStream II (Conference Presentation): Rs. 1000",
+          "tagline": "Say YES to a Future Where Sustainability Meets Opportunity - Innovate, Elevate, Invente!",
+          "first": "Stream I (Poster Presentation): Rs. 2000\nStream II (Conference Presentation): Rs. 3000",
+          "second": "Stream I (Poster Presentation): Rs. 1000\nStream II (Conference Presentation): Rs. 2000",
           "team_size": "1-3",
           "third": "-"
         }
       ],
       "non_technical": [
-        
+        {
+          "event_name": "Resume Roulette",
+          "event_heads": [
+            "Adithya Viswanathan - 99620 54949",
+            "Jonathan - 8925297980"
+          ],
+          "domain": "Non-Technical",
+          "event_desc": "Resume Roulette is an exciting event where students create resumes for surprise job descriptions, simulating real-world job applications. Participants will enhance their resume-writing skills, learn to navigate AI-based screening systems, and practice impressing interviewers with their personality. This unique challenge combines creativity, quick thinking, and professionalism, preparing students for the competitive job market. It's an invaluable opportunity to build confidence, develop crucial job-hunting skills, and potentially network with industry professionals – all in a fun, engaging environment.",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Create a Resume",
+              "round_desc": "Rules:\n1. Participants will be assigned a job description on the spot.\n2. Participants will have 35 minutes to create a resume tailored to the given job description.\n3. Resumes will be evaluated through an Applicant Tracking System (ATS).\n4. Participants will attend a brief interview based on their resume.\n5. All resume creation including design/layout and content must be done on-site during the allocated 35-minute period.\n6. Participants must bring their own devices (laptop/tablet) for resume creation.\n7. Internet access will be provided for research purposes.\n8. Participants can use tools like Canva, Overleaf, etc to create the resumes.\n9. Use of pre-written content or use of AI-powered tools is prohibited.\n10. Indecent behavior or misconduct leads to immediate disqualification.\n11. Judges' decisions are final and binding; disputes must be raised immediately to organizers."
+            },
+          ],
+          "tagline": "",
+          "first": "Rs. 1000",
+          "second": "Rs. 500",
+          "team_size": "Individual",
+          "third": "-"
+        },
+        {
+          "event_name": "Senses and Sensibility : Media Edition",
+          "event_heads": [
+            "Dev Sai Prashanth S - 7598564980",
+            "Neeraj N - 9840022615"
+
+          ],
+          "domain": "Non-Technical",
+          "event_desc": "Sense and Sensibility: Media Edition - The Ultimate Media Showdown! Dive into a test of communication, speed, and strategic thinking. From iconic movie moments to viral ad campaigns, every second counts as you guide your partner to the right answer. Ready to race against the clock and show off your media savvy? Join us in this thrilling, laughter-filled challenge!!",
+          "rounds": [
+            {
+              "id": 1,
+              "round_name": "Round 1",
+              "round_desc": "Rules:\n1. One team member will be blindfolded, the other will receive clues from judges.\n2. A muted video clip will be played on a screen behind the blindfolded participant.\n3. The non-blindfolded member must communicate clues about the video to their blindfolded partner.\n4. The blindfolded partner must guess the name or nature of the clip being played.\n5. Clips may be from movies, advertisements, or web series.\n6. Indecent behavior or misconduct leads to immediate disqualification.\n7. Judges' decisions are final and binding; disputes must be raised immediately to organizers."
+            },
+          ],
+          "tagline": "",
+          "first": "Rs. 1000",
+          "second": "Rs. 500",
+          "team_size": "2",
+          "third": "-"
+        }
       ]
     }
   },

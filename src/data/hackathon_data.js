@@ -65,7 +65,7 @@ const hackathon_data = [
   {
     id: 2,
     title: "Impact Arcade(Game Jam) 24 Hour Hackathon",
-    prizeWinner: 9000,
+    prizeWinner: 8000,
     prizeRunner: 4000,
     prizeSecondRunner: "None",
     domain: "Game Development",

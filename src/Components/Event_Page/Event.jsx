@@ -106,7 +106,7 @@ function Event({ dept }) {
                   Technical
                 </button>
 
-                {(dept!="com") &&
+                {(dept!="") &&
                 <button
                   className={`px-4 py-2 font-dosis rounded-t-lg ${activeTab === "non_technical" ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-800"} transition-colors duration-300`}
                   onClick={() => setActiveTab("non_technical")}
@@ -162,9 +162,9 @@ function Event({ dept }) {
                         </div>
                         <div className="w-full flex flex-col gap-5 text-white">
                           <EventDesc
-                            first={/*selectedEvent["first"] ||*/"TBD"}
-                            second={/*selectedEvent["second"] ||*/"TBD"}
-                            third={/*selectedEvent["third"] || */"TBD"}
+                            first={selectedEvent["first"] ||"TBD"}
+                            second={selectedEvent["second"] ||"TBD"}
+                            third={selectedEvent["third"] || "TBD"}
                             date={selectedEvent["date"]}
                             location={selectedEvent["location"]}
                             participants={selectedEvent["participants"]}
