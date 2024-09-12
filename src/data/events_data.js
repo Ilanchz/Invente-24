@@ -82,17 +82,17 @@ const events_data = {
                 {
                     "id": "round_1",
                     "round_name": "Initial Screening",
-                    "round_desc": "Participants must submit an abstract on their chosen topic by 13/09/2024 date. The abstract should be submitted through the designated form sent by mail upon registration."
+                    "round_desc": "Participants must submit an abstract on their chosen topic by 24/09/2024 date. The abstract should be submitted through the designated form sent by mail upon registration."
                 },
                 {
                     "id": "round_2",
                     "round_name": "PPT Submission",
-                    "round_desc": "Shortlisted participants will be notified via email by 17/09/2024 date. Presentations should be submitted in MS PowerPoint format by 21/09/2024 date. The format will be sent via email."
+                    "round_desc": "Presentations should be submitted in MS PowerPoint format by 26/09/2024. The format will be sent via email."
                 },
                 {
                     "id": "final_round",
                     "round_name": "Paper Presentation",
-                    "round_desc": "Finalists will present their papers at Invente 2024 at SSN College of Engineering. Each presentation is allotted 10 minutes, followed by 3 minutes for Q&A."
+                    "round_desc": "Finalists will present their papers at Invente 2024 at SSN College of Engineering on 27/09/2024. Each presentation is allotted 10 minutes, followed by 3 minutes for Q&A."
                 }
             ],
             "team_size":"1-3",
