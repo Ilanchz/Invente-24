@@ -22,9 +22,9 @@ const events_data = {
                 }
             ],
             "team_size":"2",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 7000",
+            "second": "Rs. 3000",
+            "third": "Rs. 2000",
             "tagline": "Expect the unexpected. Let the chaos and fun begin!\\(°o°)/"
           },
           {
@@ -45,9 +45,9 @@ const events_data = {
                 }
             ],
             "team_size":"2-3",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 7000",
+            "second": "Rs. 3000",
+            "third": "Rs. 2000",
             "tagline": "Performance will be evaluated based on challenge completion, time taken, and creative solutions."
           },
           {
@@ -68,9 +68,9 @@ const events_data = {
                 }
             ],
             "team_size":"2",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 5000",
+            "second": "Rs. 2500",
+            "third": "Rs. 1000",
             "tagline": "Teams will be judged based on design innovation, usability, technical robustness, and presentation skills."
           },
           {
@@ -96,9 +96,9 @@ const events_data = {
                 }
             ],
             "team_size":"1-3",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 6000",
+            "second": "Rs. 3500",
+            "third": "Rs. 2000",
             "tagline": "Themes:\nTheme1: Current Progress in Engineering Sciences\nTheme2 :Current Progress in Biochemical, Biomedical, and Physical Sciences\nTheme3 :Current Progress in Interdisciplinary Research"
           },
           {
@@ -119,9 +119,9 @@ const events_data = {
                 }
             ],
             "team_size":"1",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 7000",
+            "second": "Rs. 3500",
+            "third": "Rs. 2000",
             "tagline":"The closer your final product is to the original site, the more likely you are to advance!"
           },
           {
@@ -142,9 +142,9 @@ const events_data = {
                 }
             ],
             "team_size":"3-4",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 5000",
+            "second": "Rs. 2500",
+            "third": "Rs. 1000",
             "tagline": "3 participants per team.Teams are evaluated based on their ability to solve the challenges and apply their ML knowledge in creative and effective ways."
           },
           {
@@ -166,9 +166,9 @@ const events_data = {
             ],
             "tagline": "Rules:\n1. Each team must consist of 1-2 participants.\n2. No changes to team members are allowed after the competition begins.\n3. All work submitted must be original and created within the competition timeframe.\n4. Use of pre-built templates or fully developed applications will result in immediate disqualification.\n5. Participants are allowed to use any development tools, libraries, or frameworks they are familiar with.\n6. Judges will evaluate the applications based on the criteria outlined for each round.\n7. Their decision will be the final and binding.",            
             "team_size":"1-2",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 4000",
+            "second": "Rs. 2000",
+            "third": "Rs. 1000",
           },
           {
             "event_name": "Data Whiz",
@@ -189,9 +189,9 @@ const events_data = {
             ],
             "team_size":"1-3",
             "tagline": "",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 4000",
+            "second": "Rs. 2000",
+            "third": "Rs. 1000",
           },
         ],
         "SNUC": [
@@ -278,9 +278,9 @@ const events_data = {
             ],
             "team_size": "2",
             "tagline": "",
-            "first": "",
-            "second": "",
-            "third": ""
+            "first": "Rs. 3000",
+            "second": "Rs. 2000",
+            "third": "Rs. 1000",
           },
           {
             "event_name": "CTRL+Escape",
@@ -298,7 +298,7 @@ const events_data = {
             "tagline": "",
             "first": "Rs 3000",
             "second": "Rs 2000",
-            "third": ""
+            "third": "-"
           },
           {
             "event_name": "Cryptic Cadavers",
@@ -319,9 +319,9 @@ const events_data = {
             ],
             "team_size": "1-3",
             "tagline": "",
-            "first": "₹3000",
-            "second": "₹1000",
-            "third": "₹500"
+            "first": "Rs. 3000",
+            "second": "Rs .1000",
+            "third": "Rs. 500"
           },
           {
             "event_name": "Hardwired Ideathon 2024",
@@ -393,9 +393,9 @@ const events_data = {
                 }
             ],
             "tagline": "Join us for a challenge where creativity meets strategy, and quick thinking is your best asset.Get ready to turn flops into winners and deliver pitches that pack a punch—all while beating the clock!",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "-",
+            "second": "-",
+            "third": "-",
             "team_size": "1-2"
         },
         {
@@ -417,9 +417,9 @@ const events_data = {
                 }
             ],
             "tagline": "",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "-",
+            "second": "-",
+            "third": "-",
             "team_size": "3"
         }     
       ],
@@ -441,8 +441,8 @@ const events_data = {
                 "round_desc": "In this round, team members will work together on the same keyboard. One member will only use their left hand, while the other will only use their right hand. Similar to the first round, teams will be given 3 typing challenges. However, this time both members must coordinate and work together to complete the challenges. The top 2 teams with the best performance in this round will be declared the winners."
               }
             ],
-            "first": "Rs 1000",
-            "second": "Rs 500",
+            "first": "-",
+            "second": "-",
             "third": "-",
             "tagline": ""
           }
@@ -472,9 +472,9 @@ const events_data = {
                 }
             ],
             "tagline": "",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 9000",
+            "second": "Rs. 4000",
+            "third": "Rs. 2000",
             "team_size": "1"
         },
         {
@@ -495,9 +495,9 @@ const events_data = {
                 }
             ],
             "tagline": "",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 9000",
+            "second": "Rs. 4000",
+            "third": "Rs. 2000",
             "team_size": "1-3"
         },
         {
@@ -523,9 +523,9 @@ const events_data = {
                 }
             ],
             "tagline": "",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 6500",
+            "second": "Rs. 2500",
+            "third": "Rs. 1000",
             "team_size": "2-4"
         },
         {
@@ -556,9 +556,9 @@ const events_data = {
                 }
             ],
             "tagline": "",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 6500",
+            "second": "Rs. 2500",
+            "third": "Rs. 1000",
             "team_size": "2"
         },
         {
@@ -579,9 +579,9 @@ const events_data = {
                 }
             ],
             "tagline": "",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 6000",
+            "second": "Rs. 2000",
+            "third": "Rs. 1000",
             "team_size": "2-3"
         },
         {
@@ -607,9 +607,9 @@ const events_data = {
                 }
             ],
             "tagline": "",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 6000",
+            "second": "Rs. 2000",
+            "third": "Rs. 1000",
             "team_size": "2-3"
         },
         {
@@ -635,9 +635,9 @@ const events_data = {
               }
             ],
             "tagline": "",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 6000",
+            "second": "Rs. 1500",
+            "third": "Rs. 1000",
             "team_size": "2-3"
         },
         {
@@ -658,9 +658,9 @@ const events_data = {
                 }
             ],
             "tagline": "",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "Rs. 6500",
+            "second": "Rs. 2500",
+            "third": "Rs. 1000",
             "team_size": "3"
         }      
       ],
@@ -688,9 +688,9 @@ const events_data = {
                 }
             ],
             "tagline": "",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "-",
+            "second": "-",
+            "third": "-",
             "team_size": "2-4"
         },
         {
@@ -711,9 +711,9 @@ const events_data = {
                 }
             ],
             "tagline": "",
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD"
+            "first": "-",
+            "second": "-",
+            "third": "-"
         }
       ]
     }
@@ -1256,8 +1256,8 @@ const events_data = {
             }
           ],
           "tagline": "Test your sports knowledge and auction skills!",
-          "first": "Rs. 1500",
-          "second": "Rs. 1000",
+          "first": "-",
+          "second": "-",
           "third": "-",
           "team_size": "2-3",
           "participation": "Open to all departments"
@@ -1282,8 +1282,8 @@ const events_data = {
             }
           ],
           "tagline": "Can you escape the cinematic maze?",
-          "first": "Rs. 1500",
-          "second": "Rs. 1000",
+          "first": "-",
+          "second": "-",
           "third": "-",
           "team_size": "3-4",
           "participation": "Open to all departments"
@@ -1535,7 +1535,10 @@ const events_data = {
               }
             ],
             "tagline": "Immerse yourself in the world of cinema!",
-            "team_size": "Individual Participation"
+            "team_size": "Individual Participation",
+            "first": "-",
+            "second": "-",
+            "third": "-"
           },
           {
             "event_name": "Transfer Fiesta",
@@ -1562,6 +1565,9 @@ const events_data = {
                 "round_desc": "Compete in a FIFA PC game knockout tournament. Top teams from the auction receive a direct bye to the semifinals."
               }
             ],
+            "first": "-",
+            "second": "-",
+            "third": "-",
             "tagline": "Strategize and compete in the ultimate football showdown!",
             "team_size": "2 to 4 Members per Team"
           }
@@ -1593,6 +1599,9 @@ const events_data = {
               "round_desc": "Compete against your peers where the best-designed hovercraft and the fastest one on the track will emerge victorious. The event tests your teamwork and skills in a competitive environment with a chance to win!"
             }
           ],
+          "first": "Rs. 5000",
+          "second": "Rs. 3000",
+          "third": "-",
           "tagline": "Design, build, and race your own hovercraft in a thrilling competition!"
         },
         {
@@ -1621,6 +1630,9 @@ const events_data = {
               "round_desc": "1 vs 1 knockout. The final will be among the two best teams."
             }
           ],
+          "first": "Rs. 5000",
+          "second": "Rs. 3000",
+          "third": "-",
           "tagline": "Push the limits in a high-stakes race of willpower and skill!"
         },
         {
@@ -1654,6 +1666,9 @@ const events_data = {
               "round_desc": "Participants will experience a mock interview conducted by professionals."
             }
           ],
+          "first": "Rs. 1500",
+          "second": "Rs. 1000",
+          "third": "-",
           "tagline": "Prepare for your career with a mock placement process!"
         },
         {
@@ -1677,6 +1692,9 @@ const events_data = {
               "round_desc": "Two robots face off in each match. The objective is to disable the opponent's robot or outlast it in terms of functionality and durability. The competition is played on a knockout basis with 2 robots at a time."
             }
           ],
+          "first": "Rs. 4000",
+          "second": "Rs. 2000",
+          "third": "-",
           "tagline": "Test your engineering skills in a thrilling robot battle!"
         },
         {
@@ -1706,6 +1724,9 @@ const events_data = {
               "round_desc": "Present your paper to a panel of judges. Judging criteria include originality, relevance, and presentation quality."
             }
           ],
+          "first": "Rs. 2500 * 4",
+          "second": "Rs. 1000 * 4",
+          "third": "-",
           "tagline": "Present your research and innovative ideas to a panel of experts!"
         },
         {
@@ -1752,6 +1773,9 @@ const events_data = {
               "round_desc": "Launch your rocket and achieve the highest altitude. The highest altitude wins."
             }
           ],
+          "first": "Rs. 3000",
+          "second": "Rs. 2000",
+          "third": "-",
           "tagline": "Build and launch your bottle rocket to reach the highest altitude!"
         },
         {
@@ -1775,6 +1799,9 @@ const events_data = {
               "round_desc": "Race your drone through the course. The fastest time wins."
             }
           ],
+          "first": "Rs. 5000",
+          "second": "Rs. 5000",
+          "third": "Rs. 5000",
           "tagline": "Race your drone through a challenging course and claim victory!"
         }
       ],
@@ -1796,6 +1823,9 @@ const events_data = {
               "round_desc": "Solve the fictional murder case by using the clues provided. The first team to correctly identify the culprit wins."
             }
           ],
+          "first": "-",
+          "second": "-",
+          "third": "-",
           "tagline": "Unravel the mystery and solve the case before time runs out!"
         },
         {
@@ -1815,6 +1845,9 @@ const events_data = {
               "round_desc": "Participate in various games and challenges. Winners will be determined based on performance in each game."
             }
           ],
+          "first": "-",
+          "second": "-",
+          "third": "-",
           "tagline": "Compete in exciting challenges and emerge victorious!"
         }
       ]
@@ -2041,9 +2074,9 @@ const events_data = {
           "event_desc": "Get ready for a thrilling game of chance and excitement with our URUTTU Extravaganza! Inspired by the classic game show, URUTTU challenges participants to drop a ball down a vertical board filled with pegs, where they’ll bounce unpredictably before landing in one of several prize slots at the bottom. With each drop offering the chance to win various prizes, the stakes are high and the fun is endless. Join us for this exhilarating game of luck, strategy, and surprise, and see if you can win big!",
           "rounds": [],
           "tagline": "Drop, Bounce, Win!\nEntry fee per chance Rs.25",
-          "first": "",
-          "second": "",
-          "third": "",
+          "first": "-",
+          "second": "-",
+          "third": "-",
           "team_size": "1",
         }
       ]
@@ -2064,12 +2097,12 @@ const events_data = {
           "rounds": [
             {
               "id": 1,
-              "round_name": "Prelims",
+              "round_name": "Prelims - Price is Right",
               "round_desc": "Teams will guess prices of everyday items. Top teams will advance to the finals."
             },
             {
               "id": 2,
-              "round_name": "Adzap",
+              "round_name": "Finals - Adzap",
               "round_desc": "Selected teams create impromptu advertisements for random products."
             }
           ],
@@ -2109,7 +2142,7 @@ const events_data = {
           "event_name": "Startup Showdown",
           "event_heads": [
             "Adithya Madhav - 8056207527",
-            "Srinidhi - Madhumitha Dayalan - 9500091496"
+            "Srinidhi - 9150152801"
           ],
           "domain": "Entrepreneurship",
           "event_desc": "Startup Showdown challenges participants to pitch innovative business ideas envisioned for the year 2050. Teams present their futuristic ideas to a panel of judges, aiming to secure investment by demonstrating both the viability and potential impact of their product.",
@@ -2126,8 +2159,8 @@ const events_data = {
             }
           ],
           "tagline": "Pitch innovative ideas for the year 2050!",
-          "first": "Rs. 6000",
-          "second": "Rs. 2000",
+          "first": "Rs. 5000",
+          "second": "Rs. 3000",
           "third": "-",
           "team_size": "2-4"
         },
@@ -2152,7 +2185,7 @@ const events_data = {
               "round_desc": "Qualified teams develop strategies and policies for assigned economic scenarios. Teams prepare for 45 minutes and present in 5 minutes, followed by Q&A."
             }
           ],
-          "tagline": "Apply economic concepts to real-world challenges!",
+          "tagline": "In the game of strategy, will you win?",
           "first": "Rs. 5000",
           "second": "Rs. 3000",
           "third": "-",
@@ -2208,7 +2241,7 @@ const events_data = {
           "third": "-"
         },
         {
-          "event_name": "Senses and Sensibility : Media Edition",
+          "event_name": "Sense and Sensibility: Media Edition",
           "event_heads": [
             "Dev Sai Prashanth S - 7598564980",
             "Neeraj N - 9840022615"
@@ -2251,9 +2284,9 @@ const events_data = {
                 }
               ],
               "tagline": "The bonds you break are the clues you need to escape.",
-              "first": "",
-              "second": "",
-              "third": "",
+              "first": "Rs. 2000",
+              "second": "Rs. 1500",
+              "third": "Rs. 1000",
               "team_size": "1-4"
             },
             {
@@ -2272,9 +2305,9 @@ const events_data = {
                 }
               ],
               "tagline": "A blend of Jenga and Hangman for chemical engineers!",
-              "first": "",
-              "second": "",
-              "third": "",
+              "first": "Rs. 2000",
+              "second": "Rs. 1500",
+              "third": "Rs. 1000",
               "team_size": "2-3"
             },
             {
@@ -2289,9 +2322,9 @@ const events_data = {
                 }
               ],
               "tagline": "Uncover the chemical engineering treasure!",
-              "first": "",
-              "second": "",
-              "third": "",
+              "first": "Rs. 2000",
+              "second": "Rs. 1500",
+              "third": "Rs. 1000",
               "team_size": "2-3"
             },
             {
@@ -2314,9 +2347,9 @@ const events_data = {
                 }
               ],
               "tagline": "The ultimate chemical engineering quiz with a twist!",
-              "first": "",
-              "second": "",
-              "third": "",
+              "first": "Rs. 2500",
+              "second": "Rs. 2000",
+              "third": "Rs. 1000",
               "team_size": "2-3"
             },
             {
@@ -2331,9 +2364,9 @@ const events_data = {
                 }
               ],
               "tagline": "A voyage into the imaginative realm of chemical technology!",
-              "first": "",
-              "second": "",
-              "third": "",
+              "first": "Rs. 3000",
+              "second": "Rs. 2000",
+              "third": "Rs. 1000",
               "team_size": "1-3"
             },
             {
@@ -2352,9 +2385,9 @@ const events_data = {
                 }
               ],
               "tagline": "Bid to Win, Strategize for Victory!",
-              "first": "",
-              "second": "",
-              "third": "",
+              "first": "Rs. 2000",
+              "second": "Rs. 1500",
+              "third": "Rs. 1000",
               "team_size": "3-4"
             },
             {
@@ -2380,9 +2413,9 @@ const events_data = {
                 }
               ],
               "tagline": "Quiz it! Kahoot it! Crack it! Win it!\nOpen to all departments. The participants are required to login to a game website with the pin provided. The game consists of three rounds increasing in difficulty level, with advancement determined by the leaderboard displayed after each question and round. Participants must assemble at the venue in-person, as rules for each round will be announced on-site. Attendance will be taken to ensure all participants are present during the game.",
-              "first": "",
-              "second": "",
-              "third": "",
+              "first": "Rs. 2000",
+              "second": "Rs. 1500",
+              "third": "Rs. 1000",
               "team_size": "1",
             },
             {
@@ -2401,9 +2434,9 @@ const events_data = {
                 }
               ],
               "tagline": "Bid to Win, Strategize for Victory!",
-              "first": "",
-              "second": "",
-              "third": "",
+              "first": "Rs. 3000",
+              "second": "Rs. 2000",
+              "third": "Rs. 1000",
               "team_size": "1-3 members"
             }
         ],
@@ -2430,9 +2463,9 @@ const events_data = {
                 "round_desc": "Eight participants compete in Round 3, which will have quarterfinals followed by semifinals and the final match. The final round will either be Armageddon or Blitz. Losers of the semifinals will have a Third Place match. The leaderboard prepared after Round 2 will favor those with higher leftover time."
               }
             ],
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "-",
+            "second": "-",
+            "third": "-",
             "tagline": "Outsmart, outlast, and checkmate your way to victory!",
             "mode": "Offline",
             "team_size": 1
@@ -2454,9 +2487,9 @@ const events_data = {
                 "round_desc": "Mode: Clash Squad Room Match. Teams will compete in a series of high-stakes 4v4 face-offs. Only Gloo walls allowed; no other grenades or smoke. Roof and building usage is not allowed. Gun upgrades are not allowed; specific guns will be assigned per round. No character skills, but pet skills are allowed for one round. Pranks allowed. Room ID will be given 5-10 minutes before the match starts. Teams must join within 5 minutes or be disqualified."
               }
             ],
-            "first": "TBD",
-            "second": "TBD",
-            "third": "TBD",
+            "first": "-",
+            "second": "-",
+            "third": "-",
             "tagline": "Gear up and dominate the battlefield!",
             "mode": "Online",
             "team_size": 4

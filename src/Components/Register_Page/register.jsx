@@ -21,7 +21,7 @@ function Register() {
                 setMenuOpen={setMenuOpen} 
             />
 
-            <div className="font-libre flex flex-col md:flex-row justify-center items-center h-full bg-gray-800 p-4 md:p-10 rounded-xl">
+            <div className="font-libre flex flex-col md:flex-row justify-center items-start h-full bg-gray-800 p-4 md:p-10 rounded-xl">
                 {/* Left Section */}
                 <div className="w-full md:w-1/2 text-center md:pr-8 mb-8 md:mb-40 flex justify-center items-center md:border-r-1 border-white">
                     <div className="p-4 md:p-8 rounded-lg">
@@ -50,6 +50,9 @@ function Register() {
                                 </button>
                             ))}
                         </div>
+                        <p className="font-dosis text-3xl md:text-3xl bg-clip-text text-transparent bg-gradient-to-l from-blue-400 to-purple-600">
+                            Note: Registration to non-technical events in “On Spot” on the day of the event in the concerned department
+                        </p>
                     </div>
                 </div>
 
@@ -70,7 +73,6 @@ function Register() {
                         <li>The Technical Pass is valid only for individual registration. If a team event is involved, each member of the team must purchase their own Technical Pass to participate.</li>
                         <li>For paper presentation of any department, you should purchase a technical pass and you can use the same to participate in 3 other Technical events across different departments.</li>
                         <li>If you plan to participate in the Paper Presentation of any department select "Yes" in the Technical Passes form. You'll receive department-specific paper presentation Google Form links within 24 hours through email. Complete the relevant form for further instructions.</li>
-                        <li>Technical Passes do not cover Non-Technical Events. Separate on spot registration for Non-Technical Events will be available in their respective departments.</li>
                     </ol>
                 </div>
             </div>
