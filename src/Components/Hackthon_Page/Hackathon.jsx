@@ -23,7 +23,7 @@ function Hackathon() {
     setSelectedHackathon(null);
   };
 
-  console.log(hackathon_data);
+  // console.log(hackathon_data);
 
   return (
     <div

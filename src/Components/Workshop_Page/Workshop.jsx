@@ -29,7 +29,7 @@ function Workshop() {
       
       <div className="w-full flex flex-wrap justify-center gap-6 p-6">
         {workshops.map((workshop) => (
-          <div className="w-full sm:w-1/3 p-4 animate-pulse" key={workshop.title}>
+          <div className="w-full sm:w-1/3 p-4" key={workshop.title}>
             <WorkshopCard
               title={workshop.title}
               image={workshop.image}

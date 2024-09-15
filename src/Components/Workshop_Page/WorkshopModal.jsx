@@ -37,7 +37,7 @@ function Modal({ isOpen, onClose, workshop }) {
         </div>
         <div className="mb-10">
           <p className="text-gray-100 whitespace-pre-wrap text-lg font-dosis">{workshop.description}</p>
-          <div className="mt-12 flex flex-col w-full h-full justify-center items-center gap-10">
+          {/* <div className="mt-12 flex flex-col w-full h-full justify-center items-center gap-10">
             {workshop["rules"].map((round) => (
               <Rounds
                 key={round["round_name"]}
@@ -45,14 +45,23 @@ function Modal({ isOpen, onClose, workshop }) {
                 round_desc={round["rule_desc"]}
               />
             ))}
+          </div> */}
+          <br/>
+          <p className="text-red-400 whitespace-pre-wrap text-lg font-dosis">Venue: {workshop.location}</p>
+          <p className="text-red-400 whitespace-pre-wrap text-lg font-dosis">Time: {workshop.time}</p>
+          <p className="text-red-500 whitespace-pre-wrap text-lg font-dosis">Registration Fees: Rs. {workshop.fee}</p>
+          <div className="text-center">
+            <br/>
+            <a href={workshop.link} className="text-blue-800 text-2xl whitespace-pre-wrap font-dosis hover:text-blue-200">Registration Link</a>
           </div>
+          
           <div className="flex flex-col w-full h-full justify-center items-center gap-4">
             {workshop.coordinators && (
               <div className="mt-10 w-full flex flex-col items-center gap-4">
                 <h3 className="text-2xl text-white font-bold mb-2 font-dosis">
                   Coordinators
                 </h3>
-                <div className="flex gap-2 flex-col md:flex-row">
+                <div className="flex gap-10 flex-wrap justify-center md:flex-row">
                   {workshop.coordinators.map((name) => (
                     <div
                       key={name["name"]}

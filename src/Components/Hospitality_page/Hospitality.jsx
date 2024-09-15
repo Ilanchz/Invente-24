@@ -52,6 +52,7 @@ const HOSPITALITY = {
     {
       title: "Note:",
       content: [
+        "Accommodation will be provided on a first-come-first-serve basis",
         "For single-participant registrations, roommates will be assigned by the hospitality committee based on availability.",
       ],
     },
