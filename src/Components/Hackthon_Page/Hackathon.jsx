@@ -37,9 +37,9 @@ function Hackathon() {
 
     <div className='m-5 bg-gray-950 rounded-xl flex flex-col'>
 
-    <h2 className="md:text-4xl text-2xl text-center font-libre text-gray-200 font-light mb-8 mt-8">
-      Upcoming Workshops and Hackathons
-    </h2>
+    <h1 className="md:text-5xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-pink-600 to-yellow-400 hover:from-yellow-400 hover:to-pink-600 text-center font-libre font-light mb-8 mt-8">
+      Hackathons
+    </h1>
       
 
       
@@ -65,7 +65,12 @@ function Hackathon() {
         hackathon={selectedHackathon} 
       />
 
+    <h1 className="md:text-5xl text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-800 to-green-400 hover:from-green-400 hover:to-blue-800 text-center font-libre font-light mb-8 mt-8">
+      Workshops
+    </h1>
+
     <Workshop/>
+    <div className=' self-center w-4/5 border-gray-100 border-b-1 border-opacity-25 mb-20'></div>
 
     </div>
 
