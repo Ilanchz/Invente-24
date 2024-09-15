@@ -14,14 +14,6 @@ function Modal({ isOpen, onClose, workshop }) {
         <div className="mt-10 mb-8 bg-blue-600 bg-opacity-60 rounded-xl p-4 mb-4">
           <div className="font-dosis flex justify-around text-white flex-col sm:flex-row gap-4">
             <div className="text-center">
-              <p className="text-xl"><b>₹{workshop.prizeWinner}</b></p>
-              <p>Winner</p>
-            </div>
-            <div className="text-center">
-              <p className="text-xl"><b>₹{workshop.prizeRunner}</b></p>
-              <p>Runner</p>
-            </div>
-            <div className="text-center">
               <p className="text-xl"><b>{workshop.date}</b></p>
               <p>Date</p>
             </div>
@@ -30,8 +22,12 @@ function Modal({ isOpen, onClose, workshop }) {
               <p>Location</p>
             </div>
             <div className="text-center">
-              <p className="text-xl text-orange-500"><b>{workshop.domain}</b></p>
-              <p>Domain</p>
+              <p className="text-xl"><b>{workshop.time}</b></p>
+              <p>Time</p>
+            </div>
+            <div className="text-center">
+              <p className="text-xl"><b>₹{workshop.fee}</b></p>
+              <p>Registration Fee</p>
             </div>
           </div>
         </div>
@@ -47,9 +43,9 @@ function Modal({ isOpen, onClose, workshop }) {
             ))}
           </div> */}
           <br/>
-          <p className="text-red-400 whitespace-pre-wrap text-lg font-dosis">Venue: {workshop.location}</p>
+          {/* <p className="text-red-400 whitespace-pre-wrap text-lg font-dosis">Venue: {workshop.location}</p>
           <p className="text-red-400 whitespace-pre-wrap text-lg font-dosis">Time: {workshop.time}</p>
-          <p className="text-red-500 whitespace-pre-wrap text-lg font-dosis">Registration Fees: Rs. {workshop.fee}</p>
+          <p className="text-red-500 whitespace-pre-wrap text-lg font-dosis">Registration Fees: Rs. {workshop.fee}</p> */}
           <div className="text-center">
             <br/>
             <a href={workshop.link} className="text-blue-800 text-2xl whitespace-pre-wrap font-dosis hover:text-blue-200">Registration Link</a>
