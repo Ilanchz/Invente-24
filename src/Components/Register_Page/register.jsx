@@ -1,6 +1,8 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Footer from '../Footer';
 import Navelement from '../Navelement';
+
+
 
 function Register() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -37,8 +39,8 @@ function Register() {
                                 { text: 'Technical Passes', link: 'https://docs.google.com/forms/d/e/1FAIpQLScHZ7G6EKFZmyGvDUtvwTEtUgzGBs5e5EViK90xdv1jqLmg7A/viewform' },
                                 { text: 'Hackinfinity', link: 'https://docs.google.com/forms/u/2/d/e/1FAIpQLSdk69vYslrxmG02EOnCsOuOa0WqqWpbU4e8jkekqLV5_SZwTg/viewform' },
                                 { text: 'Impact Arcade (Game Jam) - 24 Hour Hackathon', link: 'https://forms.gle/9ktxPpdhFnGXcqs68' },
-                                { text: 'Workshop 1', link: '', status: 'disabled' },
-                                { text: 'Workshop 2', link: '', status: 'disabled' },
+                                { text: 'Game Development Workshop', link: 'https://forms.gle/8NYCs8xSFjAopHhb6 ', status: 'abled' },
+                                { text: 'Cybersecurity Workshop', link: 'https://forms.gle/hvfKHhiG7tddd4tu7', status: 'abled' },
                             ].map((button, index) => (
                                 <button 
                                     key={index}
@@ -73,6 +75,7 @@ function Register() {
                         <li>The Technical Pass is valid only for individual registration. If a team event is involved, each member of the team must purchase their own Technical Pass to participate.</li>
                         <li>For paper presentation of any department, you should purchase a technical pass and you can use the same to participate in 3 other Technical events across different departments.</li>
                         <li>If you plan to participate in the Paper Presentation of any department select "Yes" in the Technical Passes form. You'll receive department-specific paper presentation Google Form links within 24 hours through email. Complete the relevant form for further instructions.</li>
+                        <li>There will be no refunds entertained for the passes already bought</li>
                     </ol>
                 </div>
             </div>

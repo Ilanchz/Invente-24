@@ -7,6 +7,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import './home.css'; /*https://www.magicpattern.design/tools/starry-sky-generator*/
 import MovingGalleries from './MovingGalleries';
 import { useNavigate } from 'react-router-dom';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,6 +18,10 @@ function Home() {
   const handleClick = () => {
     navigate('/register');
   };
+
+  useEffect(() => {
+    toast.info("Note: Registrations for our workshops are now open and available in get passes page.");
+  }, []);
 
   useEffect(() => {
     // Set up IntersectionObserver
