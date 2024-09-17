@@ -1133,7 +1133,7 @@ const events_data = {
             "Neilalohithan - 9962462775"
           ],
           "domain": "Research and Technical Knowledge",
-          "event_desc": "The Paper Presentation event is designed to provide a platform for students and researchers to showcase their original research, innovative ideas, and technical knowledge. Participants will have the opportunity to present their papers on a range of topics, engage with peers, and receive valuable feedback from a panel of experts.",
+          "event_desc": "The Paper Presentation event is designed to provide a platform for students and researchers to showcase their original research, innovative ideas, and technical knowledge. Participants will have the opportunity to present their papers on a range of topics, engage with peers, and receive valuable feedback from a panel of experts.\n",
           "rounds": [
             {
               "id": 1,
@@ -1146,6 +1146,7 @@ const events_data = {
               "round_desc": "Live Presentation of the shortlisted papers from Round 1. Participants will have 5-10 minutes to present their paper to the panel of judges. The panel will evaluate based on content, originality, organization, and ability to field questions."
             }
           ],
+          "domain_rules": "Domains Covered:\n\t● Antenna Systems and its Applications\n\t● 5G and 6G Applications\n\t● VLSI/ Embedded Systems / RTOS\n\t● Internet of Things / Robotics\n\t● MEMS\n\t● Signal and Image Processing\n\t● Network Security and Blockchain Technology\n\t● Emerging trends in Photonics\n\t● Optical Communication and Networks\n\t● Cognitive Science\n\t● Machine Learning/ AI for networks\n\t● Deep Learning\n\t● Quantum Computing\n\t● Cybersecurity and its risk assessment techniques\n\t● AR / VR",
           "tagline": "Showcase your research and innovative ideas.",
           "first": "Rs. 8000",
           "second": "Rs. 6000",
@@ -2360,10 +2361,10 @@ const events_data = {
               "rounds": [
                 {
                   "round_name": "Poster Presentation Round",
-                  "round_desc": "The poster presentation consists of one round.\nRules: \n1. Abstracts must be sent at least a week prior to the event day after which the poster template will be shared.\n2. The abstract must be done only in a WORD document and should NOT exceed 300 words. It must include Title, Participant(s), Email Address, and Affiliation of the authors.\n3. The soft copy of the poster must be mailed at least 3 days prior to the event day and only use the template sent for creating the posters.\n4. The Subject of the email should be “POSTER (Participants ‘names)” and the file name should be the title of your poster.\n5. All participants must join the link 10 minutes before the scheduled time of the event.\n6. All registered participants should be present throughout the session.\n7. Ensure that the posters reach us 2-3 days before the event and strictly adhere to the template sent through the mail.\nWinning Criteria: The judge’s decision is final."
+                  "round_desc": "The poster presentation consists of one round.\nRules: \n1. Abstracts must be sent at least a week prior to the event day after which the poster template will be shared.\n2. The abstract must be done only in a WORD document and should NOT exceed 300 words. It must include Title, Participant(s), Email Address, and Affiliation of the authors.\n3. The soft copy of the poster must be mailed at least 3 days prior to the event day and only use the template sent for creating the posters.\n4. The Subject of the email should be “POSTER (Participants ‘names)” and the file name should be the title of your poster.\n5. All participants must join the link 10 minutes before the scheduled time of the event.\n6. All registered participants should be present throughout the session.\n7. Ensure that the posters reach us 2-3 days before the event and strictly adhere to the template to the mail canvasofideas.invente24@gmail.com .\n"
                 }
               ],
-              "tagline": "A voyage into the imaginative realm of chemical technology!",
+              "tagline": "Winning Criteria: The judge’s decision is final.\nA voyage into the imaginative realm of chemical technology!",
               "first": "Rs. 3000",
               "second": "Rs. 2000",
               "third": "Rs. 1000",

@@ -178,6 +178,20 @@ function Event({ dept }) {
                                 </p>
                               ))}
                           </div>
+                          <div className="text-xl font-dosis">
+                            {(selectedEvent.domain_rules || " ").split('\n').map((line, index) => (
+                              <p key={index} className="font-roboto font-light">
+                                {/* Replace tabs with spaces */}
+                                {line.split('\t').map((segment, segIndex) => (
+                                  <span key={segIndex}>
+                                    {segIndex > 0 && <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>} {/* Insert 4 non-breaking spaces per tab */}
+                                    {segment}
+                                  </span>
+                                ))}
+                              </p>
+                            ))}
+                          </div>
+
                           {selectedEvent.domain && (
                             <p className="text-center text-lg font-dosis">
                               Domain: {selectedEvent.domain}
