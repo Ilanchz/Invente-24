@@ -44,8 +44,8 @@ const Workshop_data = [
         "ph": 7550059950, 
       },
       {
-        "name": "Deepti K",
-        "ph": 7550150659, 
+        "name": "Sai Vignesh C",
+        "ph": 8438893583, 
       },
     ],
     link: "https://forms.gle/hvfKHhiG7tddd4tu7",
