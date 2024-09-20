@@ -47,6 +47,10 @@ const Workshop_data = [
         "name": "Sai Vignesh C",
         "ph": 8438893583, 
       },
+      {
+        "name": "Indhuja",
+        "ph": 9360988688
+      }
     ],
     link: "https://forms.gle/hvfKHhiG7tddd4tu7",
     fee: 300,

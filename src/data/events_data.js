@@ -1546,7 +1546,8 @@ const events_data = {
             "event_desc": "The ultimate football showdown featuring a quiz, player auction, and FIFA PC game knockout tournament.",
             "event_heads": [
               "Siddhartha G - 86678 74822",
-              "Selva Kalusalingam R - 63747 03068"
+              "Selva Kalusalingam R - 63747 03068",
+              "Sri Narayanan S - 9790810257",
             ],
             "domain": "Football",
             "rounds": [
