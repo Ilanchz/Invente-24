@@ -2276,7 +2276,7 @@ const events_data = {
           [
             {
               "event_name": "ESCAPE ROOM",
-              "event_heads": ["KARTHIKEYAN S", "ANISHA S"],
+              "event_heads": ["KARTHIKEYAN S - 9384662552", "ANISHA S - 7358175123"],
               "domain": "General",
               "event_desc": "Step into the world of excitement with the Chemical Engineering Escape Room Challenge! \"Unleash your inner detective\" and embark on an adventure where thrilling escape room puzzles meet fascinating chemical engineering concepts as you solve mind-bending challenges. Let's see how sharp and quick-witted you remain when the pressure is on, and the air crackles with palpable tension. Immerse yourself in an experience that's both educational and electrifying. Remember, \"every clue is a step closer to victory\" and the key to solving the puzzle is hidden in the details. Don't miss this chance to unleash your inner engineer and have a blast!",
               "rounds": [
@@ -2293,7 +2293,7 @@ const events_data = {
             },
             {
               "event_name": "FALL GUYS",
-              "event_heads": ["Sudarsan Ranganathan", "Santosh Krishna R B"],
+              "event_heads": ["Sudarsan Ranganathan - 7010628651", "Santosh Krishna R B - 7305732170"],
               "domain": "Chemical Engineering",
               "event_desc": "Welcome to \"Fall Guys,\" an exciting and dynamic team-based game that combines the strategic elements of Jenga with the word-guessing fun of Hangman. Designed specifically for chemical engineering enthusiasts, this event promises a blend of skill, strategy, and knowledge.",
               "rounds": [
@@ -2314,7 +2314,7 @@ const events_data = {
             },
             {
               "event_name": "MARAGATHA NAANAYAM (TREASURE HUNT)",
-              "event_heads": ["Meenakshi Lalitha S", "Tarun Gopal S"],
+              "event_heads": ["Meenakshi Lalitha S - 7305760728", "Tarun Gopal S - 9940490398"],
               "domain": "General",
               "event_desc": "Welcome to the Chemical Engineering Treasure Hunt, an exciting adventure designed to challenge your problem-solving skills, creativity, and knowledge of chemical engineering principles. This event is perfect for students, professionals, and enthusiasts who are passionate about chemical engineering and eager to test their abilities in a fun and engaging way.",
               "rounds": [
@@ -2331,7 +2331,7 @@ const events_data = {
             },
             {
               "event_name": "QUIZZLER",
-              "event_heads": ["Smruthi", "Dharunya"],
+              "event_heads": ["Smruthi - 7092230140", "Dharunya - 9444840865"],
               "domain": "Chemical Engineering",
               "event_desc": "Get ready for \"Quizzler,\" the ultimate chemical engineering quiz that's pure sigma energy! This isn’t just a quiz—it’s a skibidi-fueled adventure where equations collide with meme-tier chaos. Whether you’re flexing your reaction skills or just mewing, \"Quizzler\" is where your big brain meets giga-chem. Think you’ve gyatt the grindset to crush these questions? Jump in and looksmax your way to the top!",
               "rounds": [
@@ -2356,7 +2356,7 @@ const events_data = {
             },
             {
               "event_name": "CANVAS OF IDEAS: NEW FRONTIERS IN CHEMICAL TECHNOLOGY (POSTER PRESENTATION)",
-              "event_heads": ["JENISHA CHRISTY.C", "LHALITH.C"],
+              "event_heads": ["JENISHA CHRISTY.C - 9488245672", "LHALITH.C - 7904790188"],
               "domain": "Chemical Engineering",
               "event_desc": "Prepare to be captivated by the fusion of science at \"CANVAS OF IDEAS: NEW FRONTIERS IN CHEMICAL TECHNOLOGY.\" This event is a voyage into the imaginative realm where chemical processes transform into works of innovation and creativity! Whether you are a chemical engineering student, a passionate innovator, or simply curious about the latest advancements, \"Poster presentation\" is the place to be. Join us in celebrating the power of innovation in chemical engineering!",
               "rounds": [
@@ -2373,7 +2373,7 @@ const events_data = {
             },
             {
               "event_name": "AUCTION AVENUE",
-              "event_heads": ["Balan P", "Charan"],
+              "event_heads": ["Balan P - 9042315859", "Charan Kumar - 6382256680"],
               "domain": "Chemical Engineering",
               "event_desc": "Get ready to raise your paddle and your spirits at the ultimate bidding showdown! Whether you're a seasoned auctioneer or a first-time bidder, our event promises a whirlwind of excitement, laughter, and fierce competition. So, grab your paddles, set your sights on victory, and let the bidding wars begin!",
               "rounds": [
@@ -2394,7 +2394,7 @@ const events_data = {
             },
             {
               "event_name": "KAHOOT!",
-              "event_heads": ["S.Sanjnaa - 9789893371", "S. Vaibavashri - 99620 26535"],
+              "event_heads": ["S.Sanjnaa - 9789893371", "S. Vaibavashri - 9962026535"],
               "domain": "Non-Technical",
               "event_desc": "Welcome to Kahoot! Here you can compete with your friends online and win crazy money just by a click!! So, just like the new GOAT song, we say... Quiz it! Kahoot it! Crack it! Win it!",
               "rounds": [
@@ -2475,7 +2475,7 @@ const events_data = {
           {
             "event_name": "BATTLE GROUND",
             "event_desc": "Get your guns up and put your armours to kill your enemies. Immerse yourself in thrilling mobile gaming action in our BGMI showdown. Prove your dominance in the arena as you face off against the best teams in intense 4v4 matches.",
-            "event_heads": ["Roshan.U: 94455 84645", "Kamalakannan: 73387 13344", "VinithKumar: 63810 32819", "Santhosh: 8056522699"],
+            "event_heads": ["Roshan.U - 94455 84645", "Santhosh: 8056522699"],
             "domain": "Gaming",
             "rounds": [
               {
