@@ -6,7 +6,7 @@ import Navelement from '../Navelement';
 import { ToastContainer, toast } from 'react-toastify';
 import './home.css'; /*https://www.magicpattern.design/tools/starry-sky-generator*/
 import MovingGalleries from './MovingGalleries';
-import { useNavigate } from 'react-router-dom';
+import { redirect, useNavigate } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 
 function Home() {
@@ -18,6 +18,11 @@ function Home() {
   const handleClick = () => {
     navigate('/register');
   };
+
+  const openPdf = () => {
+    window.open("Rule_Book.pdf", "_blank");
+  };
+  
 
   useEffect(() => {
     toast.info("Note: Registrations for our workshops are now open and available in get passes page.");
@@ -86,6 +91,7 @@ nationwide.`}
               >
                 Get Passes
               </button>
+              
 
             </div>
             <div className='lg:flex hidden sm:w-1/3 sm:h-full items-center justify-center -z-10 hover:animate-pulse'>
@@ -102,9 +108,16 @@ nationwide.`}
         
       </div>
 
+      
+      
+
       <section>
         <CountdownTimer />
       </section>
+
+      
+
+      
 
       <section className='flex items-center flex-col m-3' id="events" >
         <div className='font-dosis text-2xl sm:text-4xl text-white p-10' ref={eventsRef}>Welcome to the events page</div>
@@ -112,6 +125,17 @@ nationwide.`}
         <TimelineSection />
         {/* <img src="SDG/SDG-Title.webp" alt="title" className='w-64 rounded-full'/> */}
       </section>
+
+      <div className="flex gap-5 border-blue-200 border-1 rounded-xl p-2 animate-spin-border"
+      >
+        <img src="flip_book.gif" className='w-16 h-16 rounded-full'>
+        </img>
+      <button onClick={openPdf} className='bg-blue-950 text-white font-libre font-extralight rounded-xl p-4 md:p-5 shadow-lg hover:shadow-xl transform transition-transform duration-300'>
+                View RuleBook
+      </button>
+
+      
+      </div>
 
       <section>
         <MovingGalleries />

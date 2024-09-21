@@ -38,6 +38,7 @@ module.exports = {
         'flip': 'flip 0.6s ease-in-out',
         'growShrink': 'growShrink 2s ease-in-out infinite',
         'wiggle': 'wiggle 1s ease-in-out infinite',
+        'spin-border': 'spin-border 3s linear infinite', // Add the spin border animation
       },
       keyframes: {
         wiggle: {
@@ -61,14 +62,22 @@ module.exports = {
           '50%': { transform: 'scale(1.2)' },
           '100%': { transform: 'scale(1)' },
         },
+        'spin-border': { // Define keyframes for the color spin border
+          '0%': { borderColor: 'red' },
+          '14%': { borderColor: 'orange' },
+          '57%': { borderColor: 'blue' },
+          '71%': { borderColor: 'indigo' },
+          '85%': { borderColor: 'violet' },
+          '100%': { borderColor: 'red' },
+        },
       },
       backgroundImage: {
         'starry-sky': 'url(https://images.unsplash.com/photo-1628498188873-579210ce622e?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
-        'deep-charcoal-gradient': 'linear-gradient(to right, #010B19, #03214a)'
+        'deep-charcoal-gradient': 'linear-gradient(to right, #010B19, #03214a)',
       },
       height: {
-        'large': '750px'
-      }
+        'large': '750px',
+      },
     },
   },
   plugins: [nextui()],
