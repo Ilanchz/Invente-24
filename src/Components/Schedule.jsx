@@ -12,7 +12,7 @@ const scheduleData = {
     CV: '/schedules/CIVIL.png',
     CE: '/schedules/CHEM.png',
     BME: '/schedules/BME.png',
-    "SNUC-COMMERCE": '/schedules/commerce.png',
+    "SNUC-COMMERCE": '/schedules/Commerce.png',
     "SNU-CSE": '/schedules/SNUC - CSE.png',
     // Add more departments and their schedule images here if needed
 };
