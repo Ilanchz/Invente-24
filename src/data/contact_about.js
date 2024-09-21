@@ -12,7 +12,7 @@ const data_contact = [
     "dept": "CHEM",
     "head_name": "Rajashri L M",
     "ph_no": "+91 80158 03616",
-    "insta": "@ssn_ace_jiche",
+    "insta": "@ssn_ace_iiche",
     "image": "./Presidents/Rajashri_L_M_Chemical.jpg"  // Updated path
   },
   {

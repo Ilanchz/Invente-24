@@ -734,7 +734,7 @@ const events_data = {
           "rounds": [
             {
               "round_name": "Preliminary Round",
-              "round_desc": "Submit research papers in IEEE format by 15 September 2024. Papers will be shortlisted based on novelty, social impact, economic status, and implementation factor."
+              "round_desc": "Submit research papers in IEEE format by 25 September 2024. Papers will be shortlisted based on novelty, social impact, economic status, and implementation factor."
             },
             {
               "round_name": "Finals",
