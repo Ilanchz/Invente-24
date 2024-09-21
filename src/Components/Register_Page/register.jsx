@@ -37,14 +37,14 @@ function Register() {
                         <div className="mt-6 md:mt-8">
                             {[
                                 { text: 'Technical Passes', link: 'https://docs.google.com/forms/d/e/1FAIpQLScHZ7G6EKFZmyGvDUtvwTEtUgzGBs5e5EViK90xdv1jqLmg7A/viewform' },
-                                { text: 'Hackinfinity', link: 'https://docs.google.com/forms/u/2/d/e/1FAIpQLSdk69vYslrxmG02EOnCsOuOa0WqqWpbU4e8jkekqLV5_SZwTg/viewform' },
+                                { text: 'Hackinfinity (Sold-Out)', link: '', status: 'disabled' }, /*https://docs.google.com/forms/u/2/d/e/1FAIpQLSdk69vYslrxmG02EOnCsOuOa0WqqWpbU4e8jkekqLV5_SZwTg/viewform*/
                                 { text: 'Impact Arcade (Game Jam) - 24 Hour Hackathon', link: 'https://forms.gle/9ktxPpdhFnGXcqs68' },
                                 { text: 'Game Development Workshop', link: 'https://forms.gle/8NYCs8xSFjAopHhb6 ', status: 'abled' },
                                 { text: 'Cybersecurity Workshop', link: 'https://forms.gle/hvfKHhiG7tddd4tu7', status: 'abled' },
                             ].map((button, index) => (
                                 <button 
                                     key={index}
-                                    className={`font-dosis text-white w-full md:w-1/2 mx-auto md:ml-10 text-sm md:text-lg bg-gradient-to-r from-cyan-600 to-teal-600 hover:bg-gradient-to-l font-bold py-2 px-4 rounded-lg mb-4 ${button.status === 'disabled' ? 'opacity-20 cursor-not-allowed' : ''}`}
+                                    className={`font-dosis text-white w-full md:w-1/2 mx-auto md:ml-10 text-sm md:text-lg bg-gradient-to-r from-cyan-600 to-teal-600 hover:bg-gradient-to-l font-bold py-2 px-4 rounded-lg mb-4 ${button.status === 'disabled' ? 'opacity-20 cursor-not-allowed animate-pulse' : ''}`}
                                     onClick={() => button.status !== 'disabled' && button.link && (window.location.href = button.link)}
                                     disabled={button.status === 'disabled'}
                                 >
@@ -52,7 +52,7 @@ function Register() {
                                 </button>
                             ))}
                         </div>
-                        <p className="font-dosis text-3xl md:text-3xl bg-clip-text text-transparent bg-gradient-to-l from-blue-400 to-purple-600">
+                        <p className="font-dosis text-3xl md:text-2xl bg-clip-text text-transparent bg-gradient-to-l from-blue-400 to-purple-600">
                             Note: Registration to non-technical events in “On Spot” on the day of the event in the concerned department
                         </p>
                     </div>
