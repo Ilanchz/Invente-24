@@ -4,22 +4,22 @@ import Footer from './Footer';
 
 // Sample data for demonstration purposes
 const scheduleData = {
-    "SSN-CSE": '/schedules/CSE (3).png',
-    IT: '/schedules/IT (1).png',
-    ECE: '/schedules/ECE (1).png',
-    EEE: '/schedules/EEE (1).png',
-    MECH: '/schedules/Mech (1).png',
-    CIVIL: '/schedules/CIVIL.png',
-    CHEM: '/schedules/CHEM.png',
-    BME: '/schedules/BME.png',
-    "SNUC-COMMERCE": '/schedules/Commerce.png',
-    "SNU-CSE": '/schedules/SNUC - CSE.png',
+  BME: '/schedules/BME.png',
+  CIVIL: '/schedules/CIVIL.png',
+  CHEM: '/schedules/CHEM.png',
+  CSE: '/schedules/CSE (3).png',
+  ECE: '/schedules/ECE (1).png',
+  EEE: '/schedules/EEE (1).png',
+  IT: '/schedules/IT (1).png',
+  MECH: '/schedules/Mech (1).png',
+  "SNUC-CSE": '/schedules/SNUC - CSE.png',
+  "SNUC-COMMERCE": '/schedules/Commerce.png',
     // Add more departments and their schedule images here if needed
 };
 
 function Schedule() {
   // Initialize the state with a default department
-  const defaultDepartment = 'SSN-CSE'; // Choose a default department from your data
+  const defaultDepartment = 'BME';
   const [selectedDepartment, setSelectedDepartment] = useState(defaultDepartment);
   const [menuOpen, setMenuOpen] = useState(false);
 
