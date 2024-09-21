@@ -4,20 +4,22 @@ import Footer from './Footer';
 
 // Sample data for demonstration purposes
 const scheduleData = {
-    CSE: '/coming_soon.png',
-    IT: '/coming_soon.png',
-    ECE: '/coming_soon.png',
-    EEE: '/coming_soon.png',
-    ME: '/coming_soon.png',
-    CV: '/coming_soon.png',
-    CE: '/coming_soon.png',
-    BME: '/coming_soon.png',
+    "SSN-CSE": '/schedules/CSE (3).png',
+    IT: '/schedules/IT (1).png',
+    ECE: '/schedules/ECE (1).png',
+    EEE: '/schedules/EEE (1).png',
+    ME: '/schedules/Mech (1).png',
+    CV: '/schedules/CIVIL.png',
+    CE: '/schedules/CHEM.png',
+    BME: '/schedules/BME.png',
+    "SNUC-COMMERCE": '/schedules/commerce.png',
+    "SNU-CSE": '/schedules/SNUC - CSE.png',
     // Add more departments and their schedule images here if needed
 };
 
 function Schedule() {
   // Initialize the state with a default department
-  const defaultDepartment = 'CSE'; // Choose a default department from your data
+  const defaultDepartment = 'SSN-CSE'; // Choose a default department from your data
   const [selectedDepartment, setSelectedDepartment] = useState(defaultDepartment);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -51,7 +53,7 @@ function Schedule() {
 
       {/* Image Section */}
       {selectedDepartment && (
-        <div className="relative flex-grow flex items-center justify-center p-4 w-full">
+        <div className="relative flex-grow flex items-center justify-center p-4 w-full mb-10">
           <img
             src={scheduleData[selectedDepartment]}
             alt={`${selectedDepartment} Schedule`}
