@@ -170,12 +170,12 @@ export default function Footer() {
 
       <section className="w-screen py-4 bg-gray-900 text-sm md:text-lg text-wrap text-white text-center font-raleway p-4">
         <p className="">
-          Website: Built by <a href="#" className="hover:underline text-orange-600">Ilanchezhiyan</a>, 
+          Website: Built by <a href="https://www.linkedin.com/in/ilanchezhiyan-v/" className="hover:underline text-orange-600">Ilanchezhiyan</a>, 
           <a href="#" className="hover:underline text-orange-600"> Lohit</a>, 
-          <a href="#" className="hover:underline text-orange-600"> Shaun Allan H</a>, 
-          <a href="#" className="hover:underline text-orange-600"> Ashwin</a>.&#160;
-          Designed by <a href="#" className="hover:underline text-green-300"> Samyuktha D</a> and&#160;
-          <a href="#" className="hover:underline text-green-300">Jithu Morrison</a>.
+          <a href="https://www.linkedin.com/in/shaun-allan-h/" className="hover:underline text-orange-600"> Shaun Allan H</a>, 
+          <a href="https://www.linkedin.com/in/ashwin-kumar-18872327a/" className="hover:underline text-orange-600"> Ashwin</a>.&#160;
+          Designed by <a href="https://www.linkedin.com/in/samyuktha-d-9756b4245/" className="hover:underline text-green-300"> Samyuktha D</a> and&#160;
+          <a href="https://www.linkedin.com/in/jithu-morrison-s/" className="hover:underline text-green-300">Jithu Morrison</a>.
         </p>
       </section>
     </footer>

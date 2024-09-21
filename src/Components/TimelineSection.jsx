@@ -43,7 +43,7 @@ const TimelineSection = () => {
 
 const TimelineItem = ({ name, image, path, isLast, onClick, isOdd }) => {
   const { ref, inView } = useInView({
-    triggerOnce: true,
+    triggerOnce: false,
     threshold: 0.1,
   });
 
