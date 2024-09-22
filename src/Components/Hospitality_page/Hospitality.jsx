@@ -28,8 +28,9 @@ const HOSPITALITY = {
     {
       title: "Registration:",
       content: [
-        "Participants must register for accommodation on the Invente website using the Google Form link provided.",
-        "After registration, you will receive a copy of your response via registered email",
+        // "Participants must register for accommodation on the Invente website using the Google Form link provided.",
+        // "After registration, you will receive a copy of your response via registered email",
+        "Registration for accommodation will be done on the spot in our campus",
       ],
     },
     {
@@ -253,7 +254,7 @@ export default function Hospitality() {
               <div className="text-2xl font-bold">{data.title}</div>
               <ul
                 className={`${
-                  data.content.length > 1 && "list-disc ml-6 mt-2"
+                  (data.content.length > 1 || data.title == "Registration:") && "list-disc ml-6 mt-2"
                 }`}
               >
                 {data.content.map((content, idx) => (
