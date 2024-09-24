@@ -38,7 +38,8 @@ module.exports = {
         'flip': 'flip 0.6s ease-in-out',
         'growShrink': 'growShrink 2s ease-in-out infinite',
         'wiggle': 'wiggle 1s ease-in-out infinite',
-        'spin-border': 'spin-border 3s linear infinite', // Add the spin border animation
+        'spin-border': 'spin-border 3s linear infinite', // Spin border animation
+        'fall': 'fall 2s linear forwards', // Add falling animation
       },
       keyframes: {
         wiggle: {
@@ -69,6 +70,10 @@ module.exports = {
           '71%': { borderColor: 'indigo' },
           '85%': { borderColor: 'violet' },
           '100%': { borderColor: 'red' },
+        },
+        fall: { // Define falling keyframes
+          '0%': { transform: 'translateY(0)', opacity: 1 },
+          '100%': { transform: 'translateY(100vh)', opacity: 0 },
         },
       },
       backgroundImage: {

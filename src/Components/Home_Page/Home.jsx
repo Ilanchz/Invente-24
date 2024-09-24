@@ -68,7 +68,7 @@ function Home() {
 
           <div id="home-content" className="flex justify-center items-center mb-10 pb-10 md:items-start px-4 md:px-16 mt-6 md:mt-12 text-white font-bold flex-col lg:flex-row">
             <div className='flex lg:w-1/3 sm:h-full lg:hidden items-center justify-center -z-10 hover:animate-pulse'>
-              <img src="/invente24_orange.png" alt="Invente Logo" className='w-1/2 lg:w-full' />
+              <img src="/invente24_orange.png" alt="Invente Logo" className='w-5/6 lg:w-full' />
             </div>
             <div id="home-text" className='flex flex-col h-full items-center justify-center w-full lg:w-1/3'>
               <span className="font-dosis font-extralight text-xl md:text-2xl block text-center md:text-left">OUR THEME THIS YEAR</span>
@@ -79,12 +79,9 @@ function Home() {
               </pre>
 
               <span className="font-dosis font-bold text-2xl md:text-4xl block mt-6 text-center md:text-left">About Invente</span>
-              <pre className="font-dosis font-normal text-base md:text-lg whitespace-pre-line mt-4 text-center md:text-left">
-                {`Looking for fun? You've come to the right place!
-Since 2016, Invente has been our flagship techfest,
-catered to challenge the spirits and intellects of students
-nationwide.`}
-              </pre>
+              <span className="font-dosis font-normal text-base md:text-lg whitespace-pre-line px-8 mt-4 text-balance">
+                {`Looking for fun? You've come to the right place! Since 2016, Invente has been our flagship techfest, catered to challenge the spirits and intellects of students nationwide.`}
+              </span>
               <button
                 className="text-black font-libre font-extralight w-40 md:w-44 bg-white rounded-xl p-4 md:p-5 mt-6 shadow-lg hover:shadow-xl transform transition-transform duration-300 hover:scale-105"
                 onClick={handleClick}
@@ -103,7 +100,7 @@ nationwide.`}
           </div>
           
         </div>
-
+        
         {/* Overlay Menu for Small Screens */}
         
       </div>

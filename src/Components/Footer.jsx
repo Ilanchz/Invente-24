@@ -77,7 +77,7 @@ export default function Footer() {
               <div>©2024 SSN College of Engineering & Shiv Nadar University, Chennai.</div>
             </div>
           </div>
-          <div className="flex flex-wrap flex-col items-center gap-2">
+          <div className="flex flex-wrap flex-col items-center justify-center gap-2">
             
             <a href="http://www.ssn.edu.in/">
               <img src="/ssn-logo.svg" alt="SSN Logo" height={45} width={90} />
@@ -157,7 +157,7 @@ export default function Footer() {
             <div className="box-border h-0 border-[1px] border-[#FFFFFF2B] mb-2" />
             <div>©2024 SSN College of Engineering & Shiv Nadar University, Chennai.</div>
           </div>
-          <div className="flex flex-wrap gap-4 mt-4">
+          <div className="flex flex-wrap gap-4 items-center justify-center mt-4">
             <a href="http://www.ssn.edu.in/">
               <img src="/ssn-logo.svg" alt="SSN Logo" height={45} width={110} />
             </a>

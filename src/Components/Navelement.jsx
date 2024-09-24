@@ -34,16 +34,16 @@ function Navelement({ menuOpen, setMenuOpen }) {
 
   return (
     <div id="nav-bar" className="w-full h-16 md:h-24 flex items-center justify-between px-4 md:px-8 m-5">
-      <img src="/snu-logo.svg" alt="SNU" className=" w-40 h-12 md:h-16" />
+      <img src="/snu-logo.svg" alt="SNU" className="w-1/3 md:w-full h-14" />
       
       <button
-        className="xl:hidden text-white text-3xl justify-center"
+        className="xl:hidden text-white text-3xl justify-center md:w-full w-1/3"
         onClick={() => setMenuOpen(!menuOpen)}
       >
         {menuOpen ? '✖' : '☰'}
       </button>
       
-      <nav className="hidden xl:flex items-center space-x-6 md:space-x-12 py-2 font-dosis text-sm md:text-md">
+      <nav className="md:w-full w-1/3 hidden xl:flex items-center space-x-6 md:space-x-12 py-2 font-dosis text-sm md:text-md">
         {['/', '/#events', '/about', '/hackathonAndworkshop', '/schedule', '/sponsors', '/hospitality', '/gallery'].map((link) => (
           <Link
             key={link}
@@ -63,7 +63,7 @@ function Navelement({ menuOpen, setMenuOpen }) {
         ))}
       </nav>
 
-      <img src="/ssn-logo.svg" alt="SSN" className="w-48 h-12 md:h-16" />
+      <img src="/ssn-logo.svg" alt="SSN" className="md:w-full w-1/3 h-10 md:h-16" />
 
       {/* Mobile Menu */}
       {menuOpen && (
