@@ -1761,13 +1761,13 @@ const events_data = {
             "Yeswanth - 7358562241"
           ],
           "domain": "Fabrication",
-          "team_size": "1-5",
+          "team_size": "1-4",
           "cash_prize_amount": {
             "first": 3000,
             "second": 2000,
             "third": null
           },
-          "event_desc": "BOTTLE ROCKETRIX challenges participants to design and build their own bottle rockets. The competition involves launching rockets and achieving the highest altitude.\n\nRules:\n1. Only homemade rockets are allowed.\n2. The rocket must be powered by a liquid propulsion system.\n3. The rocket must be launched from a standard launch pad provided by the organizers.\n4. The maximum allowable height is 100 meters.\n5. Participants must ensure that the rocket is safe and does not pose a risk to others.",
+          "event_desc": "BOTTLE ROCKETRIX challenges participants to design and build their own bottle rockets. The competition involves launching rockets and achieving the highest altitude.\n\nRules:\n1. Participants have the option to either bring their own materials(Allowed materials include plastic bottles, cardboard sheets, chart papers, tape, glue, cutting blades, M-seal, Clay (if required) and other Stationary items) or purchase a kit at the venue.\n2. The rocket will be powered by a liquid propulsion system and launched from a standard launch pad provided by the organizers.\n3. Participants must ensure that the rocket is safe and does not pose a risk to others.\n4.  ⁠The rocket must be assembled on the spot within the specified time limit. \n5. They rockets will be tested for range and accuracy.",
           "rounds": [
             {
               "id": 1,
