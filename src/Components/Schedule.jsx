@@ -4,6 +4,7 @@ import Footer from './Footer';
 
 // Sample data for demonstration purposes
 const scheduleData = {
+  // Central: '',
   BME: '/schedules/BME.png',
   CIVIL: '/schedules/CIVIL.png',
   CHEM: '/schedules/CHEM.png',
