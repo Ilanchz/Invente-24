@@ -81,8 +81,8 @@ const events_data = {
             "rounds": [
                 {
                     "id": "round_1",
-                    "round_name": "Initial Screening",
-                    "round_desc": "Participants must submit an abstract on their chosen topic by 24/09/2024 date. The abstract should be submitted through the designated form sent by mail upon registration."
+                    "round_name": "Abstract Submission",
+                    "round_desc": "Participants must submit an abstract on their chosen topic by 25/09/2024 date. The abstract should be submitted through the designated form sent by mail upon registration."
                 },
                 {
                     "id": "round_2",
