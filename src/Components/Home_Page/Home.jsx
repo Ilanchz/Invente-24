@@ -27,6 +27,9 @@ function Home() {
   useEffect(() => {
     toast.info("Note: Registrations for our workshops are now open and available in get passes page.");
   }, []);
+  useEffect(() => {
+    toast.info("Bus Routes are now available at Hospitality page.");
+  }, []);
 
   useEffect(() => {
     // Set up IntersectionObserver

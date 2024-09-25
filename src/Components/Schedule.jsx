@@ -4,15 +4,15 @@ import Footer from './Footer';
 
 // Sample data for demonstration purposes
 const scheduleData = {
-  Central: '/schedules/Central.png',
+  Central: '/schedules/Workshops.png',
   BME: '/schedules/BME.png',
   CIVIL: '/schedules/CIVIL.png',
   CHEM: '/schedules/CHEM.png',
-  CSE: '/schedules/CSE (3).png',
-  ECE: '/schedules/ECE (1).png',
-  EEE: '/schedules/EEE (1).png',
-  IT: '/schedules/IT (1).png',
-  MECH: '/schedules/Mech (1).png',
+  CSE: '/schedules/CSE.png',
+  ECE: '/schedules/ECE.png',
+  EEE: '/schedules/EEE.png',
+  IT: '/schedules/IT.png',
+  MECH: '/schedules/Mech.png',
   "SNUC-CSE": '/schedules/SNUC - CSE.png',
   "SNUC-COMMERCE": '/schedules/Commerce.png',
     // Add more departments and their schedule images here if needed
