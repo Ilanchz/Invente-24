@@ -24,6 +24,14 @@ const sponsors = [
   { name: 'Shiva Enterprises', logo: '/Sponsors/sert-logo.png', url: 'https://www.sert.net.in/' },
 ];
 
+const dummy = [
+  { name: 'Coming Soon', logo: '/coming_soon.png', url: '/sponsors' },
+  { name: 'Coming Soon', logo: '/coming_soon.png', url: '/sponsors' },
+  { name: 'Coming Soon', logo: '/coming_soon.png', url: '/sponsors' },
+  { name: 'Coming Soon', logo: '/coming_soon.png', url: '/sponsors' },
+  { name: 'Coming Soon', logo: '/coming_soon.png', url: '/sponsors' },
+  { name: 'Coming Soon', logo: '/coming_soon.png', url: '/sponsors' },
+];
 
 
 function Sponsors() {
@@ -31,7 +39,7 @@ function Sponsors() {
   const sponsorRefs = useRef([]);
 
   useEffect(() => {
-    const imageLoadPromises = sponsors.map((sponsor) =>
+    const imageLoadPromises = dummy.map((sponsor) =>
       new Promise((resolve) => {
         const img = new Image();
         img.src = sponsor.logo;
@@ -60,7 +68,7 @@ function Sponsors() {
           </div>
         ) : (
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 bg-gray-800">
-            {sponsors.map((sponsor, index) => (
+            {dummy.map((sponsor, index) => (
               <a
                 key={sponsor.name}
                 href={sponsor.url}
