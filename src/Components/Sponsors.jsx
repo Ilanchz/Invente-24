@@ -6,7 +6,7 @@ const sponsors = [
   { name: 'Temenos', logo: '/Sponsors/Temenos.jpg', url: 'https://www.temenos.com/' },
   { name: 'Indium', logo: '/Sponsors/indium.png', url: 'https://www.indiumsoftware.com/' },
   { name: 'Jana Bank', logo: '/Sponsors/Jana_Bank.jpg', url: 'https://www.janabank.com/' },
-  { name: 'Sri Kauvery Hospitals', logo: '/Sponsors/Kauvery_Hospital_Logo.png', url: 'https://www.kauveryhospital.com/' },
+  { name: 'Sri Kauvery Hospitals', logo: '/Sponsors/Kauvery_Hospital_logo.png', url: 'https://www.kauveryhospital.com/' },
   { name: 'Tamil Nadu Newsprint and Papers Limited', logo: '/Sponsors/Tamil Nadu Newsprint and Papers Limited.jpeg', url: 'https://www.tnpl.com/' },
   { name: 'Anora', logo: '/Sponsors/anora_logo.jpeg', url: 'https://anoralabs.com/index.html' },
   { name: 'IIPL', logo: '/Sponsors/IIPL Logo .png', url: 'https://www.interlaceindia.com/' },
