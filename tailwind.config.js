@@ -13,7 +13,7 @@ module.exports = {
         libre: ['Libre Baskerville', 'serif'],
         shadows: ['"Shadows Into Light"', 'cursive'],
         raleway: ['Raleway', 'sans-serif'],
-        roboto: ['Roboto', 'sans-serif'], // Add Roboto here
+        roboto: ['Roboto', 'sans-serif'],
       },
       colors: {
         'custom-green': '#5c7c57',
@@ -38,8 +38,11 @@ module.exports = {
         'flip': 'flip 0.6s ease-in-out',
         'growShrink': 'growShrink 2s ease-in-out infinite',
         'wiggle': 'wiggle 1s ease-in-out infinite',
-        'spin-border': 'spin-border 3s linear infinite', // Spin border animation
-        'fall': 'fall 2s linear forwards', // Add falling animation
+        'spin-border': 'spin-border 3s linear infinite',
+        'fall': 'fall 2s linear forwards',
+        'fadeIn': 'fadeIn 0.5s forwards',
+        'slideInLeft': 'slideInLeft 0.5s ease-out forwards',  // New animation
+        'slideInRight': 'slideInRight 0.5s ease-out forwards', // New animation
       },
       keyframes: {
         wiggle: {
@@ -63,7 +66,7 @@ module.exports = {
           '50%': { transform: 'scale(1.2)' },
           '100%': { transform: 'scale(1)' },
         },
-        'spin-border': { // Define keyframes for the color spin border
+        'spin-border': {
           '0%': { borderColor: 'red' },
           '14%': { borderColor: 'orange' },
           '57%': { borderColor: 'blue' },
@@ -71,9 +74,21 @@ module.exports = {
           '85%': { borderColor: 'violet' },
           '100%': { borderColor: 'red' },
         },
-        fall: { // Define falling keyframes
+        fall: {
           '0%': { transform: 'translateY(0)', opacity: 1 },
           '100%': { transform: 'translateY(100vh)', opacity: 0 },
+        },
+        fadeIn: {
+          '0%': { opacity: 0, transform: 'translateY(20px)' },
+          '100%': { opacity: 1, transform: 'translateY(0)' },
+        },
+        slideInLeft: {  // Keyframes for sliding in from the left
+          '0%': { transform: 'translateX(-100%)', opacity: 0 },
+          '100%': { transform: 'translateX(0)', opacity: 1 },
+        },
+        slideInRight: { // Keyframes for sliding in from the right
+          '0%': { transform: 'translateX(100%)', opacity: 0 },
+          '100%': { transform: 'translateX(0)', opacity: 1 },
         },
       },
       backgroundImage: {
@@ -86,4 +101,4 @@ module.exports = {
     },
   },
   plugins: [nextui()],
-}
+};
