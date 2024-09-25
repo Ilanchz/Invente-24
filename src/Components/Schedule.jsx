@@ -4,7 +4,7 @@ import Footer from './Footer';
 
 // Sample data for demonstration purposes
 const scheduleData = {
-  // Central: '',
+  Central: '/schedules/Central.png',
   BME: '/schedules/BME.png',
   CIVIL: '/schedules/CIVIL.png',
   CHEM: '/schedules/CHEM.png',
@@ -20,7 +20,7 @@ const scheduleData = {
 
 function Schedule() {
   // Initialize the state with a default department
-  const defaultDepartment = 'BME';
+  const defaultDepartment = 'Central';
   const [selectedDepartment, setSelectedDepartment] = useState(defaultDepartment);
   const [menuOpen, setMenuOpen] = useState(false);
 
