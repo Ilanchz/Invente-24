@@ -207,6 +207,11 @@ function Event({ dept }) {
                               Mode of Event: {selectedEvent.mode}
                             </p>
                           )}
+                          {(selectedEvent.venue || "") && (
+                            <p className="text-center text-lg font-dosis mb-1">
+                              Venue: {selectedEvent.venue}
+                            </p>
+                          )}
                           <div className="flex flex-col w-full h-full justify-center items-center gap-4">
                             {selectedEvent.rounds.map((round, roundIndex) => (
                               <Rounds

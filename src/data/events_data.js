@@ -218,6 +218,7 @@ const events_data = {
             "event_desc": "Welcome to Compile Combat: Where Coding Meets Crazy Fun! Get ready to compete, connect, and conquer in an experience filled with laughter, challenges, and unforgettable moments.",
             "event_heads": ["Nithya Dharshini - 7397597634", "Ragadharshini R - 9840607008"],
             "domain": "CP",
+            venue: "AB1 Ground Floor Lab",
             "rounds": [
                 {
                     "id": "round_1",
@@ -379,7 +380,7 @@ const events_data = {
                 {
                     "id": "round_1",
                     "round_name": "Topic Swap Challenge",
-                    "round_desc": "Participants will submit their favourite business topics, which will be placed into a draw. Teams will randomly select a topic that is not their own and create a business pitch around it. This round tests adaptability and creative thinking."
+                    "round_desc": "The Idea Arena: Participants will select a product topic through a lucky draw and will be provided with time to prepare. Teams are required to present a solution or product idea addressing the chosen topic. The solution should be innovative, feasible, and relevant to the selected theme."
                 },
                 {
                     "id": "round_2",
