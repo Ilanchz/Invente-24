@@ -220,6 +220,8 @@ export default function Hospitality() {
 
   const [currentSection, setCurrentSection] = useState("Instructions");
 
+  const tpocs = ["Karthikeyan.S - 9384662552", "Sanjeev.J - 9344388737"]
+
   return (
     <div
       className="w-full min-h-screen flex flex-col bg-cover bg-center bg-no-repeat"
@@ -236,6 +238,23 @@ export default function Hospitality() {
           <a href="/bus_routes.pdf" className="text-blue-500 underline" target="_blank">
             Bus Routes
           </a>
+        </div>
+        <div className="flex justify-center">
+          <p>
+            For any queries with respect to bus routes, please contact :
+          </p>
+        </div>
+        <div className="flex justify-center">
+          {tpocs.map((poc, index) => {
+              return(
+                <div className="border p-5 mx-8 my-6 rounded-lg bg-gradient-to-r from-gray-100 to-slate-400">
+                  <p className="text-gray-900">
+                    <b>{poc}</b>
+                  </p>
+                </div>
+              );
+            })
+          }
         </div>
         <div className="pt-4 grid grid-cols-2 lg:grid-cols-4 gap-4 w-full justify-between">
           {Object.keys(HOSPITALITY).map((section, index) => (
