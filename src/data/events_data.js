@@ -642,7 +642,7 @@ const events_data = {
             "team_size": "2-3"
         },
         {
-            "event_name": "imPROMPTu",
+            "event_name": "e-con imPROMPTu",
             "event_heads": ["Rahul V - 8072744158", "Bhuvaneshwarran - 9962031244"],
             "domain": "Prompt Engineering",
             "event_desc": "Get ready for an action-packed adventure filled with campus-wide tasks and strategic gameplay. Participate in tasks ranging from creative to physical, and engage in a thrilling game of stealth and strategy.",
